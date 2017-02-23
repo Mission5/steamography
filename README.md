@@ -2,10 +2,18 @@
 Prototype code for Steamography app. Currently in the very early stages and subject to major refactoring.
 
 
-
 ## Build Setup
 
+1. Install Node
+2. Install Git
+
 ``` bash
+# clone repo
+git clone https://github.com/Mission5/steamography.git
+
+# open new repo
+cd steamography
+
 # install dependencies
 npm install
 
