@@ -1,7 +1,7 @@
 {
-  "name": "steamography-vue",
-  "version": "1.0.0",
-  "description": "Steamography template",
+  "name": "steamography",
+  "version": "0.0.2",
+  "description": "Steamography",
   "author": "Tim Hayes <tim@thetravelyear.com>",
   "private": true,
   "scripts": {
