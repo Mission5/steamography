@@ -45,6 +45,9 @@ export default {
     position: relative;
     text-align: left;
   }
+    .story:focus {
+      outline: 0;
+    }
 
   .story:before {
     bottom: 0;
@@ -71,10 +74,9 @@ export default {
     /* fix Chrome rendering issue */
     -webkit-backface-visibility: hidden;
   }
-  .story:hover:after, story:focus:after {
-    transform: scale(1.3);
-  }
-  .story-title {
+    .story:hover:after, .story:focus:after {
+      transform: scale(1.3);
+    }
 
     font-size: 1.2rem;
     left: 10%;
@@ -86,10 +88,9 @@ export default {
     /* fix Chrome rendering issue */
     -webkit-backface-visibility: hidden;
   }
-
-  .story:hover .story-title, story:focus .story-title {
-    transform: scale(1.3);
-  }
+    .story:hover .story-title, .story:focus .story-title {
+      transform: scale(1.3);
+    }
 
   @media screen and (min-width: 640px) {
     .timeline {
