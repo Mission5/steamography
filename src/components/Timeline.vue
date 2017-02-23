@@ -151,11 +151,6 @@ export default {
     }*/
   }
 
-  /*508 */
-  .accordion .panel:focus {
-    border: 1px red dotted;
-  }
-
   @media screen and (max-width: 639px) {
 
 
