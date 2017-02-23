@@ -1,5 +1,5 @@
 <template>
-  <div class="accordion">
+  <div class="accordion" v-on:mouseleave="close()">
     <ul class="panels" v-bind:class="{ panelsopen: activePanel!==null }" >
       <li class="panel" tabIndex="0" v-for="(panel, index) in panels"
         v-bind:class="{ open: activePanel==index }" v-bind:style="{ 'background-color': panel.bgColor }"
@@ -23,6 +23,9 @@
 export default {
   name: 'accordion',
   methods: {
+    close: function (index) {
+      this.activePanel = null
+    },
     toggle: function (index) {
       this.activePanel = index
     }
