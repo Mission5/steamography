@@ -5,7 +5,7 @@
     </section>
     <section class="padded">
       <div class="flex-grid">
-        <div class="col">
+        <div class="col text-large">
           I’ve played in the NFL and been to space twice. I’m an athlete, an astronaut, a photographer, an engineer,
           and a scientist. There have been ups and downs all along the way...
         </div>

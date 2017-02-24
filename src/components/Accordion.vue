@@ -143,6 +143,7 @@ export default {
   }
 
   .accordion h2 {
+    color: #fff;
     position: absolute; top: 10px; left: 10px;
     font-size: 24px;
     text-transform: uppercase;

@@ -76,6 +76,10 @@ h2 {
  color: #000;
 }
 
+.text-large {
+  font-size: 2rem;
+}
+
 section:nth-child(4) {
   background: url(/static/media/space.jpg);
 }
@@ -95,12 +99,6 @@ section:nth-child(4) {
   max-width: 1320px;
   margin: 0 auto;
   padding: 2rem 5%;
-}
-@media screen and (max-width: 639px) {
-  .padded {
-    /*padding-left: 0;
-    padding-right: 0;*/
-  }
 }
 
 a {
