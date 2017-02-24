@@ -1,6 +1,8 @@
 # steamography
 Prototype code for Steamography app. Currently in the very early stages and subject to major refactoring.
 
+A working live sample can be found here: 
+[http://steamography.mybluemix.net](http://steamography.mybluemix.net/#/)
 
 ## Build Setup
 
