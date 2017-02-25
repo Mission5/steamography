@@ -6,6 +6,7 @@
 // ------------------------------------------------------------------------------
 
 var express = require('express')
+var compression = require('compression')
 var path = require('path')
 
 // cfenv provides access to your Cloud Foundry environment
@@ -14,6 +15,9 @@ var cfenv = require('cfenv')
 
 // create a new express server
 var app = express()
+
+// enable gzip compression
+app.use(compression())
 
 // serve the files out of ./public as our main files
 app.use(express.static(__dirname + '/dist'))
