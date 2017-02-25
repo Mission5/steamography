@@ -5,7 +5,9 @@
       <a href="#about">about</a> |
       <a href="#contact">contact</a>
     </nav>
-    <router-view></router-view>
+    <transition name="fade">
+      <router-view></router-view>
+    </transition>
     <nav class="nav-footer flex-grid">
       <div class="col">
         <a href="#about">About</a>
@@ -61,6 +63,16 @@ nav a {
 }
 a:hover, a:focus {
   color: #d81921;
+}
+
+.fade-leave-active {
+  display: none;
+}
+.fade-enter-active {
+  transition: opacity .5s
+}
+.fade-enter  {
+  opacity: 0
 }
 
   @media screen and (max-width: 639px) {
