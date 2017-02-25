@@ -42,4 +42,14 @@ export default {
 .teaser-book {
   width: 100%;
 }
+
+@media screen and (max-width: 639px) {
+  .flex-grid {
+    display: block;
+  }
+  .teaser-book {
+    padding-top: 2rem;
+  }
+}
+
 </style>
