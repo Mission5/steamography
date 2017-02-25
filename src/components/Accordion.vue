@@ -29,10 +29,6 @@ export default {
     toggle: function (index) {
       this.activePanel = index
     }
-    // close: function () {
-    //   console.log('close')
-    //   this.activePanel = null
-    // }
   },
   data () {
     return {
@@ -182,13 +178,6 @@ export default {
     display: block;
     transition: opacity 0.5s 0.7s;
   }
-
-  /*.panel-close-button {
-    background: url('/static/media/close-icon.png') no-repeat;
-    position: absolute; top: 2px; right: 2px;
-    height: 28px;
-    width: 28px;
-  }*/
 
   @media screen and (max-width: 639px) {
 
