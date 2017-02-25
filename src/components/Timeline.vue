@@ -14,12 +14,6 @@
 export default {
   name: 'timeline',
   props: ['stories'],
-  methods: {
-    // toggle: function (index) {
-    //   this.activePanel = index
-    //   console.log('open')
-    // }
-  },
   data () {
     return {
       currentStory: '',
@@ -149,12 +143,6 @@ export default {
         text-align: right;
       }
 
-    /*.panel-close-button {
-      background: url('/static/media/close-icon.png') no-repeat;
-      position: absolute; top: 2px; right: 2px;
-      height: 28px;
-      width: 28px;
-    }*/
   }
 
   @media screen and (max-width: 639px) {
