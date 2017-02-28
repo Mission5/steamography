@@ -4,11 +4,13 @@
       <li class="panel" tabIndex="0" v-for="(panel, index) in panels"
         v-bind:class="{ open: activePanel==index }" v-bind:style="{ 'background-color': panel.bgColor }"
         v-on:mouseover="toggle(index)" v-on:click="toggle(index)" v-on:focus="toggle(index)" v-on:keyup.enter="toggle(index)">
-        <div class="panel-wrap">
+        <div class="panel-wrapper">
           <div class="panel-background">
-            <h2>{{panel.title}}</h2>
-            <img v-bind:src="panel.img" v-bind:alt="panel.title" />
-            <div class="panel-wrapper">
+            <div class="panel-header">
+              <h2>{{panel.title}}</h2>
+              <img v-bind:src="panel.img" v-bind:alt="panel.title" />
+            </div>
+            <div class="panel-content">
               <!--<button class="panel-close-button" v-on:click="close()" aria-label="Close Panel" title="Close Panel">ddd</button>-->
               <timeline v-bind:stories="panel.timeline"/>
             </div>
@@ -38,45 +40,41 @@ export default {
           bgColor: '#eac012',
           img: '/static/media/childhood.png',
           timeline: [
-            {title: 'The Amazing Arthur Ashe', alt: 'tennis ball'},
-            {title: 'The Big Kaboom', alt: 'chemistry set'},
-            {title: 'The Need for Speed', alt: 'Skateboard)'},
-            {title: 'Vision on Wheels', alt: 'truck'}
+            {title: 'The Amazing Arthur Ashe', src: 'static/media/childhoodicon1.png', alt: 'tennis ball'},
+            {title: 'The Big Kaboom', src: 'static/media/childhoodicon2.png', alt: 'chemistry set'},
+            {title: 'The Need for Speed', src: 'static/media/childhoodicon3.png', alt: 'Skateboard)'},
+            {title: 'Vision on Wheels', src: 'static/media/childhoodicon4.png', alt: 'truck'}
           ]
         }, {
           title: 'football',
           bgColor: '#d81921',
           img: '/static/media/leland2.png',
           timeline: [
-            {title: 'The Drop', alt: 'dropped football'},
-            {title: 'Drafted!', alt: 'football helmet'},
-            {title: 'The Playbook', alt: 'football plays)'},
-            {title: 'Sidelined', alt: 'bandaid'}
+            {title: 'The Drop', src: 'static/media/childhoodicon1.png', alt: 'dropped football'},
+            {title: 'Drafted!', src: 'static/media/childhoodicon2.png', alt: 'football helmet'},
+            {title: 'The Playbook', src: 'static/media/childhoodicon3.png', alt: 'football plays)'},
+            {title: 'Sidelined', src: 'static/media/childhoodicon4.png', alt: 'bandaid'}
           ]
         }, {
           title: 'scientist',
           bgColor: '#549141',
           img: '/static/media/leland3.png',
           timeline: [
-            {title: 'Backup Plan', alt: 'science goggles'},
-            {title: 'Flying Penguins', alt: 'penguin mascot)'},
-            {title: 'Jake and Scout', alt: 'dogs'},
-            {title: 'I Can\'t Hear', alt: 'ear'}
+            {title: 'Backup Plan', src: 'static/media/childhoodicon1.png', alt: 'science goggles'},
+            {title: 'Flying Penguins', src: 'static/media/childhoodicon2.png', alt: 'penguin mascot)'},
+            {title: 'Jake and Scout', src: 'static/media/childhoodicon3.png', alt: 'dogs'},
+            {title: 'I Can\'t Hear', src: 'static/media/childhoodicon4.png', alt: 'ear'}
           ]
         }, {
           title: 'astronaut',
           bgColor: '#3c7bb1',
           img: '/static/media/leland4.png',
           timeline: [
-            {title: 'Cleared for Take Off', alt: 'green light'},
-            {title: 'Life in Space', alt: 'space shuttle'},
-            {title: 'Manning the Arm', alt: 'joystick'},
-            {title: 'Picture This', alt: 'earth'}
+            {title: 'Cleared for Take Off', src: 'static/media/childhoodicon1.png', alt: 'green light'},
+            {title: 'Life in Space', src: 'static/media/childhoodicon1.png', alt: 'space shuttle'},
+            {title: 'Manning the Arm', src: 'static/media/childhoodicon1.png', alt: 'joystick'},
+            {title: 'Picture This', src: 'static/media/childhoodicon1.png', alt: 'earth'}
           ]
-        }, {
-          title: 'steam and you',
-          bgColor: '#e58636',
-          img: '/static/media/weels-big.png'
         }
       ],
       activePanel: null
@@ -95,7 +93,7 @@ export default {
     margin: 50px auto;
   }
 
-  .accordion .panels {
+  .panels {
     width: 100%;
     display: table;
     table-layout: fixed;
@@ -103,24 +101,31 @@ export default {
     padding: 0;
   }
 
-  .accordion .panel {
+  .panel {
     display: table-cell;
     vertical-align: bottom;
     position: relative;
-    width: 20%;
+    width: 25%;
     height: 430px;
     background-repeat: no-repeat;
     background-position: center center;
     transition: all 500ms ease;
   }
+    .panelsopen .panel {
+      box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+      width: 5%;
+    }
+   .panelsopen .panel.open {
+      width: 80%;
+    }
 
-  .accordion .panel-wrap
-  {
+  .panel-wrapper {
     display: block;
     overflow: hidden;
     width: 100%;
   }
-  .accordion .panel-background {
+
+  .panel-background {
     color: #fff;
     height: 430px;
     position: relative;
@@ -129,66 +134,58 @@ export default {
     transition: background 200ms ease;
     width: 100%;
   }
+    .panelsopen .panel.open .panel-background {
+      background: rgba(0, 0, 0, 0.15);
+    }
 
-  .panel-wrapper {
+  .panel-content {
     height: 100%;
     opacity: 0;
     position: absolute; top: 0; right: 0;
     transition: opacity 0.5s;
     width: calc(100% - 250px);
   }
+    .panelsopen .panel.open .panel-content {
+      opacity: 1;
+      display: block;
+      transition: opacity 0.5s 0.7s;
+    }
 
-  .accordion h2 {
+  h2 {
     color: #fff;
-    position: absolute; top: 10px; left: 10px;
     font-size: 24px;
     text-transform: uppercase;
     margin: 2px;
     text-align: center;
     text-overflow: clip;
-    width: 200px;
   }
 
-  .accordion img {
-    bottom: 10px;
-    left: 10px;
-    position: absolute;
-    transition: transform 0.2s;
+  .panel-header {
+    height: 100%;
+    max-width: 290px;
+    text-align: center;
+    width: 100%;
+    transition: width 0.5s;
   }
+    .panelsopen .panel-header {
+      width: 200px;
+    }
+    .panel-header img {
+      transition: transform 0.2s;
+    }
+    .panel.open img {
+      transform: scale(1.05);
+    }
 
-  .accordion .panelsopen .panel {
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
-    width: 5%;
-  }
-
-  .accordion .panelsopen .panel.open {
-    width: 80%;
-  }
-
-  .accordion .panel.open img {
-    transform: scale(1.05);
-  }
-
-  .accordion .panelsopen .panel.open .panel-background {
-    background: rgba(0, 0, 0, 0.15);
-  }
-
-  .accordion .panelsopen .panel.open .panel-wrapper {
-    opacity: 1;
-    display: block;
-    transition: opacity 0.5s 0.7s;
-  }
 
   @media screen and (max-width: 639px) {
 
-    /*body { margin: 0; }*/
-
     .accordion { height: auto; }
 
-    .accordion .panels .panel,
-    .accordion .panels .panel.open,
-    .accordion .panelsopen .panel,
-    .accordion .panelsopen .panel.open {
+    .panels .panel,
+    .panels .panel.open,
+    .panelsopen .panel,
+    .panelsopen .panel.open {
       position: relative;
       display: table;
       table-layout: fixed;
@@ -197,7 +194,11 @@ export default {
       transition: none;
     }
 
-    .accordion .panel-wrapper {
+    .panel-header {
+      width: 200px;
+    }
+
+   .panel-content {
       opacity: 1;
     }
 

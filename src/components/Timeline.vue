@@ -2,7 +2,8 @@
   <div class="timeline">
     <a href="#" class="story" v-for="story in stories"
       v-on:click.prevent="showStoryModal=true; currentStory=story.title">
-      <span class="story-title">{{story.title}}</span>
+      <!--<img v-bind:src="story.src" v-bind:alt="story.alt"/>-->
+      <span class="story-title" v-bind:style="'background-image:url(' + story.src + ')'">{{story.title}}</span>
     </a>
     <modal v-if="showStoryModal" @close="showStoryModal=false">
       <div class="box">Content for "{{currentStory}}" story...</div>
@@ -54,10 +55,9 @@ export default {
 
   .story:after {
     top: .5rem;
-    left: -35px;
-    background-color: red;
-    border: 6px #fff solid;
-    border-radius: 20px;
+    left: -30px;
+    background-color: black;
+    border-radius: 10px;
     content: '';
     height: 20px;
     position: absolute;
@@ -68,17 +68,22 @@ export default {
     /* fix Chrome rendering issue */
     -webkit-backface-visibility: hidden;
   }
-    .story:hover:after, .story:focus:after {
-      transform: scale(1.3);
-    }
 
   .story-title {
+    background: no-repeat left center;
+    background-size: 80px 80px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 95px;
     font-size: 1.2rem;
+    justify-content: center;
     left: 10%;
+    min-height: 90px;
     padding-top: 0.5rem;
     position: absolute;
     transition: transform 0.25s;
     transform-origin: 50% 50%;
+    max-width: 150px;
     /* fix Chrome rendering issue */
     -webkit-backface-visibility: hidden;
   }
@@ -102,27 +107,24 @@ export default {
       .story:nth-child(odd) {
         border-bottom: 5px black solid;
       }
-      .story:nth-child(even) {
-        text-align: right;
-      }
 
     .story:before {
       height: 30%;
-      left: calc(20% + 13px);
+      left: calc(20% + 7px);
     }
       .story:nth-child(even):before {
-        left: calc(70% + 13px);
+        left: calc(70% + 7px);
         top: 0;
       }
 
     .story:after {
       top: auto;
-      bottom: -18px;
+      bottom: -13px;
       left: 20%;
     }
       .story:nth-child(even):after {
         left: 70%;
-        top: -19px;
+        top: -15px;
       }
 
     .story-title {
@@ -132,7 +134,6 @@ export default {
       margin-left: -10%;
       padding-top: 0;
       position: absolute;
-      text-align: center;
     }
       .story:nth-child(even) .story-title {
         top: 50%;
@@ -140,13 +141,7 @@ export default {
         right: 20%;
         margin-left: 0;
         margin-right: -10%;
-        text-align: right;
       }
-
-  }
-
-  @media screen and (max-width: 639px) {
-
 
   }
 
