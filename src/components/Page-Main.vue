@@ -14,7 +14,7 @@
         </div>
       </div>
     </section>
-    <section class="padded">
+    <section class="padded-md">
       <accordion></accordion>
     </section>
     <section class="padded">

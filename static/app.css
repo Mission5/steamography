@@ -95,12 +95,6 @@ section:nth-child(4) {
   flex: 1;
 }
 
-.padded {
-  max-width: 1320px;
-  margin: 0 auto;
-  padding: 2rem 5%;
-}
-
 a {
   text-decoration: none;
 }
@@ -139,3 +133,19 @@ a {
   padding: 5% 25%;
   text-align: center;
 }
+
+  .padded, .padded-md {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+  .padded {
+    padding: 2rem 5%;
+  }
+
+  @media screen and (min-width: 640px) {
+
+    .padded-md {
+      padding: 2rem 5%;
+    }
+
+  }
