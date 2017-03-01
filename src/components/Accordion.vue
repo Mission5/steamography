@@ -50,10 +50,10 @@ export default {
           bgColor: '#d81921',
           img: '/static/media/leland2.png',
           timeline: [
-            {title: 'The Drop', src: 'static/media/childhoodicon1.png', alt: 'dropped football'},
-            {title: 'Drafted!', src: 'static/media/childhoodicon2.png', alt: 'football helmet'},
-            {title: 'The Playbook', src: 'static/media/childhoodicon3.png', alt: 'football plays)'},
-            {title: 'Sidelined', src: 'static/media/childhoodicon4.png', alt: 'bandaid'}
+            {title: 'The Drop', src: 'static/media/footballicon1.png', alt: 'dropped football'},
+            {title: 'Drafted!', src: 'static/media/footballicon2.png', alt: 'football helmet'},
+            {title: 'The Playbook', src: 'static/media/footballicon3.png', alt: 'football plays)'},
+            {title: 'Sidelined', src: 'static/media/footballicon4.png', alt: 'bandaid'}
           ]
         }, {
           title: 'scientist',
@@ -71,9 +71,9 @@ export default {
           img: '/static/media/leland4.png',
           timeline: [
             {title: 'Cleared for Take Off', src: 'static/media/childhoodicon1.png', alt: 'green light'},
-            {title: 'Life in Space', src: 'static/media/childhoodicon1.png', alt: 'space shuttle'},
-            {title: 'Manning the Arm', src: 'static/media/childhoodicon1.png', alt: 'joystick'},
-            {title: 'Picture This', src: 'static/media/childhoodicon1.png', alt: 'earth'}
+            {title: 'Life in Space', src: 'static/media/childhoodicon2.png', alt: 'space shuttle'},
+            {title: 'Manning the Arm', src: 'static/media/childhoodicon3.png', alt: 'joystick'},
+            {title: 'Picture This', src: 'static/media/childhoodicon4.png', alt: 'earth'}
           ]
         }
       ],

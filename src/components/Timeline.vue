@@ -49,13 +49,13 @@ export default {
     border: 3px #000 dashed;
     content: '';
     height: calc(100% - 2.5rem);
-    left: -22px;
+    left: -10px;
     position: absolute;
   }
 
   .story:after {
     top: .5rem;
-    left: -30px;
+    left: -18px;
     background-color: black;
     border-radius: 10px;
     content: '';
@@ -74,11 +74,11 @@ export default {
     background-size: 80px 80px;
     display: flex;
     flex-direction: column;
-    padding-left: 95px;
+    padding-left: 85px;
     font-size: 1.2rem;
     justify-content: center;
     left: 10%;
-    min-height: 90px;
+    height: 90px;
     padding-top: 0.5rem;
     position: absolute;
     transition: transform 0.25s;
@@ -87,11 +87,12 @@ export default {
     /* fix Chrome rendering issue */
     -webkit-backface-visibility: hidden;
   }
+
     .story:hover .story-title, .story:focus .story-title {
       transform: scale(1.3);
     }
 
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 768px) {
 
     .timeline {
       column-count: 2;
@@ -129,6 +130,7 @@ export default {
 
     .story-title {
       bottom: 50%;
+      top: 10%;
       font-size: 1.5rem;
       left: 20%;
       margin-left: -10%;
@@ -136,7 +138,7 @@ export default {
       position: absolute;
     }
       .story:nth-child(even) .story-title {
-        top: 50%;
+        top: 40%;
         left: auto;
         right: 20%;
         margin-left: 0;
