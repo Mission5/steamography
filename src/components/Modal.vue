@@ -1,11 +1,9 @@
 <template>
   <transition name="modal">
-    <div class="modal-mask">
-      <div class="modal-wrapper" v-on:click.self="$emit('close')">
-        <div class="modal-container" v-bind:style="'max-width:100%; width:' + width">
-          <button class="modal-close-button" @click="$emit('close')" aria-label="Close Modal" title="Close Modal"></button>
-            <slot></slot>
-          </div>
+    <div class="modal-mask" v-on:click.self="$emit('close')">
+      <div class="modal-container" v-bind:style="'width:' + width">
+        <button class="modal-close-button" @click="$emit('close')" aria-label="Close Modal" title="Close Modal"></button>
+          <slot></slot>
         </div>
       </div>
     </div>
@@ -29,8 +27,11 @@ export default {
 <style scoped>
   .modal-mask {
     background-color: rgba(0, 0, 0, .7);
-    display: table;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
     height: 100%;
+    justify-content: center;
     left: 0;
     position: fixed;
     top: 0;
@@ -39,25 +40,20 @@ export default {
     z-index: 9998;
   }
 
-  .modal-wrapper {
-    display: table-cell;
-    vertical-align: middle;
-  }
-
   .modal-container {
     background-color: #fff;
     border-radius: 2px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
     color: #000;
     margin: 0px auto;
-    padding: 5px;
+    max-width: calc(100% - 10px);
     position: relative;
     transition: all .3s ease;
   }
 
   .modal-close-button {
     background: url('/static/media/close-icon.png') no-repeat;
-    position: absolute; top: -30px; right: -30px;
+    position: absolute; top: 4px; right: 4px;
     height: 28px;
     width: 28px;
   }
@@ -76,4 +72,10 @@ export default {
     transform: scale(1.1);
   }
 
+  @media screen and (min-width: 640px) {
+    .modal-close-button {
+      right: -30px;
+      top: -30px; 
+    }
+  }
 </style>
