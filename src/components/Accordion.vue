@@ -60,10 +60,10 @@ export default {
           bgColor: '#549141',
           img: '/static/media/leland3.png',
           timeline: [
-            {title: 'Backup Plan', src: 'static/media/childhoodicon1.png', alt: 'science goggles'},
-            {title: 'Flying Penguins', src: 'static/media/childhoodicon2.png', alt: 'penguin mascot)'},
-            {title: 'Jake and Scout', src: 'static/media/childhoodicon3.png', alt: 'dogs'},
-            {title: 'I Can\'t Hear', src: 'static/media/childhoodicon4.png', alt: 'ear'}
+            {title: 'Backup Plan', src: 'static/media/scienceicon1.png', alt: 'science goggles'},
+            {title: 'Flying Penguins', src: 'static/media/scienceicon2.png', alt: 'penguin mascot)'},
+            {title: 'Jake and Scout', src: 'static/media/scienceicon3.png', alt: 'dogs'},
+            {title: 'I Can\'t Hear', src: 'static/media/scienceicon4.png', alt: 'ear'}
           ]
         }, {
           title: 'astronaut',
