@@ -75,16 +75,13 @@ a:hover, a:focus {
   opacity: 0
 }
 
-  @media screen and (max-width: 639px) {
-    /*body {
-      padding-top: 5em;
-    }*/
-    nav {
-      left: 0;
-      top: 2.1rem;
-    }
-    .book-teaser {
-      width: 200px;
-    }
+@media screen and (max-width: 639px) {
+  nav {
+    left: 0;
+    top: 2.1rem;
   }
+  .book-teaser {
+    width: 200px;
+  }
+}
 </style>

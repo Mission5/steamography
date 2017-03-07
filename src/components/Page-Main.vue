@@ -1,7 +1,7 @@
 <template>
   <main>
     <section>
-      <img class="full-width" src="/static/media/top_splash.jpg" alt="dummy image"/>
+      <animation></animation>
     </section>
     <section class="padded">
       <div class="flex-grid">
