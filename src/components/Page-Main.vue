@@ -5,9 +5,10 @@
     </section>
     <section class="padded">
       <div class="flex-grid">
-        <div class="col text-large">
-          I’ve played in the NFL and been to space twice. I’m an athlete, an astronaut, a photographer, an engineer,
-          and a scientist. There have been ups and downs all along the way...
+        <div class="col text-large flex-center">
+          I’ve played in the NFL and been to space twice. I’m an athlete, astronaut, photographer, engineer,
+          and a scientist. <br/><br/>
+          There have been ups and downs all along the way. It has been an exciting journey.
         </div>
         <div class="col">
           <img class="teaser-book" src="static/media/book.png" alt="Book with science incons">
