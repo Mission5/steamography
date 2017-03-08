@@ -143,7 +143,7 @@ export default {
     opacity: 0;
     position: absolute; top: 0; right: 0;
     transition: opacity 0.5s;
-    width: calc(100% - 250px);
+    width: calc(100% - 220px);
   }
     .panelsopen .panel.open .panel-content {
       opacity: 1;
@@ -172,6 +172,7 @@ export default {
     }
     .panel-header img {
       transition: transform 0.2s;
+      width: 199px;
     }
     .panel.open img {
       transform: scale(1.05);
@@ -194,8 +195,13 @@ export default {
       transition: none;
     }
 
-    .panel-header {
-      width: 200px;
+    .panel .panel-header {
+      width: 150px;
+    }
+
+    .panel-header img {
+      padding-top: 40px;
+      width: 160px;
     }
 
    .panel-content {
