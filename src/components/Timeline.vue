@@ -1,12 +1,12 @@
 <template>
   <div class="timeline">
-    <a href="#" class="story" v-for="story in stories"
-      v-on:click.prevent="showStoryModal=true; currentStory=story.title">
+    <a href="#" class="story" v-for="(story, index) in stories"
+      v-on:click.prevent="showStoryModal=true; currentStory=index">
       <!--<img v-bind:src="story.src" v-bind:alt="story.alt"/>-->
       <span class="story-title" v-bind:style="'background-image:url(' + story.src + ')'">{{story.title}}</span>
     </a>
     <modal v-if="showStoryModal" @close="showStoryModal=false">
-      <div class="box">Content for "{{currentStory}}" story...</div>
+      <story v-bind:story="stories[currentStory]"/>
     </modal>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {
   props: ['stories'],
   data () {
     return {
-      currentStory: '',
+      currentStory: null,
       showStoryModal: false
     }
   }

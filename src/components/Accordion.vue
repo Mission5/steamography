@@ -40,7 +40,15 @@ export default {
           bgColor: '#eac012',
           img: '/static/media/childhood.png',
           timeline: [
-            {title: 'The Amazing Arthur Ashe', src: 'static/media/childhoodicon1.png', alt: 'tennis ball'},
+            {
+              title: 'The Amazing Arthur Ashe',
+              src: 'static/media/childhoodicon1.png',
+              alt: 'tennis ball',
+              pages: [
+                {title: 'Page 1'},
+                {title: 'Page 2'}
+              ]
+            },
             {title: 'The Big Kaboom', src: 'static/media/childhoodicon2.png', alt: 'chemistry set'},
             {title: 'The Need for Speed', src: 'static/media/childhoodicon3.png', alt: 'Skateboard)'},
             {title: 'Vision on Wheels', src: 'static/media/childhoodicon4.png', alt: 'truck'}
