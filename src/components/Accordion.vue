@@ -70,10 +70,10 @@ export default {
           bgColor: '#3c7bb1',
           img: '/static/media/leland4.png',
           timeline: [
-            {title: 'Cleared for Take Off', src: 'static/media/childhoodicon1.png', alt: 'green light'},
-            {title: 'Life in Space', src: 'static/media/childhoodicon2.png', alt: 'space shuttle'},
-            {title: 'Manning the Arm', src: 'static/media/childhoodicon3.png', alt: 'joystick'},
-            {title: 'Picture This', src: 'static/media/childhoodicon4.png', alt: 'earth'}
+            {title: 'Cleared for Take Off', src: 'static/media/astronauticon1.png', alt: 'green light'},
+            {title: 'Life in Space', src: 'static/media/astronauticon2.png', alt: 'space shuttle'},
+            {title: 'Manning the Arm', src: 'static/media/astronauticon3.png', alt: 'joystick'},
+            {title: 'Picture This', src: 'static/media/astronauticon4.png', alt: 'earth'}
           ]
         }
       ],
