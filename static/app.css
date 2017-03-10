@@ -80,8 +80,20 @@ h2 {
   font-size: 2rem;
 }
 
+section:nth-child(3), section:nth-child(4) {
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover, auto;
+}
+section:nth-child(3) {
+  background-image:
+    radial-gradient(farthest-corner at 50% 100%, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.9) 100%), 
+    url(/static/media/space.png);
+}
 section:nth-child(4) {
-  background: url(/static/media/space.jpg);
+  background-image:
+    radial-gradient(farthest-corner at 50% 0, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.9) 100%),
+    url(/static/media/space.png);
 }
 
 .full-width {
