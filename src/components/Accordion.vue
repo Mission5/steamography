@@ -98,7 +98,7 @@ export default {
     /*max-width: 1080px;*/
     height: 430px;
     overflow: hidden;
-    margin: 50px auto;
+    margin: 0 auto;
   }
 
   .panels {
