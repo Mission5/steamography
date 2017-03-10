@@ -76,7 +76,7 @@ export default {
   .video {
     display: inline-block;
     outline: 0;
-    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
     position: relative;
   }
 
