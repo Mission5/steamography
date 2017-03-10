@@ -47,14 +47,17 @@ export default {
     color: #000;
     margin: 0px auto;
     max-width: calc(100% - 10px);
+    max-height: calc(100% - 10px);
+    overflow-y: scroll;
     position: relative;
     transition: all .3s ease;
   }
 
   .modal-close-button {
-    background: url('/static/media/close-icon.png') no-repeat;
-    position: absolute; top: 4px; right: 4px;
+    background: url('/static/media/close-icon.png') no-repeat center;
     height: 28px;
+    padding: 20px;
+    position: absolute; top: 0; right: 0;
     width: 28px;
   }
 
@@ -74,8 +77,8 @@ export default {
 
   @media screen and (min-width: 640px) {
     .modal-close-button {
-      right: -30px;
-      top: -30px; 
+      right: -35px;
+      top: -35px;
     }
   }
 </style>
