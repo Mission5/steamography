@@ -3,6 +3,7 @@
     <div class="modal-mask" v-on:click.self="$emit('close')">
       <div class="modal-container" v-bind:style="'width:' + width">
         <button class="modal-close-button" @click="$emit('close')" aria-label="Close Modal" title="Close Modal"></button>
+        <div class="modal-contents">
           <slot></slot>
         </div>
       </div>
@@ -46,9 +47,7 @@ export default {
     box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
     color: #000;
     margin: 0px auto;
-    max-width: calc(100% - 10px);
-    max-height: calc(100% - 10px);
-    overflow-y: scroll;
+    max-width: 95vw;
     position: relative;
     transition: all .3s ease;
   }
@@ -57,8 +56,14 @@ export default {
     background: url('/static/media/close-icon.png') no-repeat center;
     height: 28px;
     padding: 20px;
-    position: absolute; top: 0; right: 0;
+    position: absolute;
+    right: 10px;
     width: 28px;
+  }
+
+  .modal-contents {
+    overflow-y: auto;
+    max-height: 95vh;
   }
 
   .modal-enter {
