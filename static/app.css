@@ -76,6 +76,10 @@ h2 {
  color: #000;
 }
 
+iframe {
+  display: block;
+}
+
 .text-large {
   font-size: 2rem;
 }
