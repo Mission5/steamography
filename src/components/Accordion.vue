@@ -1,5 +1,5 @@
 <template>
-  <div class="accordion" v-on:mouseleave="close()">
+  <div class="accordion"> <!--v-on:mouseleave="close()"-->
     <ul class="panels" v-bind:class="{ panelsopen: activePanel!==null }" >
       <li class="panel" tabIndex="0" v-for="(panel, index) in panels"
         v-bind:class="{ open: activePanel==index }" v-bind:style="{ 'background-color': panel.bgColor }"
@@ -12,7 +12,7 @@
             </div>
             <div class="panel-content">
               <!--<button class="panel-close-button" v-on:click="close()" aria-label="Close Panel" title="Close Panel">ddd</button>-->
-              <timeline v-bind:stories="panel.timeline"/>
+              <timeline v-bind:stories="panel.timeline" v-bind:closeModal="activePanel !== index"/>
             </div>
           </div>
         </div>

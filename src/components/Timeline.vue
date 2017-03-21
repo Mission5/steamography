@@ -14,11 +14,16 @@
 <script>
 export default {
   name: 'timeline',
-  props: ['stories'],
+  props: ['closeModal', 'stories'],
   data () {
     return {
       currentStory: null,
       showStoryModal: false
+    }
+  },
+  watch: {
+    closeModal: function (val) {
+      if (val === false) this.showStoryModal = false
     }
   }
 }
