@@ -10,7 +10,9 @@
       </li>
     </ul>
     <modal v-if="showVideoModal" @close="showVideoModal=false" width="560px">
-      <iframe width="560" height="315" v-bind:src="currentVideo" frameborder="0" allowfullscreen></iframe>
+      <div class="youtube-video-wrapper">
+        <iframe  v-bind:src="currentVideo" frameborder="0" allowfullscreen></iframe>
+      </div>
     </modal>
   </div>
 </template>
@@ -111,6 +113,21 @@ export default {
     .video:hover img, .video:focus img {
       filter: brightness(0.4) blur(1px);
     }
+
+  .youtube-video-wrapper {
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    position: relative;
+  }
+
+  .youtube-video-wrapper iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
 
   @media screen and (max-width: 1023px) {
     .videos {
