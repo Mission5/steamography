@@ -59,6 +59,7 @@ export default {
     position: absolute;
     right: 10px;
     width: 28px;
+    z-index: 1000;
   }
 
   .modal-contents {
@@ -82,8 +83,20 @@ export default {
 
   @media screen and (min-width: 640px) {
     .modal-close-button {
+      top: -10px;
       right: -35px;
+    }
+  }
+  @media screen and (min-height: 640px) {
+    .modal-close-button {
       top: -35px;
+      right: -10px;
+    }
+  }
+  @media screen and (min-width: 640px) and (min-height: 640px) {
+    .modal-close-button {
+      top: -35px;
+      right: -35px;
     }
   }
 </style>
