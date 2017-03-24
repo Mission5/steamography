@@ -1,6 +1,6 @@
 <template>
   <div class="experiments">
-    <h2>Steam Activities You Can Try Yourself</h2>
+    <h2>STEAM Activities You Can Try Yourself!</h2>
     <!-- sprite this! -->
     <img src="static/media/i1.png" alt="Science"/>
     <img src="static/media/i3.png" alt="Technology"/>
