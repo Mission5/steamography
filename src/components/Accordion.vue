@@ -204,18 +204,22 @@ export default {
     }
 
     .panel .panel-header {
-      width: 150px;
+      width: 120px;
     }
 
     .panel-header img {
       padding-top: 40px;
-      width: 160px;
+      width: 120px;
+    }
+
+    .panel .panel-background {
+      padding: 10px 10px;
     }
 
    .panel-content {
       opacity: 1;
+      width: calc(100% - 180px);
     }
-
   }
 
 </style>

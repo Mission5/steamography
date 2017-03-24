@@ -53,19 +53,19 @@ export default {
     bottom: 0;
     border: 3px #000 dashed;
     content: '';
-    height: calc(100% - 2.5rem);
-    left: -10px;
+    height: calc(100% - 3rem);
     position: absolute;
   }
 
   .story:after {
     top: .5rem;
-    left: -18px;
+    left: -8px;
     background-color: black;
     border-radius: 10px;
     content: '';
     height: 20px;
     position: absolute;
+    top: 1rem;
     transition: transform 0.25s;
     transform: scale(1);
     transform-origin: 50% 50%;
