@@ -20,7 +20,7 @@
       </div>
     </nav>
     <footer>
-      Copyright 2017 Steamography | All Rights Reserved | Terms
+      Copyright 2017 Steamography | All Rights Reserved
     </footer>
   </div>
 </template>
