@@ -19,6 +19,9 @@ Vue.component('story', Story)
 Vue.component('timeline', Timeline)
 Vue.component('videos', Videos)
 
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
+
 import router from './router'
 
 /* eslint-disable no-new */
