@@ -31,16 +31,16 @@ export default {
         }, {
           title: 'Dissolve the Candy Coating',
           description: 'Astronauts conduct experiments in space to test reactions in a new environment. In this activity, you will see what happens to your favorite candy when immersed in water.',
-          href: '#',
-          type: 'external'
+          href: '/static/resources/DissolveTheCandyCoatingWeb.pdf',
+          type: 'pdf'
         }, {
           title: 'Build a Paper Rocket!',
           description: 'Leland launched into space for the first time in February 2008.  In this activity you will construct a simple design to demonstrate how a rocket flies through the atmosphere.',
-          href: '#',
-          type: 'document'
+          href: '/static/resources/BuildAPaperRocketWeb.pdf',
+          type: 'pdf'
         }, {
-          title: 'Activity 4',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quam, porro hic architecto enim assumenda molestiae magnam',
+          title: 'Build A Water Bottle Rocket Assembly',
+          description: 'In this activity you will build a more advanced Water Bottle Rocket, test your rocket for stability and learn how to assemble a rocket launcher.',
           href: '#',
           type: 'external'
         }, {
