@@ -43,8 +43,8 @@ export default {
             {
               title: 'The Amazing Arthur Ashe',
               src: 'static/media/childhoodicon1.png',
-              alt: 'tennis ball',
-              id: 'lm/03/03'
+              alt: 'tennis ball'
+              // ,id: 'lm/03/03'
             },
             {title: 'The Big Kaboom', src: 'static/media/childhoodicon2.png', alt: 'chemistry set'},
             {title: 'The Need for Speed', src: 'static/media/childhoodicon3.png', alt: 'Skateboard)'},
@@ -67,7 +67,7 @@ export default {
           timeline: [
             {title: 'Backup Plan', src: 'static/media/scienceicon1.png', alt: 'science goggles'},
             {title: 'Flying Penguins', src: 'static/media/scienceicon2.png', alt: 'penguin mascot)'},
-            {title: 'Jake and Scout', src: 'static/media/scienceicon3.png', alt: 'dogs'},
+            {title: 'Jake and Scout', src: 'static/media/scienceicon3.png', alt: 'dogs', id: 'lm/03/03'},
             {title: 'I Can\'t Hear', src: 'static/media/scienceicon4.png', alt: 'ear'}
           ]
         }, {
