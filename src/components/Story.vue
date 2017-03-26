@@ -159,7 +159,7 @@ export default {
 
   .slide.intro .slide-root {
     animation: 0.5s 0.5s ease-in-out zoomAnimation forwards;
-    border: 10px solid red;
+    border: 10px solid rgb(84, 145, 65);
     border-radius: 100%;
     padding: 50px 110px;
     transform: scale(0);
