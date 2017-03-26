@@ -14,7 +14,8 @@
         <a href="#contact">Contact</a>
       </div>
       <div class="col">
-        <a  href="https://www.amazon.com/Chasing-Space-Astronauts-Second-Chances/dp/0062496727" target="amazon">
+        <a href="https://www.amazon.com/Chasing-Space-Readers-Leland-Melvin/dp/0062665928/ref=sr_1_1?ie=UTF8&qid=1490559996&sr=8-1&keywords=chasing+space+young+readers+edition"
+          target="amazon">
           <img class="book-teaser" src="static/media/book_footer.jpg" alt="Chasing Space">
         </a>
       </div>
