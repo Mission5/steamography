@@ -1,6 +1,6 @@
 <template>
   <div class="experiments">
-    <h2>STEAM Activities You Can Try Yourself!</h2>
+    <h2>STEAM Activities</h2>
     <!-- sprite this! -->
     <img src="static/media/i1.png" alt="Science"/>
     <img src="static/media/i3.png" alt="Technology"/>
@@ -11,7 +11,7 @@
       <li v-for="activity in activities" class="activity">
         <h3>{{activity.title}}</h3>
         <div>{{activity.description}}</div>
-        <div><a class="btn" v-bind:href="activity.href" v-bind:class="activity.type">Go</a></div>
+        <div><a class="btn" v-bind:href="activity.href" v-bind:class="activity.type" target="blank">Go</a></div>
       </li>
     </ul>
   </div>
@@ -24,18 +24,18 @@ export default {
     return {
       activities: [
         {
-          title: 'Activity 1',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quam, porro hic architecto enim assumenda molestiae magnam',
+          title: 'Build a Rocket Racer!',
+          description: 'In this activity you will construct your own rocket racer and investigate basic forces that affect motion – just like Leland did with his skateboard!',
           href: '#',
           type: 'internal'
         }, {
-          title: 'Activity 2',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quam, porro hic architecto enim assumenda molestiae magnam',
+          title: 'Dissolve the Candy Coating',
+          description: 'Astronauts conduct experiments in space to test reactions in a new environment. In this activity, you will see what happens to your favorite candy when immersed in water.',
           href: '#',
           type: 'external'
         }, {
-          title: 'Activity 3',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quam, porro hic architecto enim assumenda molestiae magnam',
+          title: 'Build a Paper Rocket!',
+          description: 'Leland launched into space for the first time in February 2008.  In this activity you will construct a simple design to demonstrate how a rocket flies through the atmosphere.',
           href: '#',
           type: 'document'
         }, {
@@ -61,13 +61,21 @@ export default {
 </script>
 
 <style scoped>
-  .activities {
-    column-count: 2;
-  }
-  .activity {
-    border: 1px red solid;
-    padding: 1rem;
-  }
 
+  .activity {
+    padding: 1rem;
+    -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+  }
+  .btn {
+    margin-top: 5px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .activities {
+      column-count: 2;
+    }
+  }
 
 </style>
