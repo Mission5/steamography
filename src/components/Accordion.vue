@@ -44,10 +44,7 @@ export default {
               title: 'The Amazing Arthur Ashe',
               src: 'static/media/childhoodicon1.png',
               alt: 'tennis ball',
-              pages: [
-                {title: 'Page 1'},
-                {title: 'Page 2'}
-              ]
+              id: 'lm/03/03'
             },
             {title: 'The Big Kaboom', src: 'static/media/childhoodicon2.png', alt: 'chemistry set'},
             {title: 'The Need for Speed', src: 'static/media/childhoodicon3.png', alt: 'Skateboard)'},

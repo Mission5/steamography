@@ -1,0 +1,96 @@
+{
+  "title": "Jake and Scout",
+  "slides": [
+    {
+      "template": "intro",
+      "content": [
+        "<h1>Jake and Scout</h1>",
+        "<img src='~/01.png'/>"
+        ]
+    },
+    {
+      "template": "callout malibu",
+      "background" : "~/02.jpg",
+      "content": [
+      "<p>Even when everything is going according to plan, the unexpected happens.</p>",
+      "<p>Rescuing and adopting two dogs was totally unplanned, but one of the best decisions I ever made.</p>"
+      ]
+    },
+    {
+      "template": "flex-columns buttercup",
+      "content": [
+        "<div>",
+          "<p>I adopted Jake first.</p>",
+          "<p>Jake was a 90 pound mix of Rhodesian Ridgeback and Chow with an unpredictable nature. He would be warm and affectionate one minute and then start barking up a storm the next. But five minutes after meeting Jake, I knew he was my dog. And Jake knew I was his human.</p>",
+          "<p>Jake and I were an instant family.</p>",
+        "</div>",
+        "<div><img src='~/03.png'/></div>"
+      ]
+    },
+    {
+      "template": "content-padded",
+      "content" :[
+        "<p>Some of our best days were spent traveling.</p>",
+        "<p>We would hit the road and visit places across the country – </p>",
+        "<div class='img-panel'>",
+          "<div><img src='https://dummyimage.com/400x400/000000/fff&text=Grand+Canyon' alt='Grand Canyon'/></div>",
+          "<div><img src='https://dummyimage.com/400x400/000000/fff&text=Hoover+Dam' alt='Hoover Dam'/></div>",
+          "<div><img src='https://dummyimage.com/400x400/000000/fff&text=Yosemite+National+Park' alt='Yosemite National Park'/></div>",
+        "</div>",
+        "<p>We camped out, just like my summers growing up, and enjoyed the beauty of America’s wilderness areas.<p>"
+      ]
+    },
+    {
+      "template": "flex-rows chambray",
+      "content": [
+        "<div>",
+          "<p>I’ll never forget one night Jake woke me up trying to get out of the tent by opening the zipper with",
+            "his nose.  For once he wasn’t barking and I soon found out why. A bear had wandered into our camp!",
+            "Jake was too busy trying to protect me - like a grizzly bear would defend her cub.</p>",
+          "<p>Park rangers told us the next morning that the bear had been stealing food and had broken into",
+            "some cars. I was glad that Jake was smart enough to stay silent and that I was smart enough to keep",
+            "him inside the tent. We could have been bear food!</p>",
+        "</div>",
+        "<div><img src='~/05.png'/></div>"
+        ]
+    },
+    {
+      "template": "flex-columns eucalyptus",
+      "content": [
+        "<div>",
+          "<p>A few years after I adopted Jake, I’d seen a dog wandering around my neighborhood who could have been ",
+            "Jake’s twin. It was clear no one was caring for him. He had no collar, was nearly blind, was hungry, and suffering from heartworms.",
+          "<p>On Thanksgiving Day my neighbor called and said,</p>",
+          "<p><b>“Your dog got loose! He’s sitting on your front lawn.”</b></p>",
+          "<p>Jake was safe inside, right beside me. The hungry, wandering dog had chosen me.</p>",
+          "<p>I named him Scout and took him in as my own</p>",
+        "</div>",
+        "<div><img src='~/06.png'/></div>"
+      ]
+    },
+    {
+      "template": "flex-rows",
+      "content": [
+        "<div>",
+          "<p>Scout was a heavily muscled, affectionate, mild-mannered dog - a nice contrast to Jake’s considerably ",
+          "more excitable personality. I had two nearly identical dogs; both of whom came to me unexpectedly, both of ",
+          "whom became my family.</p>",
+        "</div>",
+        "<div><img src='~/07.png'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns bold",
+      "content": [
+        "<div>",
+          "<p>Sometimes it’s the unplanned, sudden circumstance that ends up bringing joy. </p><p>Adopting Jake and ",
+          "Scout taught me to go with the flow and enjoy the unexpected.</p>",
+        "</div>",
+        "<div><img src='~/08.jpg'/></div>"
+        ]
+    }
+  ]
+}
+
+
+
