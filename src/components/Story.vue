@@ -8,7 +8,7 @@
       v-bind:class="[slide.template, {current: index===current, before: index < current, after: index > current}]"
       :style="slide.background ? 'backgroundImage: url(' + macros(slide.background, story.id) + ')' : ''">
       <div class="slide-contents">
-        <div v-html="macros(slide.content.join(''), story.id)"
+        <div v-html="macros(slide.content.join(' '), story.id)"
           class="slide-root"></div>
       </div>
     </div>
@@ -35,7 +35,6 @@ export default {
   created () {
     this.$http.get('/static/stories/' + this.story.id + '/manifest.json').then(response => {
       this.slides = response.body.slides
-      console.log(response.body)
     }, response => {
       this.slides = [{template: 'callout malibu', content: ['I\'m afraid I can\'t open that section Dave.<br/>Maybe try Jake and Scout?']}]
     })
