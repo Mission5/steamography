@@ -19,8 +19,11 @@ export default {
       default: '600px'
     }
   },
-  data () {
-    return {}
+  created () {
+    document.body.classList.add('modal-open')
+  },
+  destroyed () {
+    document.body.classList.remove('modal-open')
   }
 }
 </script>
@@ -46,6 +49,7 @@ export default {
     border-radius: 2px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
     color: #000;
+    max-height: 95vh;
     margin: 0px auto;
     max-width: 95vw;
     position: relative;
@@ -64,7 +68,6 @@ export default {
 
   .modal-contents {
     overflow-y: auto;
-    max-height: 95vh;
   }
 
   .modal-enter {
