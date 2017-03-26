@@ -102,7 +102,7 @@ export default {
   }
   .btn-nav:focus {
     outline: 0;
-    border-color: red;
+    border-color: rgb(84, 145, 65);
   }
   #back {
     background-image: url('/static/media/backarrow.png');
