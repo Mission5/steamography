@@ -33,11 +33,16 @@ export default {
     }
   },
   created () {
-    this.$http.get('/static/stories/' + this.story.id + '/manifest.json').then(response => {
-      this.slides = response.body.slides
-    }, response => {
-      this.slides = [{template: 'callout malibu', content: ['I\'m afraid I can\'t open that section Dave.<br/>Maybe try Jake and Scout?']}]
-    })
+    var fallback = [{template: 'callout malibu', content: ['I\'m afraid I can\'t open that section Dave.<br/>Maybe try Jake and Scout?']}]
+    if (this.story.id) {
+      this.$http.get('/static/stories/' + this.story.id + '/manifest.json').then(response => {
+        this.slides = response.body.slides
+      }, response => {
+        this.slides = fallback
+      })
+    } else {
+      this.slides = fallback
+    }
   }
 }
 </script>
