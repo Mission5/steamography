@@ -11,7 +11,7 @@
               <img v-bind:src="panel.img" v-bind:alt="panel.title" />
             </div>
             <div class="panel-content">
-              <!--<button class="panel-close-button" v-on:click="close()" aria-label="Close Panel" title="Close Panel">ddd</button>-->
+              <button class="panel-close-button" v-on:click.stop="close()" aria-label="Close Panel" title="Close Panel"></button>
               <timeline v-bind:stories="panel.timeline" v-bind:closeModal="activePanel !== index"/>
             </div>
           </div>
@@ -27,6 +27,7 @@ export default {
   methods: {
     close: function (index) {
       this.activePanel = null
+      console.log('closed')
     },
     toggle: function (index) {
       this.activePanel = index
@@ -136,7 +137,7 @@ export default {
     position: relative;
     padding: 15px 20px;
     box-sizing: border-box;
-    transition: background 200ms ease;
+    transition: background-color 200ms ease;
     width: 100%;
   }
     .panelsopen .panel.open .panel-background {
@@ -155,6 +156,15 @@ export default {
       display: block;
       transition: opacity 0.5s 0.7s;
     }
+
+  .panel-close-button {
+    background: url(/static/media/close-icon.png) no-repeat center;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+  }
 
   h2 {
     color: #fff;
@@ -216,6 +226,10 @@ export default {
    .panel-content {
       opacity: 1;
       width: calc(100% - 180px);
+    }
+
+    .panel-close-button {
+      display: none;
     }
   }
 
