@@ -69,9 +69,11 @@ body.modal-open {
 }
 
 h1, h2, h3 {
-  font-family: 'Changa One', cursive;
   letter-spacing: 0.1rem;
   font-size: 1.2rem;
+}
+h1, h2 {
+  font-family: 'Changa One', cursive;
 }
 h1 {
   margin: 0;
