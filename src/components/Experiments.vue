@@ -26,8 +26,8 @@ export default {
         {
           title: 'Build a Rocket Racer!',
           description: 'In this activity you will construct your own rocket racer and investigate basic forces that affect motion – just like Leland did with his skateboard!',
-          href: '#',
-          type: 'internal'
+          href: '/static/resources/BuildARocketRacerWeb.pdf',
+          type: 'pdf'
         }, {
           title: 'Dissolve the Candy Coating',
           description: 'Astronauts conduct experiments in space to test reactions in a new environment. In this activity, you will see what happens to your favorite candy when immersed in water.',
@@ -41,7 +41,7 @@ export default {
         }, {
           title: 'Build A Water Bottle Rocket Assembly',
           description: 'In this activity you will build a more advanced Water Bottle Rocket, test your rocket for stability and learn how to assemble a rocket launcher.',
-          href: '#',
+          href: '/static/resources/BuildAWaterBottleRocketAssemblyWeb.pdf',
           type: 'external'
         }, {
           title: 'Activity 5',
