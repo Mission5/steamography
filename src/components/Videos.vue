@@ -28,35 +28,35 @@ export default {
         {
           title: 'Returning Home from Life in Space',
           poster: '/static/media/video-cominghome.jpg',
-          href: 'https://www.youtube.com/embed/TzJZSm3xTdg'
+          href: 'https://www.youtube.com/embed/-cDXRsZbydU'
         }, {
           title: 'Turkey at Zero Gravity: What it\'s Like to Spend Thanksgiving in Space',
           poster: '/static/media/video-thanksgiving.jpg',
-          href: 'https://www.youtube.com/embed/2cTITLyi3Zk'
+          href: 'https://www.youtube.com/embed/2NvrPbq3NeI'
         }, {
           title: 'How the NFL Prepared Me to Be a NASA Astronaut',
           poster: '/static/media/video-nfl.jpg',
-          href: 'https://www.youtube.com/embed/k_wx9v6M5m4'
+          href: 'https://www.youtube.com/embed/oBpY7jWxC8I'
         }, {
           title: 'How to Deal with Space Emergencies',
           poster: '/static/media/video-emergency.jpg',
-          href: 'https://www.youtube.com/embed/thXFl3v-FWc'
+          href: 'https://www.youtube.com/embed/76vfKslkmWc'
         }, {
           title: 'This is What Outer Space Does to Your Body',
           poster: '/static/media/video-body.jpg',
-          href: 'https://www.youtube.com/embed/7A2GqwzbKf4'
+          href: 'https://www.youtube.com/embed/Ix2kBOXHWCM'
         }, {
           title: 'Event Horizon: How Space Changes Your Perspective On Life',
           poster: '/static/media/video-spaceperspective.jpg',
-          href: 'https://www.youtube.com/embed/Ie-UZ5MR7F4'
+          href: 'https://www.youtube.com/embed/HbRhtL0CIxI'
         }, {
           title: 'An Astronaut\'s Cosmic Visions',
           poster: '/static/media/video-cosmicvisions.jpg',
-          href: 'https://www.youtube.com/embed/30oR6CbbEew'
+          href: 'https://www.youtube.com/embed/qmWcj_6O2Ac'
         }, {
           title: 'Please Pass the Space Food',
           poster: '/static/media/video-spacefood.jpg',
-          href: 'https://www.youtube.com/embed/0o7ctOlwBP4'
+          href: 'https://www.youtube.com/embed/8Ce2eCcJP6Y'
         }
       ]
     }
