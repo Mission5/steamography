@@ -31,11 +31,12 @@
       "template": "content-padded",
       "content" :[
         "<p>Some of our best days were spent traveling.</p>",
-        "<p>We would hit the road and visit places across the country – </p>",
+        "<p>We would hit the road and visit places across the country – the Grand Canyon, Hoover Dam,",
+        "and Yosemite National Park.</p>",
         "<div class='img-panel'>",
-          "<div><img src='https://dummyimage.com/400x400/000000/fff&text=Grand+Canyon' alt='Grand Canyon'/></div>",
-          "<div><img src='https://dummyimage.com/400x400/000000/fff&text=Hoover+Dam' alt='Hoover Dam'/></div>",
-          "<div><img src='https://dummyimage.com/400x400/000000/fff&text=Yosemite+National+Park' alt='Yosemite National Park'/></div>",
+          "<div><img src='~/04-1.jpg' alt='Grand Canyon'/></div>",
+          "<div><img src='~/04-2.jpg' alt='Hoover Dam'/></div>",
+          "<div><img src='~/04-3.jpg' alt='Yosemite National Park'/></div>",
         "</div>",
         "<p>We camped out, just like my summers growing up, and enjoyed the beauty of America’s wilderness areas.<p>"
       ]
