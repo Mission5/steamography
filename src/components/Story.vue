@@ -12,9 +12,9 @@
           class="slide-root"></div>
       </div>
     </div>
-    <button v-on:click="current--" id="back" class="btn-nav" v-bind:class="{ hidden: current <= 0 }"
+    <button v-on:click="back()" id="back" class="btn-nav" v-bind:class="{ hidden: current <= 0 }"
       v-bind:disabled="current<=0" aria-label="previous slide"></button>
-    <button v-on:click="current++" id="next" class="btn-nav" v-bind:class="{ hidden: current >= slides.length-1 }"
+    <button v-on:click="next()" id="next" class="btn-nav" v-bind:class="{ hidden: current >= slides.length-1 }"
       v-bind:disabled="current>=slides.length-1" aria-label="next slide"></button>
   </div>
 </template>
@@ -32,6 +32,21 @@ export default {
       }
     }
   },
+  methods: {
+    keyHandler: function (e) {
+      if (e.key === 'ArrowRight') {
+        this.next()
+      } else if (e.key === 'ArrowLeft') {
+        this.back()
+      }
+    },
+    next: function () {
+      if (this.current < this.slides.length - 1) this.current++
+    },
+    back: function () {
+      if (this.current > 0) this.current--
+    }
+  },
   created () {
     var fallback = [{template: 'callout malibu', content: ['I\'m afraid I can\'t open that section Dave.<br/>Maybe try Jake and Scout?']}]
     if (this.story.id) {
@@ -43,6 +58,10 @@ export default {
     } else {
       this.slides = fallback
     }
+    window.addEventListener('keyup', this.keyHandler)
+  },
+  beforeDestroy () {
+    window.removeEventListener('keyup', this.keyHandler)
   }
 }
 </script>
@@ -120,26 +139,33 @@ export default {
 
 /* slide theme colors */
 
-
-.buttercup {
+.buttercup { /* orange */
   background-color: #f39c12;
 }
 
-.chambray {
+.chambray { /* dark blue */
   background-color: #3a539b;
   color: white;
 }
 
-.eucalyptus {
+.eucalyptus { /* green */
   background-color: #26a65b;
 }
 
-.malibu {
+.lime { /* lime-green */
+  background-color: #bdd630;
+}
+
+.malibu { /*light blue */
   background-color: #1bbaf2;
 }
 
-.pumice {
+.pumice { /* light gray */
   background-color: #d2d7d3;
+}
+
+.sandstorm { /* yellow */
+  background-color: #f9bf3b;
 }
 
 </style>
