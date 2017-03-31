@@ -11,7 +11,7 @@
     </ul>
     <modal v-if="showVideoModal" @close="showVideoModal=false" width="560px">
       <div class="youtube-video-wrapper">
-        <iframe  v-bind:src="currentVideo" frameborder="0" allowfullscreen></iframe>
+        <iframe v-bind:src="currentVideo" frameborder="0" allowfullscreen></iframe>
       </div>
     </modal>
   </div>
