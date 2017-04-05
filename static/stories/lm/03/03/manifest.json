@@ -2,10 +2,12 @@
   "title": "Jake and Scout",
   "slides": [
     {
-      "template": "intro",
+      "template": "intro green-accent",
       "content": [
-        "<h1>Jake and Scout</h1>",
-        "<img src='~/01.png'/>"
+        "<div>",
+          "<h2>Jake and Scout</h2>",
+          "<img src='~/01.png'/>",
+        "</div>"
         ]
     },
     {
@@ -19,12 +21,12 @@
     {
       "template": "flex-columns buttercup",
       "content": [
+        "<div><img src='~/03.png'/></div>",
         "<div>",
           "<p>I adopted Jake first.</p>",
           "<p>Jake was a 90 pound mix of Rhodesian Ridgeback and Chow with an unpredictable nature. He would be warm and affectionate one minute and then start barking up a storm the next. But five minutes after meeting Jake, I knew he was my dog. And Jake knew I was his human.</p>",
           "<p>Jake and I were an instant family.</p>",
-        "</div>",
-        "<div><img src='~/03.png'/></div>"
+        "</div>"
       ]
     },
     {
