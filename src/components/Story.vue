@@ -4,7 +4,7 @@
 
   <div class="slides">
     <!--Slide: {{current + 1}} / {{ slides.length }}-->
-    <div v-for="(slide, index) in slides" class="slide"
+    <div v-for="(slide, index) in slides" class="slide" ref="slide"
       v-bind:class="[slide.template, {current: index===current, before: index < current, after: index > current}]"
       :style="slide.background ? 'backgroundImage: url(' + macros(slide.background, story.id) + ')' : ''">
       <div class="slide-contents">
@@ -41,10 +41,19 @@ export default {
       }
     },
     next: function () {
-      if (this.current < this.slides.length - 1) this.current++
+      if (this.current === this.slides.length - 1) return
+      this.stopMedia()
+      this.current++
     },
     back: function () {
-      if (this.current > 0) this.current--
+      if (this.current === 0) return
+      this.stopMedia()
+      this.current--
+    },
+    stopMedia: function () {
+      var slide = this.$refs.slide[this.current]
+      var iframe = slide.querySelector('iframe')
+      if (iframe) iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
     }
   },
   created () {
@@ -271,6 +280,13 @@ export default {
       width: 100%;
     }
 
+  .slide .youtube {
+    border: none;
+    width: 320px;
+    max-width: 100%;
+    height: 180px;
+  }
+
   @media screen and (min-width: 768px) {
 
     .slide.flex-columns .slide-root {
@@ -301,6 +317,11 @@ export default {
     }
     .slide .img-panel > *:last-child {
       padding-right: 0;
+    }
+
+    .slide .youtube {
+      height: 340px;
+      width: 560px;
     }
 
   }
