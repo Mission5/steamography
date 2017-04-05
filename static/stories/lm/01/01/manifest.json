@@ -1,0 +1,59 @@
+{
+  "title": "The Amazing Arthur Ashe",
+  "slides": [
+    {
+      "template": "intro sandstorm-accent",
+      "content": [
+        "<div>",
+          "<h2>The Amazing<br/>Arthur Ashe</h2>",
+          "<img src='~/01.png' alt='Tennis ball'/>",
+        "<div>"
+      ]
+    },
+    {
+      "template": "callout sandstorm",
+      "background": "~/02.png",
+      "content": [
+        "<p>Life has a funny way of surprising you…</p>"
+      ]
+    },
+    {
+      "template": "flex-rows chambray text-center",
+      "content": [
+        "<div><p>Growing up, I never wanted to be an astronaut.</p></div>",
+        "<div><img src='~/03.png' alt='Young Leland as astronaut'/></div>"
+        ]
+    },
+    {
+      "template": "flex-rows eucalyptus text-white text-center",
+      "content": [
+        "<div><p>I wanted to be a tennis player...</p></div>",
+        "<div><img src='~/04.png' alt='Young Leland as tennis player'/></div>"
+      ]
+    },
+    {
+      "template": "flex-rows lime text-center text-large bold",
+      "content": [
+        "<div>Arthur Ashe was my hero!</div>",
+        "<div><img src='~/05.png' alt='Leland showing off Arthur Ashe's accolades'/></div>"
+      ]
+    },
+    {
+      "template": "content-padded pumice",
+      "content": [
+        "<div><img src='~/06.png' alt='I want to be just like Arthur Ashe when I grow up!'/></div>"
+      ]
+    },
+
+    {
+      "template": "callout",
+      "background" : "~/07.jpg",
+      "content": [
+      "<p>Is there anyone you want to be like when you grow up?</p>"
+      ]
+    }
+  ]
+}
+
+
+

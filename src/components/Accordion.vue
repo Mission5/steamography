@@ -38,14 +38,14 @@ export default {
       panels: [
         {
           title: 'childhood',
-          bgColor: '#eac012',
+          bgColor: '#f9bf3b',
           img: '/static/media/childhood.png',
           timeline: [
             {
               title: 'The Amazing Arthur Ashe',
               src: 'static/media/childhoodicon1.png',
-              alt: 'tennis ball'
-              // ,id: 'lm/03/03'
+              alt: 'tennis ball',
+              id: 'lm/01/01'
             },
             {title: 'The Big Kaboom', src: 'static/media/childhoodicon2.png', alt: 'chemistry set'},
             {title: 'The Need for Speed', src: 'static/media/childhoodicon3.png', alt: 'Skateboard)'},
