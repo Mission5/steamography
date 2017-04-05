@@ -157,6 +157,11 @@ export default {
   color: white;
 }
 
+.black {
+  background-color: black;
+  color: white;
+}
+
 .eucalyptus { /* green */
   background-color: #26a65b;
 }
@@ -175,6 +180,10 @@ export default {
 
 .sandstorm { /* yellow */
   background-color: #f9bf3b;
+}
+
+.text-white {
+  color: #fff;
 }
 
 </style>
@@ -197,19 +206,54 @@ export default {
 
 /* template: intro */
 
+  .slide.intro .slide-contents {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
   .slide.intro .slide-root {
     animation: 0.5s 0.5s ease-in-out zoomAnimation forwards;
     border: 10px solid rgb(84, 145, 65);
-    border-radius: 100%;
-    padding: 50px 110px;
+    border-radius: 50%;
+    min-width: 300px;
+    overflow: hidden;
+    padding-bottom: 100%;
+    position: relative;
     transform: scale(0);
+    width: 100%;
   }
+    .slide.intro.sandstorm-accent .slide-root {
+      border-color: #f9bf3b;
+    }
+    .slide.intro.red-accent .slide-root {
+      border-color: #d81921;
+    }
+    .slide.intro.green-accent .slide-root {
+      border-color: #549141;
+    }
+    .slide.intro.blue-accent .slide-root {
+      border-color: #3c7bb1;
+    }
 
-  .slide.intro h1 {
-    font-size: 2.5rem;
-    font-family: 'Changa One', cursive;
+  .slide.intro .slide-root > div {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
     text-align: center;
   }
+
+  .slide.intro h2 {
+    font-size: 2rem;
+    margin: 1%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .slide.intro img {
+    width: 70%;
+  }
+
 
 /* template: callout */
 
@@ -219,14 +263,28 @@ export default {
     text-align: center;
   }
 
+/* template: flex-columns */
+
+  .slide.flex-columns .slide-root {
+    flex: 1;
+    justify-content: center;
+    padding: 5% 5%;
+  }
+
+  .slide.flex-columns img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
 /* template: flex-rows */
 
   .slide.flex-rows .slide-root {
-    padding: 20px;
+    padding: 5%;
   }
 
   .slide.flex-rows .slide-root > div {
-    margin: 10px 0;
+    margin: 5% 0;
   }
   .slide.flex-rows .slide-root > div:first-child {
     margin-top: 0;
@@ -241,21 +299,6 @@ export default {
     max-width: 100%;
   }
 
-/* template: flex-columns */
-
-  .slide.flex-columns .slide-root {
-    flex: 1;
-    justify-content: center;
-    padding: 20px;
-  }
-
-  .slide.flex-columns img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-  }
-
-
 /* generic slide elements */
 
   .slide p {
@@ -263,11 +306,21 @@ export default {
   }
 
   .slide.content-padded .slide-root {
-    padding: 20px;
+    padding: 5%;
   }
 
   .slide.bold {
     font-weight: bold;
+  }
+
+  .slide.text-large {
+    font-size: 1.75em;
+  }
+
+  .slide figcaption {
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: center;
   }
 
   .slide .img-panel {
@@ -280,6 +333,16 @@ export default {
       width: 100%;
     }
 
+  .slide img {
+    max-width: 100%; /* undo the others */
+  }
+
+  .slide .shadow-box {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 10px;
+  }
+
   .slide .youtube {
     border: none;
     width: 320px;
@@ -287,7 +350,31 @@ export default {
     height: 180px;
   }
 
+  .slide.max-width-600 .slide-root{
+    max-width: 600px;
+  }
+  .slide.max-width-800 .slide-root {
+    max-width: 800px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .slide.flex-columns .slide-root > div {
+      margin: 5% 0;
+    }
+    .slide.flex-columns .slide-root > div:first-child {
+      margin-top: 0;
+    }
+    .slide.flex-columns .slide-root > div:last-child {
+      margin-bottom: 0;
+    }
+  }
+
   @media screen and (min-width: 768px) {
+
+    .slide.intro h2 {
+      font-size: 2.5rem;
+      padding-bottom: 1.5rem;
+    }
 
     .slide.flex-columns .slide-root {
       align-items: center;
@@ -297,7 +384,7 @@ export default {
       flex: 1;
     }
     .slide.flex-columns .slide-root > div {
-      margin: 0 10px;
+      margin: 0 5%;
     }
     .slide.flex-columns .slide-root > div:first-child {
       margin-left: 0;

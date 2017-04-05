@@ -125,6 +125,10 @@ section:nth-child(4) {
   justify-content: center;
 }
 
+.text-center {
+  text-align: center;
+}
+
 a {
   text-decoration: none;
 }
