@@ -1,0 +1,17 @@
+{
+  "title": "The Playbook",
+  "slides": [
+    {
+      "template": "intro red-accent",
+      "content": [
+        "<div>",
+          "<h2>The Playbook</h2>",
+          "<img src='~/01.png' alt='football plays'/>",
+        "<div>"
+      ]
+    }
+  ]
+}
+
+
+

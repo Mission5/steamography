@@ -1,0 +1,17 @@
+{
+  "title": "The Big Kaboom",
+  "slides": [
+    {
+      "template": "intro sandstorm-accent",
+      "content": [
+        "<div>",
+          "<h2>The Big Kaboom</h2>",
+          "<img src='~/01.png' alt='ALT'/>",
+        "<div>"
+      ]
+    }
+  ]
+}
+
+
+

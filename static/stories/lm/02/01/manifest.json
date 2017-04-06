@@ -1,0 +1,17 @@
+{
+  "title": "The Drop",
+  "slides": [
+    {
+      "template": "intro red-accent",
+      "content": [
+        "<div>",
+          "<h2>The Drop</h2>",
+          "<img src='~/01.png' alt='dropped football'/>",
+        "<div>"
+      ]
+    }
+  ]
+}
+
+
+

@@ -61,7 +61,7 @@ export default {
     }
   },
   created () {
-    var fallback = [{template: 'callout malibu', content: ['I\'m afraid I can\'t open that section Dave.<br/>Maybe try Jake and Scout?']}]
+    var fallback = [{template: 'callout malibu', content: ['Sorry, but I had some trouble connecting to the Internet.']}]
     if (this.story.id) {
       this.$http.get('/static/stories/' + this.story.id + '/manifest.json').then(response => {
         this.slides = response.body.slides

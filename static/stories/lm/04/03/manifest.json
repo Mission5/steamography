@@ -1,0 +1,17 @@
+{
+  "title": "Manning the Arm",
+  "slides": [
+    {
+      "template": "intro blue-accent",
+      "content": [
+        "<div>",
+          "<h2>Manning the Arm</h2>",
+          "<img src='https://dummyimage.com/280x340/fff/f00&text=Need+image' alt='joystick'/>",
+        "<div>"
+      ]
+    }
+  ]
+}
+
+
+

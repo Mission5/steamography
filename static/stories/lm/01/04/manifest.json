@@ -1,0 +1,17 @@
+{
+  "title": "Vision on Wheels",
+  "slides": [
+    {
+      "template": "intro sandstorm-accent",
+      "content": [
+        "<div>",
+          "<h2>Vision on Wheels</h2>",
+          "<img src='~/01.png' alt='truck'/>",
+        "<div>"
+      ]
+    }
+  ]
+}
+
+
+

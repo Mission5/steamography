@@ -1,0 +1,17 @@
+{
+  "title": "I Can't Hear",
+  "slides": [
+    {
+      "template": "intro red-accent",
+      "content": [
+        "<div>",
+          "<h2>I Can't Hear</h2>",
+          "<img src='~/01.png' alt='ear'/>",
+        "<div>"
+      ]
+    }
+  ]
+}
+
+
+

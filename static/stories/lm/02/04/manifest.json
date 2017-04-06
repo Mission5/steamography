@@ -1,0 +1,17 @@
+{
+  "title": "Sidelined",
+  "slides": [
+    {
+      "template": "intro red-accent",
+      "content": [
+        "<div>",
+          "<h2>Sidelined</h2>",
+          "<img src='~/01.png' alt='bandaid'/>",
+        "<div>"
+      ]
+    }
+  ]
+}
+
+
+

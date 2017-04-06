@@ -1,0 +1,14 @@
+{
+  "title": "Backup Plan",
+  "slides": [
+    {
+      "template": "intro green-accent",
+      "content": [
+        "<div>",
+          "<h2>Backup Plan</h2>",
+          "<img src='~/01.png' alt='science goggles'/>",
+        "<div>"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Flying Penguins",
+  "slides": [
+    {
+      "template": "intro green-accent",
+      "content": [
+        "<div>",
+          "<h2>Flying Penguins</h2>",
+          "<img src='~/01.png' alt='penguin mascot'/>",
+        "<div>"
+      ]
+    }
+  ]
+}
+

@@ -41,45 +41,39 @@ export default {
           bgColor: '#f9bf3b',
           img: '/static/media/childhood.png',
           timeline: [
-            {
-              title: 'The Amazing Arthur Ashe',
-              src: 'static/media/childhoodicon1.png',
-              alt: 'tennis ball',
-              id: 'lm/01/01'
-            },
-            {title: 'The Big Kaboom', src: 'static/media/childhoodicon2.png', alt: 'chemistry set'},
-            {title: 'The Need for Speed', src: 'static/media/childhoodicon3.png', alt: 'Skateboard)'},
-            {title: 'Vision on Wheels', src: 'static/media/childhoodicon4.png', alt: 'truck'}
+            {title: 'The Amazing Arthur Ashe', src: 'static/media/childhoodicon1.png', alt: 'tennis ball', id: 'lm/01/01'},
+            {title: 'The Big Kaboom', src: 'static/media/childhoodicon2.png', alt: 'chemistry set', id: 'lm/01/02'},
+            {title: 'The Need for Speed', src: 'static/media/childhoodicon3.png', alt: 'Skateboard)', id: 'lm/01/03'},
+            {title: 'Vision on Wheels', src: 'static/media/childhoodicon4.png', alt: 'truck', id: 'lm/01/04'}
           ]
         }, {
           title: 'football',
           bgColor: '#d81921',
           img: '/static/media/leland2.png',
           timeline: [
-            {title: 'The Drop', src: 'static/media/footballicon1.png', alt: 'dropped football'},
-            {title: 'Drafted!', src: 'static/media/footballicon2.png', alt: 'football helmet'},
-            {title: 'The Playbook', src: 'static/media/footballicon3.png', alt: 'football plays)'},
-            {title: 'Sidelined', src: 'static/media/footballicon4.png', alt: 'bandaid'}
+            {title: 'The Drop', src: 'static/media/footballicon1.png', alt: 'dropped football', id: 'lm/02/01'},
+            {title: 'Drafted!', src: 'static/media/footballicon2.png', alt: 'football helmet', id: 'lm/02/02'},
+            {title: 'The Playbook', src: 'static/media/footballicon3.png', alt: 'football plays)', id: 'lm/02/03'},
+            {title: 'Sidelined', src: 'static/media/footballicon4.png', alt: 'bandaid', id: 'lm/02/04'}
           ]
         }, {
           title: 'scientist',
           bgColor: '#549141',
           img: '/static/media/leland3.png',
           timeline: [
-            {title: 'Backup Plan', src: 'static/media/scienceicon1.png', alt: 'science goggles'},
-            {title: 'Flying Penguins', src: 'static/media/scienceicon2.png', alt: 'penguin mascot)'},
+            {title: 'Backup Plan', src: 'static/media/scienceicon1.png', alt: 'science goggles', id: 'lm/03/01'},
+            {title: 'Flying Penguins', src: 'static/media/scienceicon2.png', alt: 'penguin mascot)', id: 'lm/03/02'},
             {title: 'Jake and Scout', src: 'static/media/scienceicon3.png', alt: 'dogs', id: 'lm/03/03'},
-            {title: 'I Can\'t Hear', src: 'static/media/scienceicon4.png', alt: 'ear'}
+            {title: 'I Can\'t Hear', src: 'static/media/scienceicon4.png', alt: 'ear', id: 'lm/03/04'}
           ]
         }, {
           title: 'astronaut',
           bgColor: '#3c7bb1',
           img: '/static/media/leland4.png',
           timeline: [
-            {title: 'Cleared for Take Off', src: 'static/media/astronauticon1.png', alt: 'green light'},
-            {title: 'Life in Space', src: 'static/media/astronauticon2.png', alt: 'space shuttle'},
-            {title: 'Manning the Arm', src: 'static/media/astronauticon3.png', alt: 'joystick'},
-            {title: 'Picture This', src: 'static/media/astronauticon4.png', alt: 'earth'}
+            {title: 'Cleared for Take Off', src: 'static/media/astronauticon1.png', alt: 'green light', id: 'lm/04/01'},
+            {title: 'Life in Space', src: 'static/media/astronauticon2.png', alt: 'space shuttle', id: 'lm/04/02'},
+            {title: 'Manning the Arm', src: 'static/media/astronauticon3.png', alt: 'joystick', id: 'lm/04/03'},
             {title: 'Picture This', src: 'static/media/astronauticon4.png', alt: 'earth', id: 'lm/04/04'}
           ]
         }
@@ -150,12 +144,14 @@ export default {
     opacity: 0;
     position: absolute; top: 0; right: 0;
     transition: opacity 0.5s;
+    /*visibility: hidden; make more 508 for tabbing! */
     width: calc(100% - 220px);
   }
     .panelsopen .panel.open .panel-content {
       opacity: 1;
       display: block;
       transition: opacity 0.5s 0.7s;
+      /*visibility: visible;*/
     }
 
   .panel-close-button {

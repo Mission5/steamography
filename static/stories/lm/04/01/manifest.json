@@ -1,0 +1,17 @@
+{
+  "title": "Cleared for Take Off",
+  "slides": [
+    {
+      "template": "intro blue-accent",
+      "content": [
+        "<div>",
+          "<h2>Cleared for Take Off</h2>",
+          "<img src='~/01.png' alt='green light'/>",
+        "<div>"
+      ]
+    }
+  ]
+}
+
+
+
