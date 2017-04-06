@@ -14,8 +14,8 @@
     </div>
     <button v-on:click="back()" id="back" class="btn-nav" v-bind:class="{ hidden: current <= 0 }"
       v-bind:disabled="current<=0" aria-label="previous slide"></button>
-    <button v-on:click="next()" id="next" class="btn-nav" v-bind:class="{ hidden: current >= slides.length-1 }"
-      v-bind:disabled="current>=slides.length-1" aria-label="next slide"></button>
+    <button v-on:click="next()" id="next" class="btn-nav" v-bind:class="{ exit: current >= slides.length-1 }"
+      aria-label="next slide"></button>
   </div>
 </template>
 
@@ -38,12 +38,17 @@ export default {
         this.next()
       } else if (e.key === 'ArrowLeft') {
         this.back()
+      } else if (e.key === 'Escape') {
+        this.$emit('close')
       }
     },
     next: function () {
-      if (this.current === this.slides.length - 1) return
       this.stopMedia()
-      this.current++
+      if (this.current >= this.slides.length - 1) {
+        this.$emit('close')
+      } else {
+        this.current++
+      }
     },
     back: function () {
       if (this.current === 0) return
@@ -119,9 +124,7 @@ export default {
   }
 
 .btn-nav {
-  background: #fff;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background: #fff url('/static/media/arrows.png') no-repeat 10px 10px;
   border: 5px black solid;
   border-radius: 25px;
   bottom: 10px;
@@ -138,12 +141,15 @@ export default {
     border-color: rgb(84, 145, 65);
   }
   #back {
-    background-image: url('/static/media/backarrow.png');
-    left: 20px;
+    left: 10px;
   }
   #next {
-    background-image: url('/static/media/nextarrow.png');
-    right: 20px;
+    background-position-x: -30px;
+    right: 10px;
+  }
+  #next.exit {
+    background-position-x: -70px;
+    border-color: red;
   }
 
 /* slide theme colors */

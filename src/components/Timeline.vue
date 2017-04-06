@@ -5,7 +5,7 @@
       <span class="story-title" v-bind:style="'background-image:url(' + story.src + ')'">{{story.title}}</span>
     </a>
     <modal v-if="showStoryModal" @close="showStoryModal=false" width="90vw">
-      <story v-bind:story="stories[currentStory]"/>
+      <story v-bind:story="stories[currentStory]" v-on:close="showStoryModal=false"/>
     </modal>
   </div>
 </template>
