@@ -80,6 +80,7 @@ export default {
             {title: 'Life in Space', src: 'static/media/astronauticon2.png', alt: 'space shuttle'},
             {title: 'Manning the Arm', src: 'static/media/astronauticon3.png', alt: 'joystick'},
             {title: 'Picture This', src: 'static/media/astronauticon4.png', alt: 'earth'}
+            {title: 'Picture This', src: 'static/media/astronauticon4.png', alt: 'earth', id: 'lm/04/04'}
           ]
         }
       ],

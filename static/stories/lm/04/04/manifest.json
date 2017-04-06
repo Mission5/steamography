@@ -1,0 +1,100 @@
+{
+  "title": "Picture This",
+  "slides": [
+    {
+      "template": "intro blue-accent",
+      "content": [
+        "<div>",
+          "<h2>Picture This</h2>",
+          "<img src='~/01.png' alt='Earth'/>",
+        "</div>"
+        ]
+    },
+    {
+      "template": "flex-columns chambray",
+      "content": [
+        "<div>",
+          "<p>I am a photographer and while in space I took pictures of the earth. Through my photographs, I hoped ",
+          "I could inspire others and help them to see the planet in a different way.</p>",
+        "</div>",
+        "<div><img src='~/02.jpg' alt='Leland in space'/></div>"
+      ]
+    },
+    {
+      "template": "flex-rows black text-center max-width-600",
+      "content": [
+        "<div>",
+          "<p>When you look at the Earth from space, our planet looks like a little blue marble. Seeing our ",
+          "world from that vantage point changes you.</p>",
+        "</div>",
+        "<div><img src='~/03.jpg' alt='Earth from space'/></div>"
+        ]
+    },
+    {
+      "template": "flex-rows max-width-800",
+      "content": [
+        "<div>The views are just incredible. Here are some photos I took from space:</div>",
+        "<div>",
+          "<img src='~/04.jpg' alt='Caribbean Water, Bahamas'/>",
+          "<figcaption>Caribbean Water, Bahamas</figcaption>",
+        "</div>",
+        "<div>There aren’t fifty shades of blue to describe the Caribbean because its blues from space are so intense. ",
+        "Turquoise, indigo, azure—I quickly ran out of words that would do it justice. I hadn’t anticipated such a ",
+        "stunning array of blue water.<div>"
+      ]
+    },
+    {
+      "template": "flex-rows pumice max-width-800",
+      "content": [
+        "<div>",
+          "<img src='~/05.jpg' alt='Middle East'/>",
+          "<figcaption>Middle East</figcaption>",
+        "</div>",
+        "<div>Here is a picture of the Middle East. Egypt is on the left. It is separated from Saudi Arabia",
+        "by the Red Sea and from Israel by the Sinai Peninsula (the land between the two fingers of water).",
+        "This area has seen a lot of conflict. But all I could see from space was beauty, serenity—there were",
+        "no geographical boundaries. I couldn’t see the unrest, the fighting, the wars—just how close we are as",
+        "countries and as human beings.<div>"
+      ]
+    },
+    {
+      "template": "flex-rows max-width-800",
+      "content": [
+        "<div>",
+          "<img src='~/06.jpg' alt='Andes Mountains, South America'/>",
+          "<figcaption>Andes Mountains, South America</figcaption>",
+        "</div>",
+        "<div>",
+          "Here is a panoramic view of a portion of the Andes Mountains in Chile and Argentina. The thin blue",
+          "line you see around the planet is our atmosphere—that’s what keeps us alive.",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-rows pumice max-width-800",
+      "content": [
+        "<div>",
+          "<img src='~/07.jpg' alt='Lynchburg, Virginia'/>",
+          "<figcaption>Lynchburg, Virginia</figcaption>",
+        "</div>",
+        "<div>",
+          "This photograph shows my hometown, Lynchburg, Virginia. It was fun seeing where I grew up from",
+          "the perspective of space!",
+        "</div>"
+      ]
+    },
+    {
+      "template": "callout black",
+      "background": "~/08.jpg",
+      "content": [
+        "<div class='shadow-box'>",
+          "From space you can see how humans have impacted the land—city lights, roads cutting through the landscape,",
+          "forests disappearing. It's a fragile and beautiful place, one we should all take care to protect.",
+        "</div>"
+      ]
+    }
+  ]
+}
+
+
+
