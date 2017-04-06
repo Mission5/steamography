@@ -3,7 +3,6 @@
 <template>
 
   <div class="slides">
-    <!--Slide: {{current + 1}} / {{ slides.length }}-->
     <div v-for="(slide, index) in slides" class="slide" ref="slide"
       v-bind:class="[slide.template, {current: index===current, before: index < current, after: index > current}]"
       :style="slide.background ? 'backgroundImage: url(' + macros(slide.background, story.id) + ')' : ''">
@@ -244,16 +243,17 @@ export default {
   .slide.intro .slide-root > div {
     position: absolute;
     top: 10%;
-    left: 10%;
-    right: 10%;
+    left: 8%;
+    right: 8%;
     text-align: center;
   }
 
   .slide.intro h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1%;
     padding: 0;
     text-align: center;
+    padding: 0 10% 5% 10%;
   }
 
   .slide.intro img {
@@ -379,7 +379,6 @@ export default {
 
     .slide.intro h2 {
       font-size: 2.5rem;
-      padding-bottom: 1.5rem;
     }
 
     .slide.flex-columns .slide-root {
