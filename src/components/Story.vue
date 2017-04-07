@@ -16,6 +16,7 @@
     <button v-on:click="next()" id="next" class="btn-nav" v-bind:class="{ exit: current >= slides.length-1 }"
       aria-label="next slide"></button>
   </div>
+
 </template>
 
 <script>
@@ -83,6 +84,7 @@ export default {
 
 .slides {
   height: 90vh;
+  margin-bottom: -1px;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -274,7 +276,7 @@ export default {
   .slide.flex-columns .slide-root {
     flex: 1;
     justify-content: center;
-    padding: 5% 5%;
+    padding: 5% 5% 60px 5%;
   }
 
   .slide.flex-columns img {
@@ -286,7 +288,7 @@ export default {
 /* template: flex-rows */
 
   .slide.flex-rows .slide-root {
-    padding: 5%;
+    padding: 5% 5% 60px 5%;
   }
 
   .slide.flex-rows .slide-root > div {
@@ -381,6 +383,7 @@ export default {
       padding-bottom: 100%;
       width: 100%;
     }
+
     .slide.intro h2 {
       font-size: 2.5rem;
     }
