@@ -25,8 +25,6 @@ export default {
   iframe {
     border: 0;
     position: absolute;
-    width: 100%;
-    height: 100%
-  
+    height: 100%;
   }
 </style>
