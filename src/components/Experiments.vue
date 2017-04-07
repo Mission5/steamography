@@ -19,7 +19,7 @@
       our users. The presence of a link is not an endorsement of STEAMography or Leland Melvin. When users follow
       a link to an outside Web site, they are leaving STEAMography and are subject to the privacy and security
       policies of the owners/sponsors of the outside Web site(s). We are not responsible for the information
-      collection practices of any other site.
+      collection practices of any other site.</div>
   </div>
 </template>
 
