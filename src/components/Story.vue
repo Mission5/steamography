@@ -222,10 +222,10 @@ export default {
     border-radius: 50%;
     min-width: 300px;
     overflow: hidden;
-    padding-bottom: 100%;
+    padding-bottom: 90%;
     position: relative;
     transform: scale(0);
-    width: 100%;
+    width: 90%;
   }
     .slide.intro.sandstorm-accent .slide-root {
       border-color: #f9bf3b;
@@ -377,6 +377,10 @@ export default {
 
   @media screen and (min-width: 768px) {
 
+    .slide.intro .slide-root {
+      padding-bottom: 100%;
+      width: 100%;
+    }
     .slide.intro h2 {
       font-size: 2.5rem;
     }
