@@ -12,9 +12,6 @@ export default {
 </script>
 
 <style scoped>
-  .animation, iframe {
-    width: 100%;
-  }
 
   .animation {
     padding-bottom: 56.25%;
@@ -26,5 +23,6 @@ export default {
     border: 0;
     position: absolute;
     height: 100%;
+    width: 100%;
   }
 </style>
