@@ -93,7 +93,7 @@ export default {
   }
 
     .story:hover .story-title, .story:focus .story-title {
-      transform: scale(1.3);
+      text-decoration: underline;
     }
 
   @media screen and (min-width: 768px) {
@@ -101,6 +101,7 @@ export default {
     .timeline {
       column-count: 2;
       right: 30px;
+      width: calc(100% - 30px);
     }
 
     .story {
@@ -148,6 +149,11 @@ export default {
         margin-left: 0;
         margin-right: -10%;
       }
+
+    .story:hover .story-title, .story:focus .story-title {
+      text-decoration: none;
+      transform: scale(1.3);
+    }
 
   }
 
