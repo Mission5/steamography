@@ -265,6 +265,7 @@ export default {
 
   .slide.intro h2 {
     font-size: 1.5rem;
+    line-height: 1;
     margin: 1%;
     padding: 0;
     text-align: center;
@@ -379,6 +380,7 @@ export default {
   }
 
   @media screen and (max-width: 767px) {
+
     .slide.flex-columns .slide-root > div {
       margin: 5% 0;
     }

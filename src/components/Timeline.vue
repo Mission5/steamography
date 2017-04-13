@@ -77,12 +77,13 @@ export default {
     background: no-repeat left center;
     background-size: 80px 80px;
     display: flex;
+    height: 90px;
     flex-direction: column;
-    padding-left: 85px;
     font-size: 1.2rem;
     justify-content: center;
     left: 10%;
-    height: 90px;
+    line-height: 1;
+    padding-left: 85px;
     padding-top: 0.5rem;
     position: absolute;
     transition: transform 0.25s;
