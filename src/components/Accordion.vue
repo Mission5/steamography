@@ -3,7 +3,7 @@
     <ul class="panels" v-bind:class="{ panelsopen: activePanel!==null }" >
       <li class="panel" tabIndex="0" v-for="(panel, index) in panels"
         v-bind:class="{ open: activePanel==index }" v-bind:style="{ 'background-color': panel.bgColor }"
-        v-on:mouseover="toggle(index)" v-on:click="toggle(index)" v-on:focus="toggle(index)" v-on:keyup.enter="toggle(index)">
+        v-on:click="toggle(index)" v-on:focus="toggle(index)" v-on:keyup.enter="toggle(index)">
         <div class="panel-wrapper">
           <div class="panel-background">
             <div class="panel-header">
@@ -103,6 +103,7 @@ export default {
   }
 
   .panel {
+    cursor: pointer;
     display: table-cell;
     vertical-align: bottom;
     position: relative;
@@ -117,6 +118,7 @@ export default {
       width: 5%;
     }
    .panelsopen .panel.open {
+      cursor: initial;
       width: 80%;
     }
 
