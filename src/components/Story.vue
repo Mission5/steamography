@@ -173,6 +173,10 @@ export default {
   background-color: #26a65b;
 }
 
+.jade {
+  background-color: #27a55b;
+}
+
 .lime { /* lime-green */
   background-color: #bdd630;
 }
@@ -183,6 +187,15 @@ export default {
 
 .pumice { /* light gray */
   background-color: #d2d7d3;
+}
+
+.red {
+  background-color: #c23622;
+}
+
+.royalblue {
+  background-color: #4183d7;
+  color: white;
 }
 
 .sandstorm { /* yellow */
@@ -375,6 +388,16 @@ export default {
     .slide.flex-columns .slide-root > div:last-child {
       margin-bottom: 0;
     }
+
+    .slide .img-panel > * {
+      padding: 10px 0;
+    }
+    .slide .img-panel > *:first-child {
+      padding-top: 0;
+    }
+    .slide .img-panel > *:last-child {
+      padding-bottom: 0;
+    }
   }
 
   @media screen and (min-width: 768px) {
@@ -391,6 +414,9 @@ export default {
     .slide.flex-columns .slide-root {
       align-items: center;
       display: flex;
+    }
+    .slide.flex-columns.align-top .slide-root {
+      align-items: normal;
     }
     .slide.flex-columns .slide-root > div {
       flex: 1;
