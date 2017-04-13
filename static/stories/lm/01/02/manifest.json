@@ -6,12 +6,49 @@
       "content": [
         "<div>",
           "<h2>The Big Kaboom</h2>",
-          "<img src='~/01.png' alt='ALT'/>",
+          "<img src='~/01.png' alt='Chemistry test tubes and beakers'/>",
         "<div>"
+      ]
+    },
+    {
+      "template": "flex-rows royalblue",
+      "content": [
+        "<div>I was around 8 years old when my parents gave me a chemistry set.</div>",
+        "<div class='img-panel'>",
+          "<div><img src='~/02a.png' alt='Leland gets a chemstry set'/></div>",
+          "<div><img src='~/02b.png' alt='Leland’s mother warns him to follow the instructions'/></div>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-rows red",
+      "content": [
+        "<div class='img-panel'>",
+          "<div><img src='~/03a.png' alt='Leland throws the instruction book aside'/></div>",
+          "<div><img src='~/03b.png' alt='Leland mixes chemicals'/></div>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "sandstorm max-width-800",
+      "content": [
+        "<img src='~/04.jpg' alt='Kaboom! Chemstry explosion'/>"
+      ]
+    },
+    {
+      "template": "flex-rows lime",
+      "content": [
+        "<div class='img-panel'>",
+          "<div><img src='~/05a.png' alt='I burned a hole in my mother’s rug'/></div>",
+          "<div><img src='~/05b.png' alt='I really got in trouble, but...'/></div>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "max-width-800",
+      "content": [
+        "<img src='~/06.jpg' alt='Right then and there I knew I wanted to be a scientist.'/>"
       ]
     }
   ]
 }
-
-
-
