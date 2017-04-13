@@ -6,12 +6,66 @@
       "content": [
         "<div>",
           "<h2>The Need for Speed</h2>",
-          "<img src='~/01.png' alt='ALT'/>",
+          "<img src='~/01.png' alt='skateboard'/>",
         "<div>"
+      ]
+    },
+    {
+      "template": "flex-rows sandstorm text-center",
+      "content": [
+        "<div>Text: I grew up in a small town in Virginia, called Lynchburg.</div>",
+        "<div><img src='~/02.png' alt='map of Virginia with Lynchburg pinned'/></div>"
+      ]
+    },
+    {
+      "template": "jade max-width-800",
+      "content": [
+        "<img src='~/03.jpg' alt='I lived in a modest neighborhood with big yards and wide, paved streets.'/>"
+      ]
+    },
+    {
+      "template": "flex-rows buttercup text-center",
+      "content": [
+        "<div>My parents were teachers and we didn’t have a lot of money… but that didn’t keep me from many adventures!</div>",
+        "<div><img src='~/04.png' alt='four childhood photos of Leland'/></div>"
+      ]
+    },
+    {
+      "template": "flex-rows pumice text-center",
+      "content": [
+        "<div>I wanted a skateboard to add to my adventures.</div>",
+        "<div><img src='~/05.png' alt='Hey dad, will you buy me a skateboard? We can’t afford one. Why don’t you just build one?'/></div>",
+        "<div class='text-large'>So that’s just what I did!</div>"
+      ]
+    },
+    {
+      "template": "flex-rows lime text-center",
+      "content": [
+        "<div>I did odd jobs and saved my money...</div>",
+        "<div><img src='~/06.png' alt='Leland mowing a lawn'/></div>"
+      ]
+    },
+    {
+      "template": "flex-rows malibu text-center",
+      "content": [
+        "<div>And I figured out how to build my own!</div>",
+        "<div><img src='~/07.png' alt='skateboard diagram'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns align-top",
+      "content": [
+        "<div>My goal was to have the fastest board in town. So I kept tinkering with the design and I spent my summers zooming down steep hills with my friends!</div>",
+        "<div><img src='~/08.png' alt='Leland on a skateboard'/></div>"
       ]
     }
   ]
 }
+
+
+
+
+
 
 
 
