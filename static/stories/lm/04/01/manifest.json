@@ -7,7 +7,7 @@
         "<div>",
           "<h2>Cleared for Take Off</h2>",
           "<img src='~/01.png' alt='green light'/>",
-        "<div>"
+        "</div>"
       ]
     }
   ]

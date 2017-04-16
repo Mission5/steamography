@@ -7,7 +7,7 @@
         "<div>",
           "<h2>Flying Penguins</h2>",
           "<img src='~/01.png' alt='penguin mascot'/>",
-        "<div>"
+        "</div>"
       ]
     }
   ]

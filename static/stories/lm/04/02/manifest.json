@@ -7,7 +7,7 @@
         "<div>",
           "<h2>Life in Space</h2>",
           "<img src='~/01.png' alt='space shuttle'/>",
-        "<div>"
+        "</div>"
       ]
     }
   ]
