@@ -13,7 +13,7 @@
     {
       "template": "flex-rows sandstorm text-center",
       "content": [
-        "<div>Text: I grew up in a small town in Virginia, called Lynchburg.</div>",
+        "<div>I grew up in a small town in Virginia, called Lynchburg.</div>",
         "<div><img src='~/02.png' alt='map of Virginia with Lynchburg pinned'/></div>"
       ]
     },
