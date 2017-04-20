@@ -34,11 +34,11 @@ export default {
   },
   methods: {
     keyHandler: function (e) {
-      if (e.key === 'ArrowRight') {
+      if (e.key === 'ArrowRight' || e.key === 'Right') {
         this.next()
-      } else if (e.key === 'ArrowLeft') {
+      } else if (e.key === 'ArrowLeft' || e.key === 'Left') {
         this.back()
-      } else if (e.key === 'Escape') {
+      } else if (e.key === 'Escape' || e.key === 'Esc') {
         this.$emit('close')
       }
     },
