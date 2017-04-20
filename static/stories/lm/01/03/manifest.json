@@ -24,7 +24,7 @@
       ]
     },
     {
-      "template": "flex-rows buttercup text-center",
+      "template": "flex-rows buttercup text-center max-width-800",
       "content": [
         "<div>My parents were teachers and we didn’t have a lot of money… but that didn’t keep me from many adventures!</div>",
         "<div><img src='~/04.png' alt='four childhood photos of Leland'/></div>"
@@ -53,10 +53,17 @@
       ]
     },
     {
-      "template": "flex-columns align-top",
+      "template": "flex-columns max-width-800 teal",
       "content": [
-        "<div>My goal was to have the fastest board in town. So I kept tinkering with the design and I spent my summers zooming down steep hills with my friends!</div>",
-        "<div><img src='~/08.png' alt='Leland on a skateboard'/></div>"
+        "<div><img src='~/08.png' alt='Leland on a skateboard'/></div>",
+        "<div>My goal was to have the fastest board in town. So I kept tinkering with the design and I spent my summers zooming down steep hills with my friends!</div>"]
+    },
+    {
+      "template": "flex-rows text-center text-large",
+      "content": [
+      "<div>What would you build?</div>",
+      "<div>Anything is possible!</div>",
+      "<div><img src='~/09.png' alt='skateboard'/></div>"
       ]
     }
   ]

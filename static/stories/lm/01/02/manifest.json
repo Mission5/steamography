@@ -30,7 +30,7 @@
       ]
     },
     {
-      "template": "sandstorm max-width-800",
+      "template": "sandstorm max-width-800 text-center",
       "content": [
         "<img src='~/04.jpg' alt='Kaboom! Chemstry explosion'/>"
       ]

@@ -35,11 +35,11 @@
       "template": "flex-rows lime text-center text-large bold",
       "content": [
         "<div>Arthur Ashe was my hero!</div>",
-        "<div><img src='~/05.png' alt='Leland showing off Arthur Ashe's accolades'/></div>"
+        "<div><img src='~/05.png' alt='Leland showing off Arthur Ashe’s accolades'/></div>"
       ]
     },
     {
-      "template": "content-padded pumice",
+      "template": "content-padded pumice text-center",
       "content": [
         "<div><img src='~/06.png' alt='I want to be just like Arthur Ashe when I grow up!'/></div>"
       ]
