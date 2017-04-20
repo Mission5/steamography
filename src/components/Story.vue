@@ -7,8 +7,10 @@
       v-bind:class="[slide.template, {current: index===current, before: index < current, after: index > current}]"
       :style="slide.background ? 'backgroundImage: url(' + macros(slide.background, story.id) + ')' : ''">
       <div class="slide-contents">
-        <div v-html="macros(slide.content.join(' '), story.id)"
-          class="slide-root"></div>
+        <div class="slide-flex-item">
+          <div v-html="macros(slide.content.join(' '), story.id)"
+            class="slide-root"></div>
+        </div>
       </div>
     </div>
     <button v-on:click="back()" id="back" class="btn-nav" v-bind:class="{ hidden: current <= 0 }"
@@ -84,7 +86,6 @@ export default {
 
 .slides {
   height: 90vh;
-  margin-bottom: -1px;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -94,7 +95,7 @@ export default {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
-  display: block;
+  display: flex;
   font-size: 1.5rem;
   height: 100%;
   overflow: auto;
@@ -114,15 +115,25 @@ export default {
 
 .slide-contents {
   align-items: center;
+  bottom: 0; left: 0; right: 0; top: 0;
   display: flex;
+  flex: 1;
+  flex-direction: column;
   justify-content: center;
-  min-height: 100%;
+  margin: 0 auto;
+  min-height: min-content;
   opacity: 0;
+  position: absolute;
   transition: opacity 1s 0.5s;
+  width: 100%;
 }
   .slide.current .slide-contents {
     opacity: 1;
   }
+
+.slide-flex-item {
+  width: 100%;
+}
 
 .btn-nav {
   background: #fff url('/static/media/arrows.png') no-repeat 10px 10px;
@@ -202,6 +213,10 @@ export default {
   background-color: #f9bf3b;
 }
 
+.teal {
+  background-color: #4ec3bc;
+}
+
 .text-white {
   color: #fff;
 }
@@ -209,6 +224,10 @@ export default {
 </style>
 
 <style>
+
+.slides, .slides * {
+  box-sizing: border-box;
+}
 
 /* Non-scoped classes */
 
@@ -228,13 +247,13 @@ export default {
 
   .slide.intro .slide-contents {
     max-width: 500px;
-    margin: 0 auto;
   }
 
   .slide.intro .slide-root {
     animation: 0.5s 0.5s ease-in-out zoomAnimation forwards;
     border: 10px solid rgb(84, 145, 65);
     border-radius: 50%;
+    margin: 0 auto;
     min-width: 300px;
     overflow: hidden;
     padding-bottom: 90%;
@@ -306,7 +325,7 @@ export default {
   }
 
   .slide.flex-rows .slide-root > div {
-    margin: 5% 0;
+    margin: 20px 0;
   }
   .slide.flex-rows .slide-root > div:first-child {
     margin-top: 0;
@@ -372,10 +391,10 @@ export default {
     height: 180px;
   }
 
-  .slide.max-width-600 .slide-root{
+  .slide.max-width-600 .slide-contents {
     max-width: 600px;
   }
-  .slide.max-width-800 .slide-root {
+  .slide.max-width-800 .slide-contents {
     max-width: 800px;
   }
 
@@ -418,7 +437,7 @@ export default {
       display: flex;
     }
     .slide.flex-columns.align-top .slide-root {
-      align-items: normal;
+      align-items: flex-start;
     }
     .slide.flex-columns .slide-root > div {
       flex: 1;
