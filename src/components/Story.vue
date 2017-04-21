@@ -112,6 +112,9 @@ export default {
   .slide.after {
     left: 100%
   }
+  .slide.cover {
+    background-size: cover;
+  }
 
 .slide-contents {
   align-items: center;
@@ -211,6 +214,10 @@ export default {
 
 .sandstorm { /* yellow */
   background-color: #f9bf3b;
+}
+
+.silversand {
+  background-color: #bdc3c7;
 }
 
 .teal {

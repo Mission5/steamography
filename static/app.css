@@ -161,6 +161,10 @@ a {
   border-color: #adadad;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .box {
   border: 3px red solid;
   margin: 10% 10%;
