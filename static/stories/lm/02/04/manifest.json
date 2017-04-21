@@ -9,9 +9,106 @@
           "<img src='~/01.png' alt='bandaid'/>",
         "</div>"
       ]
+    },
+    {
+      "template": "flex-columns royalblue",
+      "content": [
+        "<div>",
+          "<p>I still remember the day I wore my first official jersey in the NFL—number 4 for the",
+            "Detroit Lions. This was a long way from playing College ball. I had never dreamed of an",
+            "NFL career but most of the guys in camp had been laser focused on this goal for years.</p>",
+          "<p>Tensions ran high as players sought to impress the coaches and gain a spot on the final roster.",
+            "In the NFL some players think the “right stuff” means never showing weakness, and enduring pain",
+            "and injury to get the job done on the field at all costs. The pressure to perform was enormous.</p>",
+        "</div>",
+        "<div><img src='~/02.png' alt='Leland’s at training camp'/></div>"
+      ]
+    },
+    {
+      "template": "content-padded teal max-width-800",
+      "content": [
+        "<p>During the second week of practice, I was running a long route down the sideline and turned to",
+          "catch a pass when I felt it—a pull in my left hamstring. I winced and stumbled to the grass. The",
+          "trainer witnessed the fall and he pulled me out immediately to begin treatment. Pulled hamstrings can",
+          "take as long as a year to heal, but I only had a few weeks at the most to recuperate.</p>",
+        "<p>By the end of July I was training again. I was not fully healed. I knew it intellectually, but",
+          "the coaches were looking for performance. I didn’t want to appear to slack off or use my injury as an",
+          "excuse. I felt I had to give it my all. I got through the preseason, playing well, despite being in",
+          "considerable pain at times.</p>"
+      ]
+    },
+    {
+      "template": "flex-rows sandstorm max-width-800",
+      "content": [
+        "<div>A few days after our fourth preseason game, on a Tuesday morning, there was a knock on the door.</div>",
+        "<div><img src='~/04.png' alt='Knock Knock!'/></div>",
+        "<div>It was the final week of cuts. My roommate was a rookie defensive back from the University of",
+          "Colorado. Playing in the NFL had been his life’s goal. We heard the knock and we both knew what was coming.",
+          "The only question that remained was, <i>“Who?”</i></div>"
+      ]
+    },
+    {
+      "template": "flex-rows red bold text-center",
+      "content": [
+        "<div><img src='~/05.png' alt='Hey, Coach wants to see you guys. Says to bring your playbook.'/></div>",
+        "<div>Both of us were cut.</div>"
+      ]
+    },
+    {
+      "template": "flex-columns malibu text-center",
+      "background": "~/06.png",
+      "content": [
+        "<div></div>",
+        "<div>I was on a plane home to Lynchburg that afternoon.<div>"
+      ]
+    },
+    {
+      "template": "flex-columns silversand",
+      "content": [
+        "<div>I got a second chance at the NFL. The Dallas Cowboys picked me up as a free agent the following",
+          "spring. Things went well and I adjusted to a new team. But like that knock on the door, it only takes",
+          "a moment for everything to change...</div>",
+        "<div><img src='~/07.png' alt='Dallas Cowboys Logo'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns lime",
+      "content": [
+        "<div><img src='~/08.png' alt='Tom Landry'/></div>",
+        "<div>I was out on the practice field with Danny White to catch a few warm-up throws when Coach Tom Landry",
+        "stepped onto the field.</div>"
+      ]
+    },
+    {
+      "template": "flex-columns eucalyptus",
+      "content": [
+        "<div><img src='~/09.png' alt='Danny throwing football'/></div>",
+        "<div>Danny changed the pace and signaled for me to go long at full speed. I took off, turning it into high gear.",
+        "I never caught that pass.</div>"
+      ]
+    },
+    {
+      "template": "flex-columns buttercup",
+      "content": [
+        "<div>",
+          "<p>My hamstring failed again that day, tearing and sending me to the grass in pain.</p>",
+          "<p>I recovered fully from the injury, but the Cowboy’s cut me from the roster.</p>",
+        "</div>",
+        "<div><img src='~/10.png' alt='Leland injured'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns",
+      "content": [
+        "<div><img src='~/11.jpg' alt='Books'/></div>",
+        "<div>",
+          "<p>It was a turning point in my life. I was disappointed to see my new dream of an NFL career end,",
+          "but I had a back-up plan. I went back to graduate school.</p>",
+          "<p><b>I was going to be an engineer.</b></p>",
+        "</div>"
+      ]
     }
   ]
 }
-
 
 
