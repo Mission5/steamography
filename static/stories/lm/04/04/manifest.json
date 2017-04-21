@@ -84,15 +84,67 @@
       ]
     },
     {
-      "template": "callout black",
+      "template": "callout black cover",
       "background": "~/08.jpg",
       "content": [
         "<div class='shadow-box'>",
-          "From space you can see how humans have impacted the land—city lights, roads cutting through the landscape,",
-          "forests disappearing. It's a fragile and beautiful place, one we should all take care to protect.",
+          "From space you can see how humans have impacted the land—city lights...",
+        "</div>"
+      ]
+    },
+    {
+      "template": "callout black cover",
+      "background": "~/09.jpg",
+      "content": [
+        "<div class='shadow-box'>",
+          "...roads cutting through the landscape...",
+        "</div>"
+      ]
+    },
+    {
+      "template": "callout black cover",
+      "background": "~/10.jpg",
+      "content": [
+        "<div class='shadow-box'>",
+          "...and forests disappearing.",
+        "</div>"
+      ]
+    },
+    {
+      "template": "callout black cover",
+      "background": "~/11.jpg",
+      "content": [
+        "<div class='shadow-box'>",
+          "It's a fragile and beautiful place.",
+        "</div>"
+      ]
+    },
+    {
+      "template": "callout black cover",
+      "background": "~/12.jpg",
+      "content": [
+        "<div class='shadow-box'>",
+          "We should all take care to protect our Earth.",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-rows",
+      "content": [
+        "<div>",
+          "<p>Photography is my art.</p>",
+          "<p>Art can change how people view things. Sometimes art focuses on beauty. Sometimes it can inspire",
+          "one person and sometimes many. It can bring the world together through its message. Art is self-expression",
+          "that shares ideas. It can be expressed in music, drawing and painting, dance, literature, acting,",
+          "photography, and many other ways!</p>",
+        "</div>",
+        "<div class='text-center text-large bold'>",
+          "<p>What about you?</p>",
+          "<p>What do you want to express?</p>",
         "</div>"
       ]
     }
+
   ]
 }
 
