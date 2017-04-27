@@ -347,6 +347,44 @@ export default {
     max-width: 100%;
   }
 
+/* template: question */
+  .slide.question ul {
+    padding: 40px 0 40px 10px;
+  }
+
+  .slide.question .choice {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 0 10px 50px;
+    position: relative;
+  }
+
+  .slide.question .choice:before {
+    background: url(/static/media/list-item.png) no-repeat;
+    border: 3px transparent solid;
+    border-radius: 50%;
+    content: '';
+    display: inline-block;
+    height: 35px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 35px;
+    transition: 0.5s border-color;
+  }
+
+  .slide.question input {
+    position: absolute;
+    left: -10000px;
+    height: 1px;
+    width: 1px;
+  }
+
+  .slide.question input:checked + .choice:before {
+    border-color: yellow;
+  }
+
+
 /* generic slide elements */
 
   .slide p {
