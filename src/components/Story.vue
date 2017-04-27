@@ -306,7 +306,7 @@ export default {
 /* template: callout */
 
   .slide.callout > div {
-    font-size: 1.75em;
+    font-size: 1.25em;
     padding: 0 10%;
     text-align: center;
   }
@@ -475,6 +475,10 @@ export default {
 
     .slide.intro h2 {
       font-size: 2.5rem;
+    }
+
+    .slide.callout > div {
+      font-size: 1.75em;
     }
 
     .slide.flex-columns .slide-root {
