@@ -115,6 +115,12 @@ export default {
   .slide.cover {
     background-size: cover;
   }
+  .slide.cover-x-80 {
+    background-position-x: 80%;
+  }
+  .slide.cover-y-20 {
+    background-position-y: 20%;
+  }
 
 .slide-contents {
   align-items: center;
@@ -199,6 +205,11 @@ export default {
   background-color: #1bbaf2;
 }
 
+.midnight {
+  background: #1b4564;
+  color: white;
+}
+
 .pumice { /* light gray */
   background-color: #d2d7d3;
 }
@@ -218,6 +229,16 @@ export default {
 
 .silversand {
   background-color: #bdc3c7;
+}
+
+.space {
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover, auto;
+  background-image:
+    radial-gradient(farthest-corner at 50% 100%, rgba(255,255,255,0.1) 50%, rgba(0,0,0,0.9) 100%),
+    url(/static/media/space.png);
+  color: white;
 }
 
 .teal {
