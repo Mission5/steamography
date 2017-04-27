@@ -430,10 +430,18 @@ export default {
   }
 
   .slide .youtube {
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 */
+    position: relative;
+  }
+
+  .slide .youtube iframe {
     border: none;
-    width: 320px;
-    max-width: 100%;
-    height: 180px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
   }
 
   .slide.max-width-600 .slide-contents {
@@ -512,11 +520,6 @@ export default {
     }
     .slide .img-panel > *:last-child {
       padding-right: 0;
-    }
-
-    .slide .youtube {
-      height: 340px;
-      width: 560px;
     }
 
   }
