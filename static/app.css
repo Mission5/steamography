@@ -72,7 +72,7 @@ h1, h2, h3 {
   letter-spacing: 0.1rem;
   font-size: 1.2rem;
 }
-h1, h2 {
+h1, h2, .text-headline-font {
   font-family: 'Changa One', cursive;
 }
 h1 {
@@ -85,10 +85,6 @@ h2 {
 
 iframe {
   display: block;
-}
-
-.text-large {
-  font-size: 2rem;
 }
 
 section:nth-child(3), section:nth-child(4) {
@@ -127,6 +123,18 @@ section:nth-child(4) {
 
 .text-center {
   text-align: center;
+}
+
+.text-large {
+  font-size: 2rem;
+}
+
+.text-small {
+  font-size: 1rem;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
 }
 
 a {
