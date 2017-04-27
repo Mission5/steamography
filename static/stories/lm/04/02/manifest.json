@@ -9,6 +9,280 @@
           "<img src='~/01.png' alt='space shuttle'/>",
         "</div>"
       ]
+    },
+    {
+      "template": "flex-columns midnight",
+      "content": [
+        "<div>",
+          "<p>A lot of people ask me what it was like to live in space.</p>",
+          "<p>The short answer?</p>",
+          "<p>It was...<img src='~/02a.png' alt='Out of this world'/></p>",
+        "</div>",
+        "<div><img src='~/02b.jpg' alt='Leland in space'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns buttercup",
+      "content": [
+        "<div>",
+          "<p>The science of it is pretty amazing.</p>",
+          "<p>Every astronaut has a unique perspective about living in space.</p>",
+          "<p>The fact is the International Space Station orbits the Earth 16 times in a 24 hour period.</p>",
+          "<p>It was so cool to watch the sun rise 16 times a day!</p>",
+        "</div>",
+        "<div><img src='~/03.jpg' alt='Earth from space'/></div>"
+      ]
+    },
+    {
+      "template": "callout chambray cover slide.cover-x-80 slide.cover-y-20",
+      "background": "~/04.jpg",
+      "content": [
+        "<div class='shadow-box'>",
+          "<p>I also like to ask people questions to see how much they know about living in space.</p>",
+          "<b>Are you ready?</b>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns question space",
+      "content": [
+        "<div>",
+          "<div class='text-headline-font text-large text-uppercase'>How long does it take to get to space?</div>",
+          "<ul class='list-rocket'>",
+            "<li><input id='q05_1' type='radio' name='q05'><label class='choice' for='q05_1'>About 9 minutes</label></li>",
+            "<li><input id='q05_2' type='radio' name='q05'><label class='choice' for='q05_2'>1 hour</label></li>",
+            "<li><input id='q05_3' type='radio' name='q05'><label class='choice' for='q05_3'>48 hours</label></li>",
+          "</ul>",
+          "<i class='text-small'>Use the next button to see if you’re right!</li>",
+        "</div>",
+        "<div><img src='~/05.jpg' alt='Space Shuttle Launch'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns buttercup",
+      "content": [
+        "<div>",
+          "<p>It takes about nine minutes for the space shuttle to reach Low Earth Orbit (LEO).</p>",
+          "<p>Nine minutes I’ll never forget. Hearing the countdown…6…5...4. Feeling the main engines fire up. ",
+            "The shuttle tilts forward and back—a move we call the “TWANG” at NASA. 3…2…1…0. The solid rocket boosters roar to life…</p>",
+          "<p class='text-large text-headline-font text-center'>LIFTOFF!</p>",
+          "<p>Imagine accelerating over 100 miles per hour in a sports car. Only it was 100,000 times more intense! As we ",
+            "approached 17,500 mph, I was pinned to my seat. My chest was tight. I was laboring to breathe. But I was totally excited!</p>",
+        "</div>",
+        "<div>",
+          "<div class='youtube'><iframe allowfullscreen src='https://www.youtube.com/embed/VesapqgDJzs?enablejsapi=true&showinfo=0&rel=0'></iframe></div>",
+          "<figcaption>My first launch aboard the Space Shuttle Atlantis took place in February of 2008. I was privileged to be assigned",
+          "to a second mission, STS129, in November of 2009.</figcaption>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns question space",
+      "content": [
+        "<div>",
+          "<div class='text-headline-font text-large text-uppercase'>What do you eat?</div>",
+          "<ul class='list-rocket'>",
+            "<li><input id='q07_1' type='radio' name='q07'><label class='choice' for='q07_1'>Frozen TV dinners</label></li>",
+            "<li><input id='q07_2' type='radio' name='q07'><label class='choice' for='q07_2'>Powdered drinks mixed with water</label></li>",
+            "<li><input id='q07_3' type='radio' name='q07'><label class='choice' for='q07_3'>The same things you eat on earth</label></li>",
+          "</ul>",
+          "<i class='text-small'>Use the next button to see if you’re right!</li>",
+        "</div>",
+        "<div><img src='~/07.jpg' alt='Leland eating food in space'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns",
+      "content": [
+        "<div>",
+          "<p>Astronauts eat a lot of the same things you eat on Earth, but it’s prepared differently. Food on the space ",
+          "station has been thermally stabilized and irradiated. People expect it to taste terrible, but it’s actually ",
+          "pretty good (and we stock lots of condiments like ketchup and hot sauce).</p>",
+          "<p>My favorites included beef brisket, mac and cheese, and string beans with almonds. M&M’s and Raisinettes ",
+          "made great snacks, with the added bonus of being fun to play with. Check out the video to find out why.</p>",
+        "</div>",
+        "<div>",
+          "<div class='youtube'><iframe allowfullscreen src='https://www.youtube.com/embed/h8FJoFgALsQ?enablejsapi=true&showinfo=0&rel=0'></iframe></div>",
+          "<figcaption>One of my best memories is sharing a meal with all of the space station crew. Breaking bread with people of different races, from all ",
+          "different places, gives me hope that we can live in unity here on Earth.</figcaption>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-rows malibu",
+      "content": [
+        "<div>",
+          "But the best meal I ever had in space wasn’t real. It was a figment of my imagination—a burger, dripping with cheese,",
+          "that floated through my dreams. I chomped on that cheeseburger until there was nothing left to chew. ",
+        "</div>",
+        "<div><img src='~/09.png' alt='Hamburger'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns question space",
+      "content": [
+        "<div>",
+          "<div class='text-headline-font text-large text-uppercase'>What do you sleep?</div>",
+          "<ul class='list-rocket'>",
+            "<li><input id='q10_1' type='radio' name='q10'><label class='choice' for='q10_1'>In a bed</label></li>",
+            "<li><input id='q10_2' type='radio' name='q10'><label class='choice' for='q10_2'>On the ceiling</label></li>",
+            "<li><input id='q10_3' type='radio' name='q10'><label class='choice' for='q10_3'>Where ever you can float</label></li>",
+          "</ul>",
+          "<i class='text-small'>Use the next button to see if you’re right!</li>",
+        "</div>",
+        "<div><img src='~/10.jpg' alt='Leland lying down in space'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns",
+      "content": [
+        "<div>",
+          "<p>In space, you might be sleeping on the ceiling, you just don’t know it! There is no “up” or “down” because you are always able to float to any surface.</p>",
+          "<p>The space station is about as big as a house with six rooms so we utilize every available surface for sleeping—the walls, the ceiling and the floor!</p>",
+          "<p>Sleeping quarters on the station are really small. Each sleep station is a bit bigger than a sleeping bag, with just enough room for a computer and a few books.</p>",
+          "<p>We strap our sleeping bags to the wall with bungees or velcro, zipped them up and floated in place while we slept.</p>",
+        "</div>",
+        "<div>",
+          "<div class='youtube'><iframe allowfullscreen src='https://www.youtube.com/embed/2Zgz42bC83U?enablejsapi=true&showinfo=0&rel=0'></iframe></div>",
+          "<figcaption>The velcro straps and zippers kept us from floating away and bumping into equipment and supplies as we slept.</figcaption>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns question space",
+      "content": [
+        "<div>",
+          "<div class='text-headline-font text-large text-uppercase'>Why do you have to exercise in space?</div>",
+          "<ul class='list-rocket'>",
+            "<li><input id='q12_1' type='radio' name='q12'><label class='choice' for='q12_1'>To lose weight</label></li>",
+            "<li><input id='q12_2' type='radio' name='q12'><label class='choice' for='q12_2'>To keep bones strong</label></li>",
+            "<li><input id='q12_3' type='radio' name='q12'><label class='choice' for='q12_3'>To float better</label></li>",
+          "</ul>",
+          "<i class='text-small'>Use the next button to see if you’re right!</li>",
+        "</div>",
+        "<div><img src='~/12.jpg' alt='Leland exercising in space'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns pumice",
+      "content": [
+        "<div>",
+          "<p>Without gravity, human bones change and lose calcium, becoming more brittle. As a preventive measure, we use bikes",
+          "that give us a good cardio workout, as well as treadmills and a Resistive Exercise Device (RED) specially designed to help",
+          "us combat the loss of bone density.</p>",
+          "<p>The lack of gravity affects bones in other funky ways. For example, every vertebra stretches out a little, elongating",
+          "the spine. I’m five foot eleven on Earth but in space I was six feet tall!</p>",
+        "</div>",
+        "<div>",
+          "<div class='youtube'><iframe allowfullscreen src='https://www.youtube.com/embed/rRM7kFRT2Tw?enablejsapi=true&showinfo=0&rel=0'></iframe></div>",
+          "<figcaption>I’m still an avid biker and was really glad to have biking as an exercise option in space!</figcaption>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns question space",
+      "content": [
+        "<div>",
+          "<div class='text-headline-font text-large text-uppercase'>What is the coolest thing you see up there?</div>",
+          "<ul class='list-rocket'>",
+            "<li><input id='q14_1' type='radio' name='q14'><label class='choice' for='q14_1'>Aliens</label></li>",
+            "<li><input id='q14_2' type='radio' name='q14'><label class='choice' for='q14_2'>Our home planet</label></li>",
+            "<li><input id='q14_3' type='radio' name='q14'><label class='choice' for='q14_3'>Sunbursts</label></li>",
+          "</ul>",
+          "<i class='text-small'>Use the next button to see if you’re right!</li>",
+        "</div>",
+        "<div><img src='~/14.jpg' alt='Leland taking a photo from space'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns pumice",
+      "content": [
+        "<div>",
+          "<p>I saw so many amazing things from the vantage point of space. There was the green glow from above the southern",
+          "hemisphere that flashed like sunbursts—colors exploding unexpectedly right before my eyes. It was crazy and beautiful",
+          "and so different from the purple, yellow and blue lights—the aurora borealis—I’d seen in the northern hemisphere.</p>",
+          "<p>I took a lot of pictures in space so I would always have those images with me.</p>",
+          "<p>But the coolest thing I saw was our home planet, mother Earth, shining out like a beacon in the vastness of space.",
+          "It is a sight that changes your perspective forever.</p>",
+        "</div>",
+        "<div><img src='~/15a.jpg' alt='aurora borealis'/><br/><img src='~/15b.jpg' alt='earth'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns question space",
+      "content": [
+        "<div>",
+          "<div class='text-headline-font text-large text-uppercase'>What happens if you get sick?</div>",
+          "<ul class='list-rocket'>",
+            "<li><input id='q16_1' type='radio' name='q16'><label class='choice' for='q16_1'>NASA sends up a doctor (or you get sent home!)</label></li>",
+            "<li><input id='q16_2' type='radio' name='q16'><label class='choice' for='q16_2'>You are quarantined</label></li>",
+            "<li><input id='q16_3' type='radio' name='q16'><label class='choice' for='q16_3'>One of your crewmates helps you out</label></li>",
+          "</ul>",
+          "<i class='text-small'>Use the next button to see if you’re right!</li>",
+        "</div>",
+        "<div><img src='~/16.jpg' alt='Leland taking a photo from space'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns pumice",
+      "content": [
+        "<div>",
+          "<p>In space, if you get sick, you don’t just send for the doctor! You are treated by one of your crewmates who has been trained",
+          "to deal with medical emergencies.</p>",
+          "<p>I was the medical officer on my first mission (STS122) and had to learn how to treat illness, stitch up wounds and diagnose",
+          "symptoms. For some astronauts, including me, symptoms like nausea and diarrhea feel a lot different in space due to the lack of",
+          "gravity – which means there’s not much warning—so we have to be really careful.</p>",
+          "<p>I won’t go into detail but just remember—in space EVERYTHING floats!</p>",
+        "</div>",
+        "<div><img src='~/17.jpg' alt='Leland giving a shot to a fellow astronaut'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns question space",
+      "content": [
+        "<div>",
+          "<div class='text-headline-font text-large text-uppercase'>What kind of work do you do in space?</div>",
+          "<ul class='list-rocket'>",
+            "<li><input id='q18_1' type='radio' name='q18'><label class='choice' for='q18_1'>Scientific Research</label></li>",
+            "<li><input id='q18_2' type='radio' name='q18'><label class='choice' for='q18_2'>Operate complex machinery</label></li>",
+            "<li><input id='q18_3' type='radio' name='q18'><label class='choice' for='q18_3'>Repair broken parts on the space station</label></li>",
+          "</ul>",
+          "<i class='text-small'>Use the next button to see if you’re right!</li>",
+        "</div>",
+        "<div><img src='~/18.jpg' alt='Leland working in space'/></div>"
+      ]
+    },
+    {
+      "template": "content-padded",
+      "content" :[
+        "<p>This was a bit of a trick question. We do all three! Astronauts are trained to perform multiple duties in space.</p>",
+        "<p>I was a mission specialist and operated the robotic arm, installing the Columbus Laboratory onto the",
+        "Space Station. With the arm we also help maneuver astronauts around during their spacewalks as they repair",
+        "and replace parts on the Space Station.</p>",
+        "<div class='img-panel'>",
+          "<div><img src='~/19a.jpg' alt='Leland doing science experiment in space'/></div>",
+          "<div><img src='~/19b.jpg' alt='Leland floating in space'/></div>",
+          "<div><img src='~/19c.jpg' alt='Astronaut with robotic arm'/></div>",
+        "</div>",
+        "<p>The station is a research facility and all of us help perform experiments and collect data to further our scientific knowledge about the effects of living in space.<p>"
+      ]
+    },
+    {
+      "template": "flex-columns pumice",
+      "content": [
+        "<div>",
+          "<p>Living in a free fall environment presents a lot of challenges and life in space can be difficult.",
+          "There is no water, no oxygen, and you are in a constant state of freefall. Scientists and researchers have",
+          "to come up with creative ways to do even the simplest things, like brushing your teeth.</p>",
+          "<p>And maintaining the space station is a lot of work. We train for years to be perfect in everything we",
+          "do because a mistake could cost someone their life.</p>",
+          "<p>Sometimes we get homesick, but we also have fun! I was even lucky enough to get to play football in space.</p>",
+        "</div>",
+        "<div>",
+          "<div class='youtube'><iframe allowfullscreen src='https://www.youtube.com/embed/MFTsTnxkXq0?enablejsapi=true&showinfo=0&rel=0'></iframe></div>",
+          "<figcaption>Playing football in space</figcaption>",
+        "</div>"
+      ]
     }
   ]
 }
