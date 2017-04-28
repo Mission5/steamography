@@ -1,12 +1,8 @@
 <template>
   <div class="experiments">
-    <h2>STEAM Activities</h2>
+    <h2>STEAM Power</h2>
     <!-- sprite this! -->
-    <img src="static/media/i1.png" alt="Science"/>
-    <img src="static/media/i3.png" alt="Technology"/>
-    <img src="static/media/i5.png" alt="Engineering"/>
-    <img src="static/media/i2.png" alt="Art"/>
-    <img src="static/media/i4.png" alt="Math"/>
+    <p class="tagline">Activities and resources to help you harness all the STEAM Power you can!</p>
     <ul class="activities">
       <li v-for="activity in activities" class="activity">
         <h3>{{activity.title}}</h3>
@@ -77,6 +73,18 @@ export default {
 </script>
 
 <style scoped>
+
+  h2 {
+    border-bottom: 1px #000 solid;
+    padding-bottom: 4px;
+  }
+
+  .tagline {
+    color: #3c7bb1;
+    font-size: 1.2rem;
+    font-style: italic;
+    padding-top: 4px;
+  }
 
   .activity {
     padding: 1rem 1rem 1rem 0;
