@@ -122,7 +122,7 @@
       "template": "flex-columns question space",
       "content": [
         "<div>",
-          "<div class='text-headline-font text-large text-uppercase'>What do you sleep?</div>",
+          "<div class='text-headline-font text-large text-uppercase'>Where do you sleep?</div>",
           "<ul class='list-rocket'>",
             "<li><input id='q10_1' type='radio' name='q10'><label class='choice' for='q10_1'>In a bed</label></li>",
             "<li><input id='q10_2' type='radio' name='q10'><label class='choice' for='q10_2'>On the ceiling</label></li>",
