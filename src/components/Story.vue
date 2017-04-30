@@ -4,6 +4,7 @@
 
   <div class="slides">
     <div v-for="(slide, index) in slides" class="slide" ref="slide"
+      v-on:touchstart="swipe" v-on:touchend="swipe"
       v-bind:class="[slide.template, {current: index===current, before: index < current, after: index > current}]"
       :style="slide.background ? 'backgroundImage: url(' + macros(slide.background, story.id) + ')' : ''">
       <div class="slide-contents">
@@ -31,7 +32,8 @@ export default {
       slides: [],
       macros: function (content, id) {
         return content.replace(/~\//gi, '/static/stories/' + id + '/')
-      }
+      },
+      touchStartPosition: null
     }
   },
   methods: {
@@ -61,6 +63,21 @@ export default {
       var slide = this.$refs.slide[this.current]
       var iframe = slide.querySelector('iframe')
       if (iframe) iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
+    },
+    swipe: function (e) {
+      if (e.type === 'touchstart' && e.touches.length === 1) {
+        this.touchStartPosition = e.touches[0]
+        this.touchStartPosition.timeStamp = e.timeStamp
+      } else if (e.type === 'touchend' &&
+        this.touchStartPosition && e.timeStamp < this.touchStartPosition.timeStamp + 500) {
+        var touch = e.changedTouches[0]
+        var deltaX = this.touchStartPosition.screenX - touch.screenX
+        var deltaY = this.touchStartPosition.screenY - touch.screenY
+        if (Math.abs(deltaX) > 150 && Math.abs(deltaX) > Math.abs(deltaY)) {
+          var direction = (deltaX > 0) ? 'next' : 'back'
+          this[direction]()
+        }
+      }
     }
   },
   created () {
