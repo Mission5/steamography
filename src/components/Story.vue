@@ -471,6 +471,12 @@ export default {
   .slide.max-width-800 .slide-contents {
     max-width: 800px;
   }
+  .slide.max-width-1000 .slide-contents {
+    max-width: 1000px;
+  }
+  .slide.max-width-1200 .slide-contents {
+    max-width: 1200px;
+  }
 
   @media screen and (max-width: 767px) {
 
