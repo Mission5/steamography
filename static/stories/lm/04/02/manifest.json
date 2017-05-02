@@ -34,7 +34,7 @@
       ]
     },
     {
-      "template": "callout chambray cover slide.cover-x-80 slide.cover-y-20",
+      "template": "callout chambray cover cover-x-80 cover-y-20",
       "background": "~/04.jpg",
       "content": [
         "<div class='shadow-box'>",
@@ -53,7 +53,7 @@
             "<li><input id='q05_2' type='radio' name='q05'><label class='choice' for='q05_2'>1 hour</label></li>",
             "<li><input id='q05_3' type='radio' name='q05'><label class='choice' for='q05_3'>48 hours</label></li>",
           "</ul>",
-          "<i class='text-small'>Use the next button to see if you’re right!</li>",
+          "<i class='text-small'>Use the next button to see if you’re right!</i>",
         "</div>",
         "<div><img src='~/05.jpg' alt='Space Shuttle Launch'/></div>"
       ]
@@ -86,7 +86,7 @@
             "<li><input id='q07_2' type='radio' name='q07'><label class='choice' for='q07_2'>Powdered drinks mixed with water</label></li>",
             "<li><input id='q07_3' type='radio' name='q07'><label class='choice' for='q07_3'>The same things you eat on earth</label></li>",
           "</ul>",
-          "<i class='text-small'>Use the next button to see if you’re right!</li>",
+          "<i class='text-small'>Use the next button to see if you’re right!</i>",
         "</div>",
         "<div><img src='~/07.jpg' alt='Leland eating food in space'/></div>"
       ]
@@ -128,7 +128,7 @@
             "<li><input id='q10_2' type='radio' name='q10'><label class='choice' for='q10_2'>On the ceiling</label></li>",
             "<li><input id='q10_3' type='radio' name='q10'><label class='choice' for='q10_3'>Where ever you can float</label></li>",
           "</ul>",
-          "<i class='text-small'>Use the next button to see if you’re right!</li>",
+          "<i class='text-small'>Use the next button to see if you’re right!</i>",
         "</div>",
         "<div><img src='~/10.jpg' alt='Leland lying down in space'/></div>"
       ]
@@ -158,7 +158,7 @@
             "<li><input id='q12_2' type='radio' name='q12'><label class='choice' for='q12_2'>To keep bones strong</label></li>",
             "<li><input id='q12_3' type='radio' name='q12'><label class='choice' for='q12_3'>To float better</label></li>",
           "</ul>",
-          "<i class='text-small'>Use the next button to see if you’re right!</li>",
+          "<i class='text-small'>Use the next button to see if you’re right!</i>",
         "</div>",
         "<div><img src='~/12.jpg' alt='Leland exercising in space'/></div>"
       ]
@@ -189,7 +189,7 @@
             "<li><input id='q14_2' type='radio' name='q14'><label class='choice' for='q14_2'>Our home planet</label></li>",
             "<li><input id='q14_3' type='radio' name='q14'><label class='choice' for='q14_3'>Sunbursts</label></li>",
           "</ul>",
-          "<i class='text-small'>Use the next button to see if you’re right!</li>",
+          "<i class='text-small'>Use the next button to see if you’re right!</i>",
         "</div>",
         "<div><img src='~/14.jpg' alt='Leland taking a photo from space'/></div>"
       ]
@@ -218,7 +218,7 @@
             "<li><input id='q16_2' type='radio' name='q16'><label class='choice' for='q16_2'>You are quarantined</label></li>",
             "<li><input id='q16_3' type='radio' name='q16'><label class='choice' for='q16_3'>One of your crewmates helps you out</label></li>",
           "</ul>",
-          "<i class='text-small'>Use the next button to see if you’re right!</li>",
+          "<i class='text-small'>Use the next button to see if you’re right!</i>",
         "</div>",
         "<div><img src='~/16.jpg' alt='Leland taking a photo from space'/></div>"
       ]
@@ -247,7 +247,7 @@
             "<li><input id='q18_2' type='radio' name='q18'><label class='choice' for='q18_2'>Operate complex machinery</label></li>",
             "<li><input id='q18_3' type='radio' name='q18'><label class='choice' for='q18_3'>Repair broken parts on the space station</label></li>",
           "</ul>",
-          "<i class='text-small'>Use the next button to see if you’re right!</li>",
+          "<i class='text-small'>Use the next button to see if you’re right!</i>",
         "</div>",
         "<div><img src='~/18.jpg' alt='Leland working in space'/></div>"
       ]
@@ -283,9 +283,35 @@
           "<figcaption>Playing football in space</figcaption>",
         "</div>"
       ]
+    },
+    {
+      "template": "callout black cover cover-y-20",
+      "background": "~/21.jpg",
+      "content": [
+        "<div class='shadow-box'>",
+          "I wouldn’t trade my experience on the International Space Station for anything...",
+        "</div>"
+      ]
+    },
+    {
+      "template": "content-padded text-center max-width-1200",
+      "content" :[
+        "<p>...but life on Earth is pretty good too.</p>",
+        "<div class='img-panel'>",
+          "<div><img src='~/22a.jpg' alt='Leland with dogs and Leland with Elmo'/></div>",
+          "<div><img src='~/22b.jpg' alt='Leland with the Obamas and Leland and his motorcycle'/></div>",
+          "<div><img src='~/22c.jpg' alt='Leland in a parade and Leland enjoying nature'/></div>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "callout black cover",
+      "background": "~/23.jpg",
+      "content": [
+        "<div class='shadow-box'>",
+          "Working together we can take care of this planet we call home.",
+        "</div>"
+      ]
     }
   ]
 }
-
-
-
