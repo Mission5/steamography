@@ -174,10 +174,9 @@ a {
 }
 
 .box {
-  border: 3px red solid;
-  margin: 10% 10%;
-  padding: 5% 25%;
-  text-align: center;
+  border: 3px #777 solid;
+  margin: 5% 5%;
+  padding: 5% 5%;
 }
 
   .padded, .padded-md {
