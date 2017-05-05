@@ -163,6 +163,7 @@ export default {
     right: 0;
     top: 0;
     width: 40px;
+    z-index: 100;
   }
 
   h2 {
