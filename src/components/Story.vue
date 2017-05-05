@@ -456,10 +456,6 @@ export default {
     font-weight: bold;
   }
 
-  .slide.text-large {
-    font-size: 1.75em;
-  }
-
   .slide figcaption {
     font-size: 0.8rem;
     font-style: italic;
