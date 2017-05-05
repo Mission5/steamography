@@ -305,7 +305,7 @@
       ]
     },
     {
-      "template": "callout black cover",
+      "template": "callout black cover cover-x-20 cover-y-80",
       "background": "~/23.jpg",
       "content": [
         "<div class='shadow-box'>",

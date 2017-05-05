@@ -132,12 +132,31 @@ export default {
   .slide.cover {
     background-size: cover;
   }
+  .slide.cover-x-20 {
+    background-position-x: 20%;
+  }
+  .slide.cover-x-40 {
+    background-position-x: 40%;
+  }
+  .slide.cover-x-60 {
+    background-position-x: 60%;
+  }
   .slide.cover-x-80 {
     background-position-x: 80%;
   }
   .slide.cover-y-20 {
     background-position-y: 20%;
   }
+  .slide.cover-y-40 {
+    background-position-y: 40%;
+  }
+  .slide.cover-y-60 {
+    background-position-y: 60%;
+  }
+  .slide.cover-y-80 {
+    background-position-y: 80%;
+  }
+
 
 .slide-contents {
   align-items: center;
