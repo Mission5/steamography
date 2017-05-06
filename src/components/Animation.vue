@@ -37,11 +37,11 @@
 
   .title {
     animation: fadeIn 3s 3s forwards ease-in-out;
-    left: 5%;
+    left: 0;
     opacity: 0;
     text-align: center;
-    top: 30%;
-    width: 45%;
+    top: 24%;
+    width: 37%;
   }
 
   h2 {
