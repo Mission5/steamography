@@ -33,6 +33,7 @@ export default {
       macros: function (content, id) {
         return content.replace(/~\//gi, '/static/stories/' + id + '/')
       },
+      title: '',
       touchStartPosition: null
     }
   },
@@ -78,6 +79,15 @@ export default {
           this[direction]()
         }
       }
+    },
+    updateGA: function () {
+      var location = '/static/stories/' + this.story.id + '/' + this.current
+      console.log(location)
+      this.$ga.page({
+        page: location,
+        title: this.title + ': Page ' + (this.current + 1),
+        location: location
+      })
     }
   },
   created () {
@@ -85,8 +95,12 @@ export default {
     if (this.story.id) {
       this.$http.get('/static/stories/' + this.story.id + '/manifest.json').then(response => {
         this.slides = response.body.slides
+        this.title = response.body.title
+        this.updateGA()
       }, response => {
         this.slides = fallback
+        this.title = 'Error: Failed to Get Story'
+        this.updateGA()
       })
     } else {
       this.slides = fallback
@@ -95,6 +109,11 @@ export default {
   },
   beforeDestroy () {
     window.removeEventListener('keyup', this.keyHandler)
+  },
+  watch: {
+    current: function (val) {
+      this.updateGA()
+    }
   }
 }
 </script>

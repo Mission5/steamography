@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import VueAnalytics from 'vue-analytics'
 import Router from 'vue-router'
 import About from 'components/Page-About'
 import Contact from 'components/Page-Contact'
@@ -6,7 +7,7 @@ import Main from 'components/Page-Main'
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
   routes: [
     {
       path: '/',
@@ -32,3 +33,10 @@ export default new Router({
     }
   }
 })
+
+Vue.use(VueAnalytics, {
+  id: 'UA-98658016-1',
+  router
+})
+
+export default router
