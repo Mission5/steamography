@@ -37,6 +37,7 @@ export default {
     height: 100%;
     justify-content: center;
     left: 0;
+    padding-top: 2vh;
     position: fixed;
     top: 0;
     transition: opacity .3s ease;
