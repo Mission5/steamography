@@ -13,7 +13,7 @@
     {
       "template": "flex-rows malibu text-center",
       "content": [
-        "<div>One summer my dad came home in a vehicle I didn’t recognize.</div>",
+        "<div>One summer day... my dad came home in a vehicle I didn’t recognize.</div>",
         "<div><img src='~/02.jpg' alt='Leland looking at white van'/></div>"
       ]
     },
