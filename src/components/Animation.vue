@@ -1,19 +1,32 @@
 <template>
-  <div class="animation-container">
+  <div class="animation-container" v-bind:class="{ loading: graphicsLoaded < 2 }">
     <div class="animation">
-      <img class="background" src="static/media/animation-background.jpg" alt="Surface of Moon with Earth in background"/>
+      <img class="background" src="static/media/animation-background.jpg" v-on:load="loaded()" alt="Surface of Moon with Earth in background"/>
       <div class="title">
         <h2>LELAND MELVIN</h2>
         <div class="subtext"><span>ASTRONAUT</span><span>S.T.E.A.M.</span><span>EXPLORER</span></div>
       </div>
-      <img class="leland" src="static/media/animation-leland.gif" alt="Leland in spacesuit saluting"/>
+      <img class="leland" src="static/media/animation-leland.gif" v-on:load="loaded()" alt="Leland in spacesuit saluting"/>
+    </div>
+    <div class="preloader">
+      <img src="static/media/animation-preloader.gif" alt="preloading"/>
     </div>
   </div>
 </template>
 
 <script>
   export default {
-    name: 'animation'
+    name: 'animation',
+    data () {
+      return {
+        graphicsLoaded: 0
+      }
+    },
+    methods: {
+      loaded: function (e) {
+        this.graphicsLoaded++
+      }
+    }
   }
 </script>
 
@@ -25,23 +38,38 @@
   }
 
   .animation {
-    animation: scaleIn 3s ease-out;
     height: 100%;
+    left: 0;
     width: 100%;
+    position: absolute;
+    transition: all 3s ease-out;
+    transform: scale(1);
+  }
+
+  .background, .leland, .preloader, .title {
     position: absolute;
   }
 
-  .background, .leland, .title {
-    position: absolute;
+  .preloader {
+    align-items: center;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+
+  .loading .preloader {
+    display: flex;
   }
 
   .title {
-    animation: fadeIn 3s 3s forwards ease-in-out;
     left: 0;
-    opacity: 0;
     text-align: center;
-    top: 24%;
-    width: 37%;
+    top: 16%;
+    transition: opacity 3s 3s ease-in-out;
+    width: 45%;
   }
 
   h2 {
@@ -71,25 +99,13 @@
     width: 50%;
   }
 
-  @keyframes scaleIn {
-    from {
-      transform: scale(1.5);
-      left: -20%;
-    }
-
-    to {
-      transform: scale(1);
-      left: 0;
-    }
+  .loading .animation {
+    transform: scale(1.5);
+    left: -20%;
   }
 
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-
-    to {
-      opacity: 1;
-    }
+  .loading .title {
+    opacity: 0;
   }
+
 </style>
