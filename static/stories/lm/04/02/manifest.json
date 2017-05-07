@@ -253,7 +253,7 @@
       ]
     },
     {
-      "template": "content-padded max-width-800",
+      "template": "content-padded pumice max-width-800",
       "content" :[
         "<p>This was a bit of a trick question. We do all three! Astronauts are trained to perform multiple duties in space.</p>",
         "<p>I was a mission specialist and operated the robotic arm, installing the Columbus Laboratory onto the",
