@@ -5,7 +5,7 @@
   <div class="text-center">
   <p><b>S.T.E.A.M.</b> Science . Technology . Engineering . Arts . Math</p>
   <p><b>OGRAPHY</b> Writing . Representation . Descriptive . Visual . Story</p>
-  <p>The power of S.T.E.A.M. driven by the power of STORY.</p>
+  <p><b>STEAMography</b> The power of S.T.E.A.M. driven by the power of STORY.</p>
 </div>
   <hr/>
 
@@ -20,7 +20,7 @@
 
   <p>
     STEAMography encourages learning as exploration. Interactive stories reveal the influential role
-    that STEAM-oriented education has played in Leland’s life. These real-life moments provide a way
+    that S.T.E.A.M.-oriented education has played in Leland’s life. These real-life moments provide a way
     for kids to engage with S.T.E.A.M. in an inspirational context.  A strong portfolio of STEAMographies
     will help spark, develop, and reinforce their interest in S.T.E.A.M. topics.
   </p>
