@@ -82,7 +82,6 @@ export default {
     },
     updateGA: function () {
       var location = '/static/stories/' + this.story.id + '/' + this.current
-      console.log(location)
       this.$ga.page({
         page: location,
         title: this.title + ': Page ' + (this.current + 1),
@@ -495,10 +494,27 @@ export default {
     max-width: 100%; /* undo the others */
   }
 
-  .slide .shadow-box {
+  .slide .speech-bubble {
+    background-color: #fff;
+    border: 4px black solid;
+    border-radius: 30px;
+    padding: 30px;
+  }
+    .slide .speech-bubble:before {
+      content: open-quote;
+    }
+    .slide .speech-bubble:after {
+      content: close-quote;
+    }
+
+  .slide .shadow-box, .slide .shadow-box-white {
     background-color: rgba(0,0,0,0.5);
     border-radius: 10px;
     padding: 10px;
+  }
+  .slide .shadow-box-white {
+    background-color: rgba(255,255,255,0.8);
+    color: black;
   }
 
   .slide .youtube {
@@ -576,6 +592,9 @@ export default {
     }
     .slide.flex-columns .slide-root > div {
       flex: 1;
+    }
+    .slide.flex-columns .slide-root > .flex-2 {
+      flex: 2;
     }
     .slide.flex-columns .slide-root > div {
       margin: 0 5%;

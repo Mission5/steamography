@@ -9,9 +9,114 @@
           "<img src='~/01.png' alt='truck'/>",
         "</div>"
       ]
+    },
+    {
+      "template": "flex-rows malibu text-center",
+      "content": [
+        "<div>One summer my dad came home in a vehicle I didn’t recognize.</div>",
+        "<div><img src='~/02.jpg' alt='Leland looking at white van'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns malibu",
+      "background": "~/03b.png",
+      "content": [
+        "<div class='text-large'>I asked my dad, \"Did you get a job as a bread delivery guy? Am I going to have to deliver bread?\"</div>",
+        "<div></div>"
+      ]
+    },
+    {
+      "template": "flex-columns buttercup",
+      "content": [
+        "<div>",
+          "<p>Dad always took on extra work, since he didn't make a ton of money as a teacher.</p>",
+          "<p>More often than not, I had to help and I thought this was another side job.</p>",
+        "</div>",
+        "<div><img src='~/04.png' alt='Leland’s father as teacher writing on a chalkboard'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns lime text-center",
+      "content": [
+        "<div class='flex-2'><img src='~/05.png' alt='The bread truck is going to be our family camper'/></div>",
+        "<div><p>I could not believe this.</p><p class='text-large bold'>THERE WAS NO WAY!!!</p></div>"
+      ]
+    },
+    {
+      "template": "callout cover cover-y-20",
+      "background": "~/06.jpg",
+      "content": [
+        "<div class='shadow-box-white'>",
+          "I thought his idea was BONKERS! But my dad, he had vision. He could see how it would turn out before we even got started.",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns sandstorm",
+      "content": [
+        "<div>",
+          "<p>This was my first introduction to engineering. My dad saw the bread truck and it was like a puzzle for him. He could",
+            "imagine a practical way to make the truck into something better.</p>",
+          "<p>We had access to all the pieces and he knew how to put them all together to make them work. He could envision it all.</p>",
+        "</div>",
+        "<div><img src='~/07.jpg' alt='Dad with his blueprints'/></div>"
+      ]
+    },
+    {
+      "template": "flex-rows chambray text-center",
+      "content": [
+        "<div><p>He shared his vision with me. There would be a set of bunk beds for me and my sister.</p></div>",
+        "<div><img src='~/08.jpg' alt='Inside of van with bunk beds highlighted'/></div>"
+        ]
+    },
+    {
+      "template": "flex-rows chambray text-center",
+      "content": [
+        "<div><p>A pullout couch where my parents would sleep.</p></div>",
+        "<div><img src='~/09.jpg' alt='Inside of van with pullout couch highlighted'/></div>"
+        ]
+    },
+    {
+      "template": "flex-rows chambray text-center",
+      "content": [
+        "<div><p>There was even enough space for a small camping stove and a corner where we could tuck in a little table.</p></div>",
+        "<div><img src='~/10.jpg' alt='Inside of van with stove and table highlighted'/></div>"
+        ]
+    },
+    {
+      "template": "flex-rows lime text-center",
+      "content": [
+        "<div>",
+          "<p>I still couldn’t see his vision.</p>",
+          "<p>Once we got into the work of it, though, it was like the layers of his vision started to show through for me.</p>",
+        "</div>",
+        "<div><img src='~/11.jpg' alt='Interior of completed van'/></div>",
+        "<div>Over the summer, as we built the bunks together, ran the propane line to the stove, and installed the couch, the vision became more real.</div>"
+        ]
+    },
+    {
+      "template": "flex-rows malibu text-center",
+      "content": [
+        "<div><p>When we finally painted over the Merita bread sign, my dad’s vision—the thing he had imagined",
+          "when he saw that old bread truck for sale—was now complete.</p></div>",
+        "<div><img src='~/12.png' alt='Painting over sign'/></div>"
+        ]
+    },
+    {
+      "template": "flex-rows sandstorm text-center",
+      "content": [
+        "<div><p>It wasn’t the most beautiful thing in the world, but it had everything we needed.</p></div>",
+        "<div><img src='~/13.png' alt='Image of van'/></div>"
+        ]
+    },
+    {
+      "template": "flex-rows text-center",
+      "content": [
+        "<div><p>I learned something working with my dad. He taught me how to use my imagination. He taught me how to design",
+          "and build what I envisioned—that vision means you look beyond the here and now.</p></div>",
+        "<div><img src='~/14.png' alt='Inside of van with stove and table highlighted'/></div>",
+        "<div>Thanks dad!</div>"
+        ]
     }
   ]
 }
-
-
-
