@@ -74,7 +74,7 @@ export default {
         var touch = e.changedTouches[0]
         var deltaX = this.touchStartPosition.screenX - touch.screenX
         var deltaY = this.touchStartPosition.screenY - touch.screenY
-        if (Math.abs(deltaX) > 150 && Math.abs(deltaX) > Math.abs(deltaY)) {
+        if (Math.abs(deltaX) > 100 && Math.abs(deltaX) > Math.abs(deltaY)) {
           var direction = (deltaX > 0) ? 'next' : 'back'
           this[direction]()
         }
