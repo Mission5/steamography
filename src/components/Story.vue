@@ -490,6 +490,27 @@ export default {
       width: 100%;
     }
 
+  .slide .img-panel-captioned div {
+    position: relative;
+  }
+    .slide .img-panel-captioned figcaption {
+      background-color: rgba(0, 0, 0, 0.5);
+      bottom: 0;
+      color: #fff;
+      font-size: 1.5rem;
+      font-style: normal;
+      left: 10px;
+      padding: 10px;
+      position: absolute;
+      right: 10px;
+    }
+    .slide .img-panel-captioned div:first-of-type figcaption {
+      left: 0;
+    }
+    .slide .img-panel-captioned div:last-of-type figcaption {
+      right: 0;
+    }
+
   .slide img {
     max-width: 100%; /* undo the others */
   }

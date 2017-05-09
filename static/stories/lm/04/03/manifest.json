@@ -9,9 +9,133 @@
           "<img src='~/01.png' alt='joystick'/>",
         "</div>"
       ]
+    },
+    {
+      "template": "flex-rows black max-width-1000",
+      "content": [
+        "<div>",
+          "On my first trip to the International Space Station, it was my job to use the robotic arm to install",
+          "a laboratory onto the station.",
+        "</div>",
+        "<div><img src='~/02.jpg' alt='Looking out to space at the robotic arm'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns chambray",
+      "content": [
+        "<div><img src='~/03.jpg' alt='Cartoon of the robotic arm with a human arm'/></div>",
+        "<div>",
+          "<p>The robotic arm is attached to the exterior of the International Space Station",
+            "and astronauts use it to bring stuff from the space shuttle onto the station.</p>",
+          "<p>It has joints that can move like a human arm, but it’s way stronger.</p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns silversand",
+      "content": [
+        "<div>I went through a ton of training to learn how to use the robotic arm!</div>",
+        "<div class='flex-2'><img src='~/04.jpg' alt='Leland training for the robotic arm'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns sandstorm",
+      "content": [
+        "<div>",
+          "<p>There are two controllers used",
+            "to operate it. One looks like a joystick. It’s called a rotational hand controller.</p>",
+          "<p>The other is called a translational hand controller. It’s kind of like a video game where you have to use both hands to movevery valuable and delicate things around, like the Columbus Lab, or other  astronauts.</p>",
+        "</div>",
+        "<div><img src='~/05.jpg' alt='Layout of controllers with displays on top, the translational hand controller on the bottom left, and the rotational hand controller on the bottom right'/></div>"
+      ]
+    },
+    {
+      "template": "flex-rows midnight",
+      "content": [
+        "<div><p>But before we went up on our mission, I was in contact with the German scientists who had been planning",
+          "this event for a long time. They would be communicating with us from ground control while we installed the lab.</p></div>",
+        "<div class='img-panel'>",
+          "<div><img src='~/06a.jpg' alt='Scientists working in 1999'/></div>",
+          "<div><img src='~/06b.jpg' alt='Scientists working in 2003'/></div>",
+          "<div><img src='~/06c.jpg' alt='Scientists working in 2007'/></div>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns malibu",
+      "content": [
+        "<div>After a meeting, one of the men came up to me and said:</div>",
+        "<div><img src='~/07.jpg' alt='Mr Melvin, we’ve been waiting 10 years for this. Don’t screw it up.'/></div>"
+      ]
+    },
+    {
+      "template": "flex-rows sandstorm text-center",
+      "content": [
+        "<div>I had been building the skills to do this job my entire life.</div>",
+        "<div class='img-panel img-panel-captioned'>",
+          "<div><img src='~/08a.jpg' alt='Leland on basketball team'/><figcaption >Teamwork</figcaption></div>",
+          "<div><img src='~/08b.jpg' alt='Leland catching a football'/><figcaption>Dexerity</figcaption></div>",
+          "<div><img src='~/08c.jpg' alt='Leland in front of a computer'/><figcaption>Attention to Detail</figcaption></div>",
+        "</div>",
+        "<div><b>I wasn’t about to screw it up!</b></div>"
+      ]
+    },
+    {
+      "template": "flex-rows midnight",
+      "content": [
+        "<div>",
+          "<p>When we got up there, everything was moving along smoothly. Using the robotic arm I had no trouble unloading the",
+          "23,000 pound lab from the Atlantis Shuttle. I was in total control.</p>",
+        "</div>",
+        "<div><img src='~/09.jpg' alt='Unloading the Columbus Lab with the robotic arm'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns malibu",
+      "content": [
+        "<div>But when the lab was almost in place, the arm stopped moving. It seemed like something had jammed… </div>",
+        "<div><img src='~/10.jpg' alt='Leland looking alarmed in front of controllers'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns malibu",
+      "content": [
+        "<div>",
+          "<p>I tried to remain calm. I had trained and trained and traveled into space just for this moment.</p>",
+          "<p><b>I knew what I had to do.</b></p>",
+        "</div>",
+        "<div><img src='~/11.jpg' alt='Leland looking alarmed in front of controllers'/></div>"
+      ]
+    },
+    {
+      "template": "flex-rows chambray",
+      "content": [
+        "<div>",
+          "<p>As I slowly readjusted the controls, everything began moving again and the pieces finally came together correctly.</p>",
+        "</div>",
+        "<div><img src='~/12.jpg' alt='The Columbus Lab correctly positioned'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns jade",
+      "content": [
+        "<div>Afterwards, NASA used footage of me using the robotic arm to train other astronauts how to use it!</div>",
+        "<div><img src='~/13.jpg' alt='Astronauts watching video of Leland'/></div>"
+      ]
+    },
+    {
+      "template": "callout black",
+      "background": "~/14.jpg",
+      "content": [
+        "<div class='shadow-box text-left'>",
+          "<p>Because I wholeheartedly pursued things that I love, I was able to find my path to space, and to manning the",
+          "robotic arm. Once I was on that path, everything was pushing me forward to this moment where I was able to put",
+          "my skills to good use.</p>",
+          "<p>Even though it can often feel like life just does what it wants with you, if you work hard and follow your",
+          "passion, sometimes you get to do some extraordinary things!</p>",
+        "</div>"
+      ]
     }
   ]
 }
-
-
 
