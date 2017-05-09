@@ -91,8 +91,8 @@
       "template": "flex-columns buttercup",
       "content": [
         "<div>",
-          "<p>My hamstring failed again that day, tearing and sending me to the grass in pain.</p>",
-          "<p>I recovered fully from the injury, but the Cowboy’s cut me from the roster.</p>",
+          "<p>My hamstring failed again that day, sending me to the grass in pain.</p>",
+          "<p>I recovered fully from the injury, but the Cowboys cut me from the roster.</p>",
         "</div>",
         "<div><img src='~/10.png' alt='Leland injured'/></div>"
       ]
