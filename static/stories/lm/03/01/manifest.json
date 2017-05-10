@@ -9,6 +9,85 @@
           "<img src='~/01.png' alt='science goggles'/>",
         "</div>"
       ]
+    },
+    {
+      "template": "flex-rows malibu max-width-800",
+      "content": [
+        "<div>",
+          "<p>I was getting ready to graduate from the Master’s program in Materials Science at the University of Virginia. After being",
+            "injured and leaving the NFL my backup plan was to be an engineer in a topnotch chemical company.</p>",
+          "<p>At a career fair I met  recruiters from several companies. I lined up interviews for promising jobs. Now I just had to get",
+            "through the process and choose the best offer.</p>",
+          "<p>The backup plan was shaping up nicely.</p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-rows sandstorm max-width-800",
+      "content": [
+        "<div>",
+          "<p>On the way out the door, I was hungry and focused on dinner. The next thing I knew a short black woman with a big smile",
+            "grabbed my arm.</p>",
+          "<p>“What’s your name?” she asked.</p>",
+          "<p><i>Who is this woman and why is she in my face?</i> I wondered. But my mother raised me to be polite.</p>",
+          "<p>I looked down at her badge. It read ‘Rosa Webster: NASA Langley Research Center.’ “Leland Melvin,” I said, wanting to get",
+            "away from her so I could meet up with my friends at a restaurant.</p>",
+          "<p>“Leland,” she said, “you’re going to work at NASA.”</p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-rows pumice max-width-800",
+      "content": [
+        "<div>",
+          "<p>My first thought was, <i>No, I’m not. I have a plan.</i> But she never gave me a chance to say the words.</p>",
+          "<p>“I’ve been looking for you all day,” Rosa said. “We are looking for strong candidates and your name is at the top of my list.",
+            "Can you help me get these things to my car?”  </p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-rows buttercup max-width-800",
+      "content": [
+        "<div>",
+          "<p>I helped Rosa close down her booth and all the while she told me about working at NASA.</p>",
+          "<p>Hearing Rosa’s excitement about the cutting-edge science being done at the space agency, about their outreach to minority",
+            "graduates, and the opportunities in engineering research got my attention.</p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-rows eucalyptus max-width-800",
+      "content": [
+        "<div>",
+          "<p>But I kept thinking, <i>Who works at NASA?</i> Certainly no one who looked like me. I imagined a line of all white guys in lab coats,",
+            "with crew cuts and clipboards, pushing paper for the government. Not my kind of club. I knew the pay would be better in private",
+            "industry. I believed the opportunities would be better too. I had a plan for my future. I was going to stick to the plan.</p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-rows lime max-width-800",
+      "content": [
+        "<div>",
+          "<p>But I kept thinking about Rosa’s words and her excitement.</p>",
+          "<p>NASA had come looking for me. They wanted me, they had a job for me, she had said. Rosa kept her word and a few days later,",
+            "I received an official job offer from NASA. I asked myself, “Do I stick with the plan or do I want to further human exploration",
+            "of space?”</p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "callout max-width-800",
+      "content": [
+        "<div>",
+          "<p>No surprise... </p>",
+          "<p>Space won!</p>",
+        "</div>"
+      ]
     }
+    
   ]
 }
+
+
