@@ -44,7 +44,7 @@
         "<div>",
           "<p>There are two controllers used",
             "to operate it. One looks like a joystick. It’s called a rotational hand controller.</p>",
-          "<p>The other is called a translational hand controller. It’s kind of like a video game where you have to use both hands to movevery valuable and delicate things around, like the Columbus Lab, or other  astronauts.</p>",
+          "<p>The other is called a translational hand controller. It’s kind of like a video game where you have to use both hands to move very valuable and delicate things around, like the Columbus Lab, or other  astronauts.</p>",
         "</div>",
         "<div><img src='~/05.jpg' alt='Layout of controllers with displays on top, the translational hand controller on the bottom left, and the rotational hand controller on the bottom right'/></div>"
       ]
@@ -74,7 +74,7 @@
         "<div>I had been building the skills to do this job my entire life.</div>",
         "<div class='img-panel img-panel-captioned'>",
           "<div><img src='~/08a.jpg' alt='Leland on basketball team'/><figcaption >Teamwork</figcaption></div>",
-          "<div><img src='~/08b.jpg' alt='Leland catching a football'/><figcaption>Dexerity</figcaption></div>",
+          "<div><img src='~/08b.jpg' alt='Leland catching a football'/><figcaption>Dexterity</figcaption></div>",
           "<div><img src='~/08c.jpg' alt='Leland in front of a computer'/><figcaption>Attention to Detail</figcaption></div>",
         "</div>",
         "<div><b>I wasn’t about to screw it up!</b></div>"
