@@ -9,9 +9,141 @@
           "<img src='~/01.png' alt='dropped football'/>",
         "</div>"
       ]
+    },
+    {
+      "template": "callout midnight cover",
+      "background": "~/02.jpg",
+      "content": [
+        "<div class='shadow-box text-left'>",
+          "It was my senior year. We were in the homecoming game against our biggest rivals, the Rustburg Red Devils. EVERYONE",
+          "was at the game. All the work I’d put in since middle school created this opportunity—to start in the homecoming game as",
+          "one of the team captains.",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns midnight",
+      "content": [
+        "<div><img src='~/03.jpg' alt='Scoreboard with a home score of 21 and guest score of 27'/></div>",
+        "<div>",
+          "<p>The first three quarters were back and forth—they’d score and then we’d score. By the fourth quarter we were trailing by six,",
+            "but we had possession of the ball. Time was running down and we’d gotten just past the fifty yard line. The coach called a 9",
+            "ROUTE—it was a long pass to me in the end zone.</p>",
+          "<p><b>This was my chance to shine.</b></p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns sandstorm",
+      "content": [
+        "<div><img src='~/04.png' alt='Vison'/></div>",
+        "<div>",
+          "<p>In the huddle, I was running through the play in my mind. I could see the ball arcing toward me, coming right into my hands.</p>",
+          "<p>Just like my dad taught me—VISION—to bring things into reality, you need to be able to see them clearly before they happen.</p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "callout midnight cover max-width-1000",
+      "background": "~/05.jpg",
+      "content": [
+        "<div class='shadow-box text-left'>",
+          "As we got to the line, the roar of the crowd intensified. I couldn’t hear the quarterback, so I kept my eye on the ball.",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns midnight",
+      "content": [
+        "<div><img src='~/06.jpg' alt='Leland running to catch ball'/></div>",
+        "<div>",
+          "As soon as I saw it move, I bolted downfield. My legs were pumping, my lungs were full. The ball came out of the quarterback's",
+          "hand in a perfect spiral. It was just me, the ball, and the end zone.",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns midnight",
+      "content": [
+        "<div>",
+          "Our fans were screaming their heads off. As the ball approached everything felt perfect. It was second nature. But right before",
+          "I secured the catch, I lost focus. I looked at my hands. It slipped right through.</p>",
+        "</div>",
+        "<div><img src='~/07.jpg' alt='Uncaught ball on field'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns midnight",
+      "content": [
+        "<div><img src='~/08.jpg' alt='Leland failed'/></div>",
+        "<div>",
+          "<p>A wave of silence washed over the crowd as the ball hit the ground.</p>",
+          "<p class='text-large bold text-center'>I failed.<br/>I failed.</p>",
+          "<p>Those words pounded through my brain at the same speed as the blood pumping through my body.</p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "callout midnight cover",
+      "background": "~/09.jpg",
+      "content": [
+        "<div class='shadow-box text-left'>",
+          "<p>As I looked to the stands I saw people stunned with disbelief. There was still some time on the clock but some of the",
+            "people at the field level started to walk toward the parking lot.</p>",
+          "<p>I dragged myself to the sidelines, expecting to be benched.</p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns midnight",
+      "content": [
+        "<div>",
+          "When I got to the sideline I walked up to coach. He looked me in the eye. He said, “Get back out there, run the same play.",
+          "This time, catch the ball.”",
+        "</div>",
+        "<div><img src='~/10.jpg' alt='Leland talking to coach'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns midnight",
+      "content": [
+        "<div><img src='~/11.jpg' alt='Leland in the huddle'/></div>",
+        "<div>",
+          "When I delivered the play call my teammates had their doubts, but there was no second guessing. Before we even broke the huddle",
+          "I was trying to see the ball into my hands.",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns midnight",
+      "content": [
+        "<div>",
+          "<p>We stepped up to the line of scrimmage. I waited for the snap and took off full speed for the end zone. I blew past the cornerback determined to redeem myself.</p>",
+          "<p>The quarterback released the ball and it traveled in a perfect arc to the back of the end zone. I could only hear my heartbeat. The ball hit my hands and I held it fast.</p>",
+          "<p>The crowd exploded.</p>",
+        "</div>",
+        "<div><img src='~/12.jpg' alt='Leland about to catch ball'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns sandstorm",
+      "content": [
+        "<div>",
+          "<p>From the parking lot, a scout from the University of Richmond heard the crowd roar. He ran back to see what happened. Later,",
+            "he offered me a scholarship to play football at the University of Richmond.</p>",
+          "<p>“Any kid who has the courage to go back out there and try again is someone we can use on the team,” he said.</p>",
+        "</div>",
+        "<div><img src='~/13.png' alt='University of Richmond'/></div>"
+      ]
+    },
+    {
+      "template": "callout",
+      "content": [
+        "<div>",
+          "<p>But it wasn’t all my own courage or determination that day.</p>",
+          "<p>I had a coach and a team who believed in me.</p>",
+        "</div>"
+      ]
     }
   ]
 }
-
-
-
