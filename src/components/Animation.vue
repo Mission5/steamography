@@ -74,8 +74,10 @@
 
   h2 {
     color: #d71921;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     font-size: 4vw;
     letter-spacing: 5px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
   }
 
   .subtext {
