@@ -32,7 +32,8 @@ export default {
   .timeline {
     position: absolute;
     right: 10px;
-    column-gap: 0;
+    -webkit-column-gap: 0;
+            column-gap: 0;
     height: 100%;
     width: 100%;
   }
@@ -100,7 +101,8 @@ export default {
   @media screen and (min-width: 768px) {
 
     .timeline {
-      column-count: 2;
+      -webkit-column-count: 2;
+              column-count: 2;
       right: 30px;
       width: calc(100% - 30px);
     }

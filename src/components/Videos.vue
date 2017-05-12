@@ -71,8 +71,10 @@ export default {
   }
 
   .videos {
-    column-count: 4;
-    column-gap: 0.5rem;
+    -webkit-column-count: 4;
+            column-count: 4;
+    -webkit-column-gap: 0.5rem;
+            column-gap: 0.5rem;
   }
 
   .video {
@@ -131,12 +133,14 @@ export default {
 
   @media screen and (max-width: 1023px) {
     .videos {
-      column-count: 3;
+      -webkit-column-count: 3;
+              column-count: 3;
     }
   }
   @media screen and (max-width: 639px) {
     .videos {
-      column-count: 2;
+      -webkit-column-count: 2;
+              column-count: 2;
     }
   }
 
