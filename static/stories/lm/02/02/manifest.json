@@ -9,9 +9,76 @@
           "<img src='~/01.png' alt='football helmet'/>",
         "</div>"
       ]
+    },
+    {
+      "template": "flex-columns midnight",
+      "content": [
+        "<div>As a wide receiver for the University of Richmond, I wore number 4. By senior year we were a winning team with a real",
+          "shot at the playoffs.</div>",
+        "<div>",
+          "<div class='youtube'><iframe allowfullscreen src='https://www.youtube.com/embed/zUcDhuduWU8?enablejsapi=true&showinfo=0&rel=0'></iframe></div>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-rows jade",
+      "content": [
+        "<div>It had been a long four years, juggling football, a chemistry major, and my part-time job as a lab assistant, but the",
+          "hard work paid off. I was co-captain of the squad, the school’s all-time leading receiver, and an NCAA 1AA Academic All-American.</div>",
+        "<div><img src='~/03.jpg' alt='Leleand catching a football, working on a computer, and working in the lab'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns sandstorm",
+      "content": [
+        "<div>Our season ended with an 8-3 record. A few pro scouts came to see me play. I ran the 40-yard dash and performed agility",
+          "drills for each one. The scouts came and went. My phone stayed silent. Was it the end of my football career?</div>",
+        "<div>",
+          "<div class='youtube'><iframe allowfullscreen src='https://www.youtube.com/embed/VG8CGfKidIM?enablejsapi=true&showinfo=0&rel=0'></iframe></div>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-rows blue max-width-1000 cover",
+      "background": "~/05-background.jpg",
+      "content": [
+        "<div class='text-large'>",
+          "<p>Playing professional football is a long shot. There are approximately 70,000 college players in any given year. 1.6% go on",
+          "to play in the NFL. Those were my odds.</p>",
+        "</div>",
+        "<div><img src='~/05.png' alt='1.6% of 70000 = ?'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns buttercup",
+      "content": [
+        "<div>By April 30th I had taken my last final exam, was ready to graduate and pursue a future in science.</div>",
+        "<div><img src='~/06.png' alt='Leland as a chemist'/></div>"
+      ]
+    },
+    {
+      "template": "flex-rows midnight max-width-1000",
+      "content": [
+        "<div>",
+          "<p>Around 11 p.m. that night, the phone rang in my dorm room. I picked up the receiver.",
+          "<p>“Leland Melvin?”",
+          "<p>It was Joe Bushofsky, an NFL scout.",
+          "<p>“You have been selected in the 11th round of the NFL college draft.” ",
+        "</div>",
+        "<div><img src='~/07.png' alt='Do you want to play for the Detroit Lions?'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns",
+      "background": "~/08.jpg",
+      "content": [
+        "<div>",
+          "<p><b>I had made it to the NFL!</b><p>",
+          "<p>Four days later I was on a plane to Michigan with a dream of a career in the NFL.<p>",
+          "<p>One phone call changed everything!<p>",
+        "</div>",
+        "<div></div>"
+      ]
     }
   ]
 }
-
-
-
