@@ -248,7 +248,7 @@ export default {
 }
 
 .jade {
-  background-color: #27a55b;
+  background-color: #00b16a;
 }
 
 .lime { /* lime-green */
@@ -531,7 +531,7 @@ export default {
   .slide .shadow-box, .slide .shadow-box-white {
     background-color: rgba(0,0,0,0.5);
     border-radius: 10px;
-    padding: 10px;
+    padding: 30px;
   }
   .slide .shadow-box-white {
     background-color: rgba(255,255,255,0.8);
@@ -601,7 +601,7 @@ export default {
     }
 
     .slide.callout > div {
-      font-size: 1.75em;
+      font-size: 2rem;
     }
 
     .slide.flex-columns .slide-root {
