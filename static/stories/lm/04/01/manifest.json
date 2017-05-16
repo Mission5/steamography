@@ -9,9 +9,118 @@
           "<img src='~/01.png' alt='green light'/>",
         "</div>"
       ]
+    },
+    {
+      "template": "flex-columns sandstorm",
+      "content": [
+        "<div>",
+          "<p>After a training accident in 2001 left me partially deaf, I was designated DNIF – Duty Not Involving Flying.",
+          "<p>I thought about leaving the astronaut corps—after all, what good is an astronaut who will never go to space?",
+          "<p>But I decided to stay.",
+        "</div>",
+        "<div><img src='~/02.png' alt='Penguin cartoon wearing DNIF medallion'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns buttercup",
+      "content": [
+        "<div><img src='~/03.jpg' alt='Leland with a headset on'/></div>",
+        "<div>",
+          "<p>The corps was my team, my family, and I looked for ways to be a team player.</p>",
+          "<p>I began to train in the Robotics section and was determined to become an expert. I also worked to",
+            "recover my hearing and was learning how to cope with the hearing loss.</p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns lime",
+      "content": [
+        "<div>",
+          "<p>In 2003, I took an assignment working on a new outreach initiative called the Educator Astronaut Program.",
+            "I traveled across the country talking to students and teachers about space.</p>",
+          "<p>At almost every stop kids would ask me about flying in space. When they found out I had never flown in",
+            "space, they would question me with doubtful faces, “Are you a real astronaut?”</p>",
+          "<p>Some days I asked myself that same question.</p>",
+        "</div>",
+        "<div><img src='~/04.jpg' alt='Leland in front of an audience of children'/></div>"
+      ]
+    },
+    {
+      "template": "flex-rows malibu",
+      "content": [
+        "<div>",
+          "<p>That same year I experienced one of my most difficult days. I was on my way to see my parents and my",
+            "dog, Jake, for the weekend when I heard the news.</p>",
+          "<p>The space shuttle Columbia had broken apart as it reentered the Earth’s atmosphere. The whole country",
+            "was in shock and mourning.</p>",
+          "<p>My friend David Brown and six other members of my astronaut family were on board that flight.</p>",
+        "</div>",
+        "<div><img src='~/05.jpg' alt='Crew of the Space Shuttle Columbia'/></div>"
+      ]
+    },
+    {
+      "template": "callout black cover",
+      "background": "~/06.jpg",
+      "content": [
+        "<div>",
+          "<p class='text-normal'>As soon as I got the news I went to support David’s family.</p>",
+          "<p class='text-normal'>In the midst of his own sorrow, David’s father offered me comfort and inspiration. He said,</p>",
+          "<p>“My son is gone; there’s nothing you can do to bring him back, but the biggest tragedy would be if we don’t continue to fly in space to carry on his legacy.”</p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns sandstorm",
+      "content": [
+        "<div>",
+          "<p>I knew he was right. We couldn’t give up exploring space. I couldn’t give up on my dream.<p>",
+          "<p>I was determined to find a way to honor his words.<p>",
+        "</div>",
+        "<div><img src='~/07.png' alt='Penguin cartoon wearing DNIF medallion'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns midnight max-width-1200",
+      "content": [
+        "<div>",
+          "<p>In the weeks after the disaster I flew from town to town with other NASA colleagues to attend memorial services.<p>",
+          "<p>As I dealt with the loss of my friends, I also dealt with the realization that I would always be hearing",
+            "impaired. Thankfully, my ears felt fine, even with all the changes in air pressure during the plane rides<p>",
+        "</div>",
+        "<div><img src='~/08.jpg' alt='Leland at David's funeral'/></div>"
+      ]
+    },
+    {
+      "template": "flex-rows malibu",
+      "content": [
+        "<div>",
+          "<p>NASA’s chief flight surgeon, Dr. Richard Williams, was on many of those flights. We were traveling together to pay tribute",
+            "to the families of our fallen friends. At the time I didn’t think anything of it, my focus was on comforting others.</p>",
+          "<p>Once the memorials were over I returned to my DNIF role at NASA Headquarters.</p>",
+        "</div>",
+        "<div><img src='~/09.png' alt='NASA logo'/></div>"
+      ]
+    },
+    {
+      "template": "content-padded jade",
+      "content": [
+        "<div>",
+          "<p>One day, Dr. Williams asked me to come to his office but didn’t tell me why.</p>",
+          "<p>As I walked in he stood up to shake my hand. “Leland,” he said, “I’m going to sign a waiver so you can fly in space.”</p>",
+          "<p>It turns out he had been watching me on all those flights to see how my ears adjusted to the changes in pressure. He didn’t believe my condition would impair my ability to work in space.</p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns",
+      "content": [
+        "<div>",
+          "<p>It had taken several years and I had lost a lot along the way, but I’d been given a second chance.<p>",
+          "<p>I was going to be able to honor the words of my friend’s father. I was going to continue David’s legacy.<p>",
+          "<p class='bold'>I was going to fly in space!<p>",
+        "</div>",
+        "<div><img src='~/11.jpg' alt='Penguin flying to space'/></div>"
+      ]
     }
   ]
 }
-
-
-
