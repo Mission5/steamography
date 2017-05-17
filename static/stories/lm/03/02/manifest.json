@@ -9,6 +9,104 @@
           "<img src='~/01.png' alt='penguin mascot'/>",
         "</div>"
       ]
+    },
+    {
+      "template": "flex-rows malibu max-width-800",
+      "content": [
+        "<p>I loved my job working at NASA in the fiber optics research branch. I was an engineer.<p>",
+        "<p>But at NASA you can’t escape space and one day a coworker told me I should apply to be an astronaut. He thought I had “the right stuff.”  I did not think so.<p>"
+      ]
+    },
+    {
+      "template": "callout sandstorm max-width-800 text-center",
+      "content": [
+        "<p>Me? An astronaut? Who becomes an astronaut? Not guys like me.<p>"
+      ]
+    },
+    {
+      "template": "flex-rows pumice max-width-800",
+      "content": [
+        "<p>But another coworker applied and was accepted. He was short and stocky and built more like a professional boxer than an astronaut.<p>",
+        "<p><i>If he can do it</i>, I thought, <i>so can I</i>. I decided to try. Even then it took me another year to apply.<p>"
+      ]
+    },
+    {
+      "template": "flex-rows buttercup max-width-800",
+      "content": [ 
+        "<p>Then came the waiting. The interview process can be really long when 2,500 people apply for 25 positions! After almost a year, I was still in the running.<p>",
+        "<p><i>Maybe</i>, I thought, <i>I do have “the right stuff.”</i><p>"
+      ]
+    },
+    {
+      "template": "flex-rows eucalyptus max-width-800",
+      "content": [
+        "<p>One sunny morning in June of 1998 my research team finished making the first fiber sensors EVER. It was an exciting day! We were all happy and celebrating. <p>",
+        "<p>Then someone handed me a message to call Ken “Taco” Cockrell, Chief of the Astronaut Office. And I knew. I just knew. My whole life was about to change.<p>"
+      ]
+    },
+    {
+      "template": "flex-rows lime max-width-800",
+      "content": [
+        "<p>I instantly thought of the dramatic stories astronauts tell when asked the question, “Where were you when you got “THE CALL?”<p>",
+        "<p>“On a mountain top, in a submarine, at war….”<p>",
+        "<p><i>…in the middle of the most exciting day ever being a NASA engineer</i>….I thought.<p>"
+      ]
+    },
+    {
+      "template": "flex-rows malibu max-width-800",
+      "content": [
+        "<p>I called Taco back immediately. But the call got dropped.<p>",
+        "<p>I called again. The call failed.<p>",
+        "<p><i>Uh oh. Not a good sign</i>, I thought</i><p>"
+      ]
+    },
+    {
+      "template": "flex-rows sandstorm max-width-800",
+      "content": [
+        "<p>I took a breath and dialed the number for a third time. Taco picked up on the third ring.<p>",
+        "<p>“Leland, how’s it going?” he asked.<p>",
+        "<p><i>Small talk, I thought. He’s letting me down easy.</i><p>",
+        "<p>“Fine, Ken. How are you?”<p>",
+        "<p>There was a long pause that felt like an eternity.<p>"
+      ]
+    },
+    {
+      "template": "flex-rows pumice max-width-800",
+      "content": [
+        "<p>“I’m calling to tell you that we’d like you to be part of the 1998 Astronaut Corps. Do you want to be part of the Astronaut Corps?”<p>",
+        "<p>This moment was different from anything else I had experienced. I could barely contain my excitement.<p>",
+        "<p><i>WOW, I’m an astronaut candidate! Okay, I’m ready. Let’s go!</i><p>",
+        "<p>I said, “YES!”<p>"
+      ]
+    },
+    {
+      "template": "flex-rows buttercup max-width-800",
+      "content": [
+        "<p>“Great. Now don’t tell <i>anybody</i>.”<p>",
+        "<p>I sat alone in my office. I’d just heard the most life-changing news ever—and I couldn’t tell a soul.<p>",
+        "<p>I couldn’t do it. This news was just too big. My friends at NASA would have to keep a secret. I shared the news with my team.<p>"
+      ]
+    },
+    {
+      "template": "flex-rows eucalyptus max-width-800",
+      "content": [
+        "<p>Then I called my parents.<p>",
+        "<p>My mother told me she loved me and was proud of me. A lot of prayer would be coming as she thought about the risk and danger.<p>"
+      ]
+    },
+    {
+      "template": "flex-rows lime max-width-800",
+      "content": [
+        "<p>When I talked to my Dad I couldn’t help but get emotional. I thought about all the lessons he had taught me. I thought about vision, teamwork, and the projects we had done. I heard his words of wisdom, words I had written as part of my application essay, “<i>Work hard, have fun, and share the ball</i>.”<p>",
+        "<p>I was so proud to tell him the news. His son was going to be an astronaut.<p>"
+      ]
+    },
+    {
+      "template": "flex-rows max-width-800",
+      "content": [
+        "<p>My father usually had lots to say, but that day, he was quiet. He was too proud for words.<p>",
+        "<p>And for once I was too excited to say nothing. I had a new dream. I was going to reach the stars.<p>"
+      ]
     }
   ]
 }
