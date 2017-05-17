@@ -81,7 +81,7 @@ export default {
       }
     },
     updateGA: function () {
-      var location = '/static/stories/' + this.story.id + '/' + this.current
+      var location = '/stories/' + this.story.id + '/' + this.current
       this.$ga.page({
         page: location,
         title: this.title + ': Page ' + (this.current + 1),
