@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <header><h1><a href="/#">Steamography</a></h1></header>
+    <header>
+      <h1 v-if="config.standalone"><a href="/#">Steamography</a></h1>
+      <h1 v-else><a href="http://www.lelandmelvin.com/">Leland Melvin</a></h1>
+    </header>
     <nav>
       <a href="#about">about</a> |
       <a href="#contact">contact</a>
@@ -27,9 +30,18 @@
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+
+  import config from 'config.js'
+
+  export default {
+    name: 'app',
+    data () {
+      return {
+        config: config
+      }
+    }
+  }
+
 </script>
 
 <style scoped>
