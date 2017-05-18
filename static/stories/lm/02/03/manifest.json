@@ -9,9 +9,95 @@
           "<img src='~/01.png' alt='football plays'/>",
         "</div>"
       ]
+    },
+    {
+      "template": "flex-rows jade text-center",
+      "content": [
+        "<div>After I was cut by the Detroit Lions, I got picked up by the Dallas Cowboys.</div>",
+        "<div><img src='~/02.jpg' alt='Leland on field running'/></div>",
+        "<div class='bold'>Training camp was INTENSE!</div>"
+      ]
+    },
+    {
+      "template": "flex-columns royalblue max-width-1000",
+      "content": [
+        "<div>",
+          "On top of all the physical training, I had to learn all of the plays. AND I had just started a graduate program in",
+          "Materials Science & Engineering at the University of Virginia shortly before training camp started.",
+        "</div>",
+        "<div><img src='~/03.jpg' alt='Leland’s football playbook flying over a desk'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns sandstorm",
+      "content": [
+        "<div><img src='~/04a.png' alt='Leland as football player'/></div>",
+        "<div>",
+          "<p>Keeping up with classes on top of NFL training was exhausting. I had never worked so hard. But after my hamstring injury",
+            "I knew I needed a safety net.</p>",
+          "<p>I was playing well but I had learned my lesson. Science had been my passion since my first chemistry set explosion and if",
+            "anything happened I knew I could be just as happy becoming a scientist.</p>",
+        "</div>",
+        "<div><img src='~/04b.png' alt='Leland as scientist'/></div>"
+      ]
+    },
+    {
+      "template": "flex-rows red max-width-1200",
+      "content": [
+        "<div>",
+          "The Cowboy's playbook was huge! There weren't enough hours in the day to read everything. I needed a system to help me memorize",
+          "my routes, something visual and quick.",
+        "</div>",
+        "<div><img src='~/05.png' alt='Leland crushed by books'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns malibu max-width-1000",
+      "content": [
+        "<div>",
+          "<p>Then something hit me...</p>",
+          "<p>and luckily it wasn't a football at practice!</p>",
+        "</div>",
+        "<div><img src='~/06.png' alt='Leland as football player with lightbulb over his head'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns lime max-width-1000",
+      "content": [
+        "<div><img src='~/07.jpg' alt='Leland in front of computer'/></div>",
+        "<div>It was an idea. I had learned basic computer programming in high school.</div>"
+      ]
+    },
+    {
+      "template": "flex-columns jade max-width-1000",
+      "content": [
+        "<div>And I had a laptop. I programmed flashcards onto my computer so my plays would always be in front of me as I worked or studied.</div>",
+        "<div><img src='~/08.jpg' alt='Leland programming on the sidelines'/></div>"
+      ]
+    },
+    {
+      "template": "flex-rows midnight text-center max-width-1000",
+      "content": [
+        "<div>",
+          "<p>They weren't the most amazing things in the world, but they got the job done. Every time the quarterback called a play I",
+          "could see the card in my head.</p>",
+        "</div>",
+        "<div class='img-panel'>",
+          "<div><img src='~/09a.png' alt='Flashcard on laptop'/></div>",
+          "<div><img src='~/09b.jpg' alt='Flashcards floating above Leland as he runs down the field'/></div>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns max-width-1000",
+      "content": [
+        "<div>",
+          "<p>You never know when something you learn will help you through a new challenge.</p>",
+          "<p>Science and technology helped me juggle a heavy schedule and be a better wide receiver.</p>",
+          "<p>A little know-how can go a long way!</p>",
+        "</div>",
+        "<div><img src='~/10.jpg' alt='Leland juggling'/></div>"
+      ]
     }
   ]
 }
-
-
-
