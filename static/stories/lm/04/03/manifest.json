@@ -119,7 +119,12 @@
     {
       "template": "flex-columns jade",
       "content": [
-        "<div>Afterwards, NASA used footage of me using the robotic arm to train other astronauts how to use it!</div>",
+        "<div>",
+          "<p>My experience has been used for Robotic Arm training at NASA. Other astronauts ask me about my technique and I tell them",
+            "what my dad always told me - “practice makes perfect.”</p>",
+          "<p>The years I spent practicing in the simulator while I was grounded developed the intuitive knowledge I needed to make a",
+            "good decision under pressure.</p>",
+        "</div>",
         "<div><img src='~/13.jpg' alt='Astronauts watching video of Leland'/></div>"
       ]
     },
