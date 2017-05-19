@@ -27,7 +27,6 @@ export default {
   methods: {
     close: function (index) {
       this.activePanel = null
-      console.log('closed')
     },
     toggle: function (index) {
       this.activePanel = index
@@ -111,6 +110,7 @@ export default {
     height: 430px;
     background-repeat: no-repeat;
     background-position: center center;
+    outline: 0;
     transition: all 500ms ease;
   }
     .panelsopen .panel {
@@ -146,14 +146,14 @@ export default {
     opacity: 0;
     position: absolute; top: 0; right: 0;
     transition: opacity 0.5s;
-    /*visibility: hidden; make more 508 for tabbing! */
+    visibility: hidden;
     width: calc(100% - 220px);
   }
     .panelsopen .panel.open .panel-content {
       opacity: 1;
       display: block;
-      transition: opacity 0.5s 0.7s;
-      /*visibility: visible;*/
+      transition: opacity 0.5s 0.7s, visibility 0s 0.5s;
+      visibility: visible;
     }
 
   .panel-close-button {
@@ -188,6 +188,9 @@ export default {
     .panel-header img {
       transition: transform 0.2s;
       width: 199px;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+              user-select: none;
     }
     .panel.open img {
       transform: scale(1.05);
