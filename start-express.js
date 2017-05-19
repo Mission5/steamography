@@ -7,7 +7,6 @@
 
 var express = require('express')
 var compression = require('compression')
-var path = require('path')
 
 // cfenv provides access to your Cloud Foundry environment
 // for more info, see: https://www.npmjs.com/package/cfenv
@@ -20,7 +19,9 @@ var app = express()
 app.use(compression())
 
 // serve the files out of ./public as our main files
-app.use(express.static(__dirname + '/dist'))
+app.use(express.static(__dirname + '/dist'), {
+  maxAge: 600
+})
 
 // get the app environment from Cloud Foundry
 var appEnv = cfenv.getAppEnv()
