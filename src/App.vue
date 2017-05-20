@@ -20,14 +20,37 @@
         </div>
       </div>
       <div class="col">
-        <a href="https://www.amazon.com/Chasing-Space-Readers-Leland-Melvin/dp/0062665928/ref=sr_1_1?ie=UTF8&qid=1490559996&sr=8-1&keywords=chasing+space+young+readers+edition"
-          target="amazon">
-          <img class="book-teaser" src="static/media/book_footer.jpg" alt="Chasing Space">
-        </a>
+        <div class="flex-grid">
+          <div class="col flex-center">
+            <img src="/static/media/rocket_footer.png" alt="rocket"/>
+          </div>
+          <div class="col nav-footer-box">
+            <a href="#" class="sitelink text-case-initial">STEAMography</a>
+            <div class="tagline text-small text-italic text-case-initial">The power of S.T.E.A.M. driven by the power of story.</div>
+            <a href="#about" class="text-case-initial">ABOUT STEAMography</a>
+          </div>
+        </div>
       </div>
     </nav>
-    <footer>
-      Copyright 2017 Steamography | All Rights Reserved
+    <footer class="flex-grid">
+      <div class="col">
+        Copyright 2017 Steamography | All Rights Reserved
+      </div>
+      <div class="col">
+        <social-sharing inline-template
+          v-bind:url="config.links.root"
+          v-bind:media="config.links.media"
+          title="STEAMography"
+          description="The power of S.T.E.A.M. driven by the power of story."
+          twitter-user="Astro_Flow">
+          <div>
+            <network network="facebook">Facebook</network>
+            <network network="twitter">Twitter</network>
+            <network network="pinterest">Pinterest</network>
+            <network network="reddit">Reddit</network>
+          </div>
+        </social-sharing>
+      </div>
     </footer>
   </div>
 </template>
@@ -52,11 +75,13 @@
 header {
   left: 0;
 }
+
 header, nav {
   position: fixed;
   top: 0;
   z-index: 10;
 }
+
 header, footer, nav {
   background-color: #000;
   color: #fff;
@@ -64,19 +89,52 @@ header, footer, nav {
   right: 0;
   text-transform: uppercase;
 }
+
+footer {
+  font-size: 0.7em;
+  font-style: italic;
+}
+
 .nav-footer {
   position: static;
-  background-color: #4b5569;
+  padding: 0;
+  background-color: #393737;
+}
+
+.nav-footer > .col > .flex-grid {
+  align-items: stretch;
+  height: 100%;
+}
+
+.nav-footer-box {
+  background-color: #2f2d2d;
+  margin: 0 10px;
+  padding: 30px 20px;
+  align-items: stretch;
+  flex: 5;
 }
 .nav-footer a {
   display: block;
+  padding-left: 0;
+  padding-right: 0;
 }
+
+.nav-footer .sitelink {
+  color: #d81921;
+  font-size: 1.3rem;
+}
+
+.tagline {
+  padding-bottom: 0.5rem;
+}
+
 nav a {
   color: #fff;
   font-size: 0.8rem;
   font-weight: 700;
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
+
 a:hover, a:focus {
   color: #d81921;
 }
@@ -87,7 +145,7 @@ a:hover, a:focus {
 .fade-enter-active {
   transition: opacity .5s
 }
-.fade-enter  {
+.fade-enter {
   opacity: 0
 }
 
@@ -99,5 +157,14 @@ a:hover, a:focus {
   .book-teaser {
     width: 200px;
   }
+
+  .nav-footer {
+    display: block;
+  }
+
+  .nav-footer > .col > .flex-grid   {
+    border-bottom: 1px #000 solid;
+  }
+
 }
 </style>

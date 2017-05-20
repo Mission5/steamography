@@ -125,6 +125,10 @@ section:nth-child(4) {
   text-align: center;
 }
 
+.text-italic {
+  font-style: italic;
+}
+
 .text-left {
   text-align: left;
 }
@@ -139,6 +143,14 @@ section:nth-child(4) {
 
 .text-small {
   font-size: 1rem;
+}
+
+.text-xsmall {
+  font-size: 0.7em;
+}
+
+.text-case-initial {
+  text-transform: initial;
 }
 
 .text-uppercase {
@@ -194,6 +206,27 @@ a {
   .padded {
     padding: 2rem 5%;
   }
+
+  [data-link^="#share"] {
+    background: url(/static/media/social-icons.png) no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    text-indent: -1000px;
+    width: 40px;
+  }
+    [data-link*="reddit"] {
+      background-position-x: -50px;
+    }
+    [data-link*="pinterest"] {
+      background-position-x: -100px;
+    }
+    [data-link*="twitter"] {
+      background-position-x: -150px;
+    }
+    [data-link*="instagram"] {
+      background-position-x: -200px;
+    }
 
   .sr-only {
     position: absolute;
