@@ -9,6 +9,159 @@
           "<img src='~/01.png' alt='ear'/>",
         "</div>"
       ]
+    },
+    {
+      "template": "flex-rows malibu max-width-1000",
+      "background": "~/02-background.jpg",
+      "content": [
+        "<div>I had been in the corps for almost three years, rotating through land and water survival instruction,",
+          "learning how to fly a T-38 (a really fast jet!) and space shuttle systems training.</div>",
+        "<div class='img-panel'>",
+          "<div><img src='~/02a.png' alt='Leland repelling and learning how to fly'/></div>",
+          "<div><img src='~/02b.png' alt='Leland in survival training'/></div>",
+          "<div><img src='~/02c.jpg' alt='Leland in survival training'/></div>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "callout black cover cover-y-60",
+      "background": "~/03.jpg",
+      "content": [
+        "<div class='shadow-box'>",
+          "<p>But all candidates look forward to spacewalk training in the Neutral Buoyancy Laboratory (NBL).</p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns chambray",
+      "content": [
+        "<div>",
+          "The NBL has a huge pool holding six million gallons of water and houses a complete model of the International",
+          "Space Station. Working underwater provides the closest simulation of a space environment. Doing well in",
+          "underwater training can help move you up the list for a mission to space.",
+        "</div>",
+        "<div><img src='~/04.jpg' alt='Astronaut training in the NBL pool'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns malibu",
+      "content": [
+        "<div>",
+          "Mastering the work is difficult. For one thing, the Extra Vehicular Activity (EVA) dive suits make you",
+          "look like a cross between the Pillsbury Doughboy and the Michelin Man. It can be clumsy and slow to",
+          "maneuver your body and equipment.",
+        "</div>",
+        "<div><img src='~/05.png' alt='EVA dive suit'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns malibu",
+      "content": [
+        "<div><img src='~/06.jpg' alt='Leland in an EVA dive suit being lowered into the water'/></div>",
+        "<div>",
+          "<p>But this was it. It was my chance to prove my skills and be considered for a flight assignment.</p>",
+          "<p>I was all suited up and excited as they lowered me into the water.</p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns malibu cover cover-x-0 cover-y-0 max-width-1000",
+      "background": "~/07-background.png",
+      "content": [
+        "<div>",
+          "<p>When I reached a depth of ten feet, I noticed that a little block of Styrofoam was missing from my helmet. It’s called a",
+            "Valsalva Pad, and it’s attached at nose level to help you clear your ears as you descend.</p>",
+          "<p>When I began to feel fullness in my ears, I told the test director that the pad was missing. He asked if I wanted to return",
+            "to the surface to have one installed.</p>",
+          "<p>I said no.</p>",
+        "</div>",
+        "<div><img src='~/07.png' alt='EVA suit 10 feet deep'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns malibu cover cover-x-0 cover-y-0 max-width-1000",
+      "background": "~/07-background.png",
+      "content": [
+        "<div>",
+          "<p>Going back up would mean a delay and I was intent on getting through the training exercise and showing my mastery of the",
+            "fundamental skills.</p>",
+          "<p>Another few feet and my ears felt really full, the pressure building like you might feel in an airplane that makes a really",
+            "fast descent – only worse.</p>",
+          "<p>Twenty feet below the surface, the pressure was painful. I knew something was really wrong.</p>",
+        "</div>",
+        "<div><img src='~/08.png' alt='EVA suit 20 feet deep'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns lime max-width-1000",
+      "content": [
+        "<div>",
+          "<p>I tried speaking to the surface crew but got no reply.</p>",
+          "<p> “I can’t hear you,” I said, louder this time. “Can you turn the volume up?”</p>",
+          "<p>I strained to hear a reply, but only got static in return. The pain in my ears kept increasing as I waited for a reply.</p>",
+          "<p> “Turn up the volume!” I shouted into the microphone.</p>",
+          "<p>Why were they ignoring me on deck?</p>",
+        "</div>",
+        "<div><img src='~/09.png' alt='volume knob'/></div>"
+      ]
+    },
+    {
+      "template": "flex-rows buttercup max-width-1000",
+      "content": [
+        "<div>",
+          "<p>The pain in my ears was almost unbearable. I was relieved to feel the cable reverse and begin to pull me back toward",
+            "the surface. </p>",
+          "<p>But my relief didn’t last long. </p>",
+          "<p>Once I was poolside with my helmet off, things became surreal.  Everyone around me was just mouthing words. There was no",
+            "sound coming out. </p>",
+        "</div>",
+        "<div><img src='~/10.png' alt='Talk bubbles with no text'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns red max-width-1000",
+      "content": [
+        "<div>",
+          "<p>The flight surgeon kept looking at the right side of my head, checking my ear lobe. </p>",
+          "<p>He reached up and felt my right ear. When he pulled his finger back, I saw the blood on his finger. My ear was bleeding.",
+            "I couldn’t hear anything. </p>",
+          "<p>Something had gone very, very, wrong. </p>",
+        "</div>",
+        "<div><img src='~/11.png' alt='Closeup on ear with question mark in front of it'/></div>"
+      ]
+    },
+    {
+      "template": "flex-columns jade max-width-1200",
+      "content": [
+        "<div>",
+          "<p>I had severe hearing loss in both ears. I went through a series of tests and exploratory surgery, but no one could explain",
+            "what had happened.</p>",
+          "<p>My sudden deafness was a medical mystery.</p>",
+        "</div>",
+        "<div class='flex-2'>",
+          "<img src='~/12.jpg' alt='Leland in the hospital with friends'/>",
+          "<figcaption>Some days the only thing that got me through was the love and support of my friends.</figcaption>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "callout black cover",
+      "background": "~/13.jpg",
+      "content": [
+        "<div class='shadow-box'>",
+          "<p>I had been on top of the world, confident that I would do what only a handful of people had ever done–perform spacewalks 240",
+            "miles above the earth. </p>",
+          "<p>Losing my hearing meant my status changed to “DNIF” - Duty Not Involving Flying. </p>",
+          "<p>I had faced my share of failure, but this time it felt different. It felt permanent. </p>",
+        "</div>"
+      ]
+    },
+    {
+      "template": "flex-columns max-width-800",
+      "content": [
+        "<div>I was truly a penguin–a flightless astronaut.</div>",
+        "<div><img src='~/14.png' alt='Penguin in EVA suit'/></div>"
+      ]
     }
   ]
 }

@@ -150,6 +150,9 @@ export default {
   .slide.cover {
     background-size: cover;
   }
+  .slide.cover-x-0 {
+    background-position-x: 00%;
+  }
   .slide.cover-x-20 {
     background-position-x: 20%;
   }
@@ -162,6 +165,12 @@ export default {
   .slide.cover-x-80 {
     background-position-x: 80%;
   }
+  .slide.cover-x-100 {
+    background-position-x: 100%;
+  }
+  .slide.cover-y-0 {
+    background-position-y: 0%;
+  }
   .slide.cover-y-20 {
     background-position-y: 20%;
   }
@@ -173,6 +182,9 @@ export default {
   }
   .slide.cover-y-80 {
     background-position-y: 80%;
+  }
+  .slide.cover-y-100 {
+    background-position-y: 100%;
   }
 
 
