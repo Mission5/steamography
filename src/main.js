@@ -19,6 +19,8 @@ Vue.component('story', Story)
 Vue.component('timeline', Timeline)
 Vue.component('videos', Videos)
 
+import SocialSharing from 'vue-social-sharing'
+Vue.use(SocialSharing)
 import VueResource from 'vue-resource'
 Vue.use(VueResource)
 
