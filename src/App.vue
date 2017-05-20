@@ -2,15 +2,22 @@
   <div id="app">
     <header>
       <h1 v-if="config.standalone"><a href="/#">Steamography</a></h1>
-      <h1 v-else><a href="http://http://www.lelandmelvin.com/main.html">Leland Melvin</a></h1>
+      <h1 v-else><a :href="config.links.lm.home">Leland Melvin</a></h1>
     </header>
     <transition name="fade">
       <router-view></router-view>
     </transition>
     <nav class="nav-footer flex-grid">
-      <div class="col">
-        <a href="#about">About</a>
-        <a href="http://www.lelandmelvin.com/main.html#sendmessage">Contact</a>
+      <div class="col" v-if="true || !config.standalone">
+        <div class="flex-grid">
+          <div class="col"></div>
+          <div class="col nav-footer-box">
+            <a :href="config.links.lm.home" class="sitelink">Leland Melvin</a>
+            <a :href="config.links.lm.home">Home</a>
+            <a :href="config.links.lm.about" >About</a>
+            <a :href="config.links.lm.contact" >Contact</a>
+          </div>
+        </div>
       </div>
       <div class="col">
         <a href="https://www.amazon.com/Chasing-Space-Readers-Leland-Melvin/dp/0062665928/ref=sr_1_1?ie=UTF8&qid=1490559996&sr=8-1&keywords=chasing+space+young+readers+edition"
