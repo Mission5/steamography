@@ -228,6 +228,7 @@ export default {
 
    .panel-content {
       opacity: 1;
+      visibility: visible;
       width: calc(100% - 180px);
     }
 
