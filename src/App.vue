@@ -108,7 +108,6 @@ footer {
 
 .nav-footer-box {
   background-color: #2f2d2d;
-  margin: 0 10px;
   padding: 30px 20px;
   align-items: stretch;
   flex: 5;
