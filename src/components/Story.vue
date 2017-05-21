@@ -48,22 +48,22 @@ export default {
       }
     },
     next: function () {
-      this.stopMedia()
-      if (this.current >= this.slides.length - 1) {
-        this.$emit('close')
-      } else {
-        this.current++
-      }
+      this.go(this.current + 1)
     },
     back: function () {
       if (this.current === 0) return
-      this.stopMedia()
-      this.current--
+      this.go(this.current - 1)
     },
-    stopMedia: function () {
+    go: function (slideNum) {
       var slide = this.$refs.slide[this.current]
       var iframe = slide.querySelector('iframe')
       if (iframe) iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
+      if (slideNum >= this.slides.length) {
+        this.$emit('close')
+      } else {
+        this.$refs.slide[slideNum].scrollTop = 0
+        this.current = slideNum
+      }
     },
     swipe: function (e) {
       if (e.type === 'touchstart' && e.touches.length === 1) {
