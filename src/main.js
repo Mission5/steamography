@@ -5,6 +5,7 @@ import Vue from 'vue'
 import Accordion from './components/Accordion.vue'
 import Animation from './components/Animation.vue'
 import Modal from './components/Modal.vue'
+import Bookpanel from './components/Bookpanel.vue'
 import Experiments from './components/Experiments.vue'
 import Timeline from './components/Timeline.vue'
 import Story from './components/Story.vue'
@@ -13,6 +14,7 @@ import App from './App'
 
 Vue.component('accordion', Accordion)
 Vue.component('animation', Animation)
+Vue.component('bookpanel', Bookpanel)
 Vue.component('modal', Modal)
 Vue.component('experiments', Experiments)
 Vue.component('story', Story)

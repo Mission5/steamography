@@ -24,6 +24,9 @@
     <section class="padded">
       <experiments></experiments>
     </section>
+    <section>
+      <bookpanel></bookpanel>
+    </section>
   </main>
 </template>
 
