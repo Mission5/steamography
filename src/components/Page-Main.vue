@@ -6,7 +6,7 @@
     <section class="padded">
       <div class="flex-grid">
         <div class="col">
-          <img class="teaser-book" src="static/media/book.png" alt="Book with science incons">
+          <img class="teaser-book" src="static/media/book.png" alt="Book with science icons">
         </div>
         <div class="col text-large flex-center">
           <div>
@@ -84,6 +84,7 @@ export default {
   }
   .teaser-book {
     padding-top: 2rem;
+    max-width: 100%;
   }
 }
 
