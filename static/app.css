@@ -199,47 +199,46 @@ a {
   padding: 5% 5%;
 }
 
-  .padded, .padded-md {
-    max-width: 1320px;
-    margin: 0 auto;
+.padded, .padded-md {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.padded {
+  padding: 2rem 5%;
+}
+
+[data-link^="#share"] {
+  background: url(/static/media/social-icons.png) no-repeat;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  text-indent: -1000px;
+  width: 40px;
+}
+  [data-link*="reddit"] {
+    background-position-x: -50px;
   }
-  .padded {
-    padding: 2rem 5%;
+  [data-link*="pinterest"] {
+    background-position-x: -100px;
+  }
+  [data-link*="twitter"] {
+    background-position-x: -150px;
+  }
+  [data-link*="instagram"] {
+    background-position-x: -200px;
   }
 
-  [data-link^="#share"] {
-    background: url(/static/media/social-icons.png) no-repeat;
-    cursor: pointer;
-    display: inline-block;
-    height: 40px;
-    text-indent: -1000px;
-    width: 40px;
-  }
-    [data-link*="reddit"] {
-      background-position-x: -50px;
-    }
-    [data-link*="pinterest"] {
-      background-position-x: -100px;
-    }
-    [data-link*="twitter"] {
-      background-position-x: -150px;
-    }
-    [data-link*="instagram"] {
-      background-position-x: -200px;
-    }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
 
-  .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0,0,0,0);
-    border: 0;
-  }
-
-  @media screen and (max-width: 639px) {
 .youtube-video-wrapper {
   height: 0;
   padding-bottom: 56.25%; /* 16:9 */
@@ -255,16 +254,18 @@ a {
   width: 100%;
 }
 
-    body {
-      padding-top: 4em;
-    }
+@media screen and (max-width: 639px) {
 
+  body {
+    padding-top: 4em;
   }
 
-  @media screen and (min-width: 640px) {
+}
 
-    .padded-md {
-      padding: 2rem 5%;
-    }
+@media screen and (min-width: 640px) {
 
+  .padded-md {
+    padding: 2rem 5%;
   }
+
+}
