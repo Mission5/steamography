@@ -12,7 +12,7 @@
             </div>
             <div class="panel-content">
               <button class="panel-close-button" v-on:click.stop="close()" aria-label="Close Panel" title="Close Panel"></button>
-              <timeline v-bind:stories="panel.timeline" v-bind:closeModal="activePanel !== index"/>
+              <timeline v-bind:stories="panel.timeline" v-bind:closeModal="activePanel !== index && !continueShowingStoryModal"/>
             </div>
           </div>
         </div>
@@ -30,6 +30,9 @@ export default {
     },
     toggle: function (index) {
       this.activePanel = index
+      this.continueShowingStoryModal = window.innerWidth < 640
+    }
+  },
     }
   },
   data () {
@@ -77,7 +80,8 @@ export default {
           ]
         }
       ],
-      activePanel: null
+      activePanel: null,
+      continueShowingStoryModal: false
     }
   }
 }
