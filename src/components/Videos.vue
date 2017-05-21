@@ -116,21 +116,6 @@ export default {
       filter: brightness(0.4) blur(1px);
     }
 
-  .youtube-video-wrapper {
-    height: 0;
-    padding-bottom: 56.25%; /* 16:9 */
-    padding-top: 25px;
-    position: relative;
-  }
-
-  .youtube-video-wrapper iframe {
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-  }
-
   @media screen and (max-width: 1023px) {
     .videos {
       -webkit-column-count: 3;
