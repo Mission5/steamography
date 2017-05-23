@@ -33,8 +33,11 @@ export default {
       this.continueShowingStoryModal = window.innerWidth < 640
     }
   },
-    }
-  },
+  // created () {
+  //   if (this.$route.params && this.$route.params.section) {
+  //     this.activePanel = this.$route.params.section
+  //   }
+  // },
   data () {
     return {
       panels: [
