@@ -65,6 +65,9 @@ body {
 
 body.modal-open {
   overflow: hidden;
+}
+
+body.modal-open-scroll {
   margin-right: 17px;
 }
 
