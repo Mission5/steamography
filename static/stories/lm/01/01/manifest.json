@@ -47,7 +47,6 @@
 
     {
       "template": "callout",
-      "background" : "~/07.jpg",
       "content": [
       "<p>Is there anyone you want to be like when you grow up?</p>"
       ]
