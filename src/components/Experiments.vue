@@ -94,7 +94,16 @@ export default {
   }
 
   .btn {
+    background-color: #3c7bb1;
+    border-color: transparent;
+    color: #fff;
     margin-top: 5px;
+  }
+
+  .btn:focus, .btn:hover {
+    background-color: #2e5e88;
+    outline: none;
+    text-decoration: underline;
   }
 
   .disclaimer {
