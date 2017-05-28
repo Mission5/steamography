@@ -11,6 +11,7 @@ import Timeline from './components/Timeline.vue'
 import Story from './components/Story.vue'
 import Videos from './components/Videos.vue'
 import App from './App'
+import './app.css'
 
 Vue.component('accordion', Accordion)
 Vue.component('animation', Animation)
