@@ -26,14 +26,20 @@ const router = new Router({
       path: '/contact',
       component: Contact
     }
-  ],
-  scrollBehavior (to, from, savedPosition) {
-    if (savedPosition) {
-      return savedPosition
-    } else {
-      return { x: 0, y: 0 }
-    }
-  }
+  ]
+  // ,scrollBehavior (to, from, savedPosition) {
+  //   if (savedPosition) {
+  //     return savedPosition
+  //   } else {
+  //     return { x: 0, y: 0 }
+  //   }
+  // }
+})
+
+router.beforeEach((to, from, next) => {
+  document.body.scrollTop = 0
+  document.documentElement.scrollTop = 0
+  next()
 })
 
 Vue.use(VueAnalytics, {
