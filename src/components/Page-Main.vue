@@ -28,14 +28,18 @@
         </div>
       </modal>
     </section>
-    <section class="padded-md">
-      <div class="text-large text-white accordion-text">
-        There have been ups and downs all along the way. It has been an exciting journey...
+    <section>
+      <div class="padded-md">
+        <div class="text-large text-white accordion-text">
+          There have been ups and downs all along the way. It has been an exciting journey...
+        </div>
+        <accordion></accordion>
       </div>
-      <accordion></accordion>
     </section>
-    <section class="padded">
-      <videos></videos>
+    <section>
+      <div class="padded">
+        <videos></videos>
+      </div>
     </section>
     <section class="padded">
       <experiments></experiments>
