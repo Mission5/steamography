@@ -2,7 +2,7 @@
   <div class="bookpanel">
     <div class="flex-grid">
       <div class="col playbox text-center text-large">
-        <div>READ MORE ABOUT MY JOURNEY IN MY BOOK <i>CHASING SPACE</i></div>
+        <div>READ MORE ABOUT MY JOURNEY<br/>IN <i>CHASING SPACE</i></div>
         <a v-on:click.prevent="showVideoModal=true" aria-label="Play video" v-bind:href="currentVideo">
           <img src="/static/media/video-play.png" alt="Play video"/>
         </a>
