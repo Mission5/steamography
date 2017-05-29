@@ -101,9 +101,13 @@ footer {
   background-color: #393737;
 }
 
+.nav-footer > .col {
+  display: flex;
+}
+
 .nav-footer > .col > .flex-grid {
   align-items: stretch;
-  height: 100%;
+  width: 100%;
 }
 
 .nav-footer-box {
@@ -112,6 +116,7 @@ footer {
   align-items: stretch;
   flex: 5;
 }
+
 .nav-footer a {
   display: block;
   padding-left: 0;
