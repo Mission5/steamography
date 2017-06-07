@@ -10,11 +10,11 @@
         <div><a class="btn" v-bind:href="activity.href" v-bind:class="activity.type" target="blank">Go</a></div>
       </li>
     </ul>
-    <div class="disclaimer">Disclaimer: The STEAM Activities section may contain links to Web sites created and
+    <div class="disclaimer">Disclaimer: The STEAM Power section may contain links to websites created and
       maintained by other public and/or private organizations. We provide links to these sites as a service to
-      our users. The presence of a link is not an endorsement of STEAMography or Leland Melvin. When users follow
-      a link to an outside Web site, they are leaving STEAMography and are subject to the privacy and security
-      policies of the owners/sponsors of the outside Web site(s). We are not responsible for the information
+      our users. The presence of a link is not an endorsement by STEAMography or Leland Melvin. When users follow
+      a link to an outside website, they are leaving STEAMography and are subject to the privacy and security
+      policies of the owners/sponsors of the outside website(s). We are not responsible for the information
       collection practices of any other site.</div>
   </div>
 </template>
